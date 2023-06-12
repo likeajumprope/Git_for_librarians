@@ -4,8 +4,9 @@ This repository contains the curriculum and material for the Git for Librarians 
 
 ## Requirements
 
-1. Create a Github account (and remeber your login name and password!)
-2. Download and install Github Desktop.
+1. A Github Account: Create a Github account (and remeber your login name and password!)
+2. Github Desktop: Download and install Github Desktop.
+3. A text editor of choice. Examples are Atom, VScode
 
 ## This tutorial contains two parts
 
