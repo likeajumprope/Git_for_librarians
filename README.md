@@ -19,3 +19,4 @@ This repository contains the curriculum and material for the Git for Librarians 
 
 - Markdown Guide. Markdown is the main text language in Git, for example used in the Readme.md.
 - Git cheat sheet
+
