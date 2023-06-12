@@ -1,0 +1,74 @@
+---
+title: "Git and Github"
+subtitle: "A workshop for Librarians"
+format:
+  revealjs: 
+    slide-number: true
+    theme: black
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    logo: images/quarto.png
+    css: styles.css
+    footer: Vala Tech Camp - Johanna Bayer
+resources:
+  - demo.pdf
+---
+
+## What is Git?
+
+Git can come in many formats..
+
+![](img/Git_icon.svg){.absolute top="170" left="30" width="300" height="300"}
+![](img/github-mark.png){.absolute top="170" left="400" width="300" height="300"}
+![](img/Gitlab.png){.absolute top="170" left="750" width="300" height="300"}
+</br></br></br></br></br></br></br>
+and can be very versatile.
+
+## The beginnings of Git
+
+- Founder: Linus Torvalds in 2005
+
+- Naming: 
+
+  - *git*: unpleasant person (British slang)
+  
+  - Stupid. Contemptible and despicable. Simple. Take your pick from the dictionary of slang.
+  
+  - *Global information tracker*: you're in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room.
+  
+  - *Goddamn idiotic truckload of sh*t*: when it breaks.
+
+The source code for Git refers to the program as, *the information manager from hell*.
+ 
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+contents...
+
+:::
+
+::: {.column width="60%"}
+
+contents...
+
+:::
+
+::::
