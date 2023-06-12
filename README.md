@@ -2,7 +2,7 @@
 
 This repository contains the curriculum and material for the Git for Librarians workshop at the VALA Tech Camp.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"  width="600" height="300">
+<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"  width="600" height="300">
 
 ## Pre-requisites
 
