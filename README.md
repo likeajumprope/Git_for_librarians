@@ -2,19 +2,19 @@
 
 This repository contains the curriculum and material for the Git for Librarians workshop at the VALA Tech Camp.
 
-# Requirements
+## Requirements
 
 1. Create a Github account (and remeber your login name and password!)
 2. Download and install Github Desktop.
 
-# This tutorial contains two parts
+## This tutorial contains two parts
 
-## Short presentation
-## Practical part using git
+-  Short presentation
+-  Practical part using git
 
-# Useful ressources
+## Useful ressources
 
-## Markdown Guide
-## Git cheat sheet
+-  Markdown Guide. Markdown is the main text language in Git, for example used in the Readme.md.
+-  Git cheat sheet
 
 
