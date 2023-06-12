@@ -2,7 +2,9 @@
 
 This repository contains the curriculum and material for the Git for Librarians workshop at the VALA Tech Camp.
 
-## Requirements
+![The Git Logo](https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg)
+
+## Pre-requisites
 
 1. A Github Account: Create a Github account (and remeber your login name and password!)
 2. Github Desktop: Download and install Github Desktop.
