@@ -12,7 +12,7 @@ This repository contains the curriculum and material for the Git for Librarians 
 
 ## This tutorial contains two parts
 
-- Short presentation
+- <a href="https://github.com/likeajumprope/Git_for_librarians/blob/main/Git.html">Short presentation</a>
 - Practical part using git
 
 ## Useful ressources
