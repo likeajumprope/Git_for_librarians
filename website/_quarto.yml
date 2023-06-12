@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "Git for librarians"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Online on Github.com"
+        contents:
+          - Github_online.qmd
+      - section: "Github desktop"
+        contents:
+          - Desktop.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
+editor: visual
+

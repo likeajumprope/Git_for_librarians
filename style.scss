@@ -1,0 +1,124 @@
+/*-- scss:defaults --*/
+
+@import url(./fonts/roboto/roboto.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,400;0,700;1,400;1,700);
+
+// headings
+$presentation-heading-font: "Roboto", sans-serif !default;
+$presentation-h1-font-size: 2em !default;
+$presentation-h2-font-size: 1.2em !default;
+
+//text
+$presentation-font-size-root: 30px !default;
+
+/*-- scss:rules --*/
+.reveal .slide-logo {
+   display: none !important;
+}
+
+.reveal .smaller {
+    font-size: smaller;
+}
+
+.reveal .x-small {
+  font-size: small;
+}
+
+.reveal .tightlist li:not(:last-child) {
+    margin-bottom: -10px !important;
+}
+
+.reveal .centercaption figcaption {
+  margin-top: -0.5em !important;
+  text-align: center !important;
+}
+
+.reveal .slide-number {
+  top: 20px !important;
+}
+
+.reveal .footer {
+  position: absolute !important;
+}
+
+.reveal .slide-background-content {
+  background-image: url("/conductors_and_coding_May2023/supercap_logo.png");
+  background-position: right 20px bottom 20px;
+  background-size: 20%;
+}
+
+.reveal .level1 .slide-background-content {
+  background-color: #ab4d4d;
+}
+
+.reveal .level1 h1 {
+  color: #fff;
+}
+
+.reveal .repeat-opening-background {
+  background-color: rgba(171,77,77,0.1);
+}
+
+.reveal .repeat-opening-background .slide-background-content,
+.reveal .level1 .slide-background-content,
+.print-pdf .reveal .repeat-opening-background .slide-background-content,
+.print-pdf .reveal .level1 .slide-background-content,
+{
+  background-color: #ab4d4d;
+  background-image: url("/conductors_and_coding_May2023/supercap_bg.jpg");
+  background-position: center center;
+  background-size: contain;
+}
+
+.print-pdf .reveal .slide-background-content {
+  background-image: url("/conductors_and_coding_May2023/supercap_logo.png");
+  background-position: right 10px bottom 5px;
+  background-size: 25%;
+}
+
+.reveal .red{
+  color: red !important;
+}
+
+.reveal .blue{
+  color: blue !important;
+}
+
+.reveal .green{
+  color: green !important;
+}
+
+.reveal img .border {
+  border: 4px solid black !important;
+}
+
+#refs {
+  overflow-y: scroll !important;
+}
+
+#title-slide {
+    text-align: left;
+  
+    .date {
+      position: absolute !important;
+      top: 76px !important;
+      left: 860px !important;
+      font-weight: bold !important;
+    }
+
+    .subtitle {
+      width: 700px !important;
+    }
+    .quarto-title-authors {
+      position: absolute !important;
+      top: 156px !important;
+      left: 860px !important;
+    
+      .quarto-title-author { // optional, test it for yourself
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        font-weight: bold !important;
+      }
+    }
+  }
