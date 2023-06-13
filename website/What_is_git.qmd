@@ -1,0 +1,19 @@
+---
+title: "WHat is git?"
+---
+
+Git, Github, Gitlab -What?
+
+Git: the software
+
+github: The platform
+
+Gitlab: A competitor
+
+# Code of Conduct
+
+All interactions in this workshop will be governed by the VALA tech CAMP code of conduct.
+
+# Essential setup
+
+For this workshop you'll need:

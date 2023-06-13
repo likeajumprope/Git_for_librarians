@@ -7,9 +7,10 @@ website:
     style: "docked"
     search: true
     contents:
-      - section: "Online on Github.com"
+      - Setup_and_instructions.qmd
+      - section: "Getting to know git and Github"
         contents:
-          - Github_online.qmd
+          - What_is_git.qmd
       - section: "Github desktop"
         contents:
           - Desktop.qmd

@@ -1,11 +1,5 @@
 ---
-title: "website"
+title: "Git for Librarians"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Welcome to the git for Librarians workshop!

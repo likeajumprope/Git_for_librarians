@@ -1,0 +1,31 @@
+---
+title: "Setup and Instructions"
+---
+
+This workshop is to introduce you to GitHub and show how it can be used for collaborative projects, such as book sprints and sharing training materials.
+
+Here's what you can expect to be doing over the next two hours:
+
+-   Creating, cloning, forking repositories
+
+-   Working in branches to compare files between versions
+
+-   Working on the Github platform and with the Github Desktop Client
+
+-   Good collaborative (reproducible) practices
+
+-   Git for Publishing (Gitbook)
+
+# Code of Conduct
+
+All interactions in this workshop will be governed by the VALA tech CAMP code of conduct.
+
+# Essential setup
+
+For this workshop you will need:
+
+-   An account on [Github.com](https://github.com). I recommend making it secure using 2-factor authentication.
+
+-   Github Desktop.
+
+-   A text editor of your choice. Good options are [Sublime Text](https://www.sublimetext.com) or more advanced, [Visual Studio Code](https://code.visualstudio.com).

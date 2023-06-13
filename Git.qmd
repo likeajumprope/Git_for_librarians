@@ -13,7 +13,12 @@ resources:
   - demo.pdf
 ---
 
-## What is Git?
+## What is Github?
+https://www.youtube.com/watch?v=w3jLJU7DT5E
+
+---
+
+## Git vs. Github.
 
 Git can come in many formats..
 

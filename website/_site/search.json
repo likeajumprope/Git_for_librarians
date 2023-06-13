@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "website",
+    "title": "Git for Librarians",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Welcome to the git for Librarians workshop!"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,19 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Github_online.html",
+    "href": "Github_online.html",
+    "title": "Setup and Instructions",
+    "section": "",
+    "text": "This workshop is to introduce you to GitHub and show how it can be used for collaborative projects, such as book sprints and sharing training materials.\nHere's what you can expect to be doing over the next few hours:\n\nCreating, cloning, forking repositories\nWorking in branches to compare files between versions\nWorking on the Github platform and with the Github Desktop Client\nGood collaborative (reproducible) practices\nGit for Publishing (Gitbook)\n\n\nCode of Conduct\nAll interactions in this workshop will be governed by the VALA tech CAMP code of conduct.\n\n\nEssential setup\nFor this workshop you’ll need:"
+  },
+  {
+    "objectID": "Setup_and_instructions.html",
+    "href": "Setup_and_instructions.html",
+    "title": "Setup and Instructions",
+    "section": "",
+    "text": "This workshop is to introduce you to GitHub and show how it can be used for collaborative projects, such as book sprints and sharing training materials.\nHere’s what you can expect to be doing over the next two hours:\n\nCreating, cloning, forking repositories\nWorking in branches to compare files between versions\nWorking on the Github platform and with the Github Desktop Client\nGood collaborative (reproducible) practices\nGit for Publishing (Gitbook)\n\n\nCode of Conduct\nAll interactions in this workshop will be governed by the VALA tech CAMP code of conduct.\n\n\nEssential setup\nFor this workshop you will need:\n\nAn account on Github.com. I recommend making it secure using 2-factor authentication.\nGithub Desktop.\nA text editor of your choice. Good options are Sublime Text or more advanced, Visual Studio Code."
   }
 ]
