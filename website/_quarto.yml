@@ -8,9 +8,11 @@ website:
     search: true
     contents:
       - Setup_and_instructions.qmd
-      - section: "Getting to know git and Github"
+      - section: "Getting to know Git(hub)"
         contents:
           - What_is_git.qmd
+          - Git_Github_Gitlab.qmd
+          - The_history.qmd
       - section: "Github desktop"
         contents:
           - Desktop.qmd

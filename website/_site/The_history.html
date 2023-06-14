@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Git for librarians - Git for Librarians</title>
+<title>Git for librarians - The history of version control</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,9 +72,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      Git for librarians
-      </li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./What_is_git.html">Getting to know Git(hub)</a></li><li class="breadcrumb-item"><a href="./The_history.html">The history of version control</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -128,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./The_history.html" class="sidebar-item-text sidebar-link">
+  <a href="./The_history.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">The history of version control</span></a>
   </div>
 </li>
@@ -154,14 +152,20 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-history-of-version-control" id="toc-the-history-of-version-control" class="nav-link active" data-scroll-target="#the-history-of-version-control">The history of version control</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Git for Librarians</h1>
+<h1 class="title">The history of version control</h1>
 </div>
 
 
@@ -176,9 +180,25 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Welcome to the git for Librarians workshop!</p>
+<section id="the-history-of-version-control" class="level2">
+<h2 class="anchored" data-anchor-id="the-history-of-version-control">The history of version control</h2>
+<p>The task: Collaboration</p>
+<ol type="1">
+<li><p>Local Version Control Systems (LVCS): In the early days of software development, programmers relied on local version control systems. These systems stored different versions of files and directories on the local disk. Changes were tracked by copying entire directories, creating multiple versions of the project.</p></li>
+<li><p>Centralized Version Control Systems (CVCS): As software development became more collaborative, the need for a centralized solution arose. CVCS, such as Concurrent Versions System (CVS) and Subversion (SVN), were introduced. These systems had a central server that stored the repository and allowed multiple developers to access and commit changes. However, they still had some limitations, such as the reliance on a central server and the inability to work offline effectively.</p></li>
+<li><p>Distributed Version Control Systems (DVCS): DVCS addressed the limitations of CVCS by allowing developers to have local copies of the entire repository. One of the most prominent DVCS is Git, created by Linus Torvalds in 2005. Git introduced a distributed architecture where each developer had a complete copy of the repository, including the entire history. This allowed for efficient branching, merging, and offline work. Other DVCS like Mercurial (Hg) also gained popularity.</p></li>
+<li><p>Web-Based Version Control Systems: With the rise of the internet and collaborative development, web-based version control systems emerged. They provided a platform for hosting repositories and added web interfaces to simplify collaboration and code management. GitHub (2008), GitLab (2011), and Bitbucket (2008) are popular examples of such platforms.</p></li>
+<li><p>In 2002, the Linux kernel development community, led by Linus Torvalds, faced limitations with the existing version control systems for managing the Linux source code. These systems struggled to handle the distributed and collaborative nature of the project.</p></li>
+<li><p>Linus Torvalds decided to develop a new version control system that would address the shortcomings of existing solutions. He began working on Git, aiming to create a distributed VCS that could handle the massive scale and complexity of the Linux kernel.</p></li>
+<li><p>Git was initially released as an open-source project in April 2005. Its design principles focused on speed, data integrity, and distributed collaboration. Git’s underlying architecture allowed each developer to have a complete local copy of the repository, enabling fast branching, merging, and offline work.</p></li>
+<li><p>Git gained rapid popularity due to its powerful features and efficient workflow. It provided a command-line interface for managing repositories and a robust branching and merging mechanism. Git’s ability to handle large projects and its excellent performance made it appealing to developers across various industries.</p></li>
+<li><p>GitHub, a web-based hosting service for Git repositories, was launched in April 2008. It provided an intuitive user interface, social coding features, issue tracking, and pull requests, further accelerating the adoption of Git.</p></li>
+<li><p>Git’s success led to its integration with numerous development tools and services. Git became the de facto standard for version control, not only in open-source projects but also in commercial software development.</p></li>
+<li><p>Over the years, Git has continued to evolve, with regular updates and new features. The Git community has grown significantly, with developers contributing to its core development and building various tools and extensions around Git.</p></li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

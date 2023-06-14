@@ -1,0 +1,23 @@
+---
+title: "Git, Gitlab, Github"
+---
+
+## Git, Github, Gitlab - What?
+
+The terminology around git can somehow be confusing.
+
+## Git: The Software
+
+Git is a distributed version control system (VCS) designed to track changes in files and coordinate work among multiple people. It allows developers to work on projects locally, create branches for experimentation, and merge changes back into the main codebase. Git is primarily a command-line tool, and it provides a set of commands for managing repositories and collaborating with others.
+
+## Github: The platform.
+
+GitHub is a web-based platform built around Git that provides a centralized hosting service for Git repositories. It adds a graphical user interface (GUI) on top of Git, making it easier to perform common Git operations like creating repositories, managing branches, and collaborating with others. GitHub also offers additional features such as issue tracking, pull requests, code review tools, and project management capabilities. It's widely used for open-source projects, personal projects, and team collaboration.
+
+## Gitlab: A competitor.
+
+GitLab is another web-based platform that provides hosting for Git repositories, similar to GitHub. It offers similar features such as repository management.
+
+## Bitbucket: Yet another competitor
+
+Bitbucket is yet another web-based platform for hosting Git repositories. Like GitHub and GitLab, it offers features such as repository management, issue tracking, and pull requests. Bitbucket is known for its seamless integration with other Atlassian products like Jira (project management) and Confluence (collaboration platform).

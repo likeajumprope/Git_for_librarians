@@ -25,6 +25,153 @@
     "href": "Setup_and_instructions.html",
     "title": "Setup and Instructions",
     "section": "",
-    "text": "This workshop is to introduce you to GitHub and show how it can be used for collaborative projects, such as book sprints and sharing training materials.\nHere’s what you can expect to be doing over the next two hours:\n\nCreating, cloning, forking repositories\nWorking in branches to compare files between versions\nWorking on the Github platform and with the Github Desktop Client\nGood collaborative (reproducible) practices\nGit for Publishing (Gitbook)\n\n\nCode of Conduct\nAll interactions in this workshop will be governed by the VALA tech CAMP code of conduct.\n\n\nEssential setup\nFor this workshop you will need:\n\nAn account on Github.com. I recommend making it secure using 2-factor authentication.\nGithub Desktop.\nA text editor of your choice. Good options are Sublime Text or more advanced, Visual Studio Code."
+    "text": "This workshop is to introduce you to GitHub and show how it can be used for collaborative projects, such as book sprints and sharing training materials.\nHere’s what you can expect to be doing over the next two hours:\n\nCreating, cloning, forking repositories\nWorking in branches to compare files between versions\nWorking on the Github platform and with the Github Desktop Client\nGood collaborative (reproducible) practices\nGit for Publishing (Gitbook)\n\n\nCode of Conduct\nAll interactions in this workshop will be governed by the VALA tech CAMP code of conduct.\n\n\nEssential setup\nFor this workshop you will need:\n\nAn account on Github.com. I recommend making it secure using 2-factor authentication.\nGithub Desktop.\nA text editor of your choice. Good options are Sublime Text or more advanced, Visual Studio Code.\n\nNext &gt;&gt; Getting to know Git"
+  },
+  {
+    "objectID": "What_is_git.html",
+    "href": "What_is_git.html",
+    "title": "What is git?",
+    "section": "",
+    "text": "Git(hub) has tow main purposes:"
+  },
+  {
+    "objectID": "What_is_git.html#git-the-software",
+    "href": "What_is_git.html#git-the-software",
+    "title": "What is git?",
+    "section": "Git: the Software",
+    "text": "Git: the Software\nGit is a distributed version control system (VCS) designed to track changes in files and coordinate work among multiple people. It allows developers to work on projects locally, create branches for experimentation, and merge changes back into the main codebase. Git is primarily a command-line tool, and it provides a set of commands for managing repositories and collaborating with others."
+  },
+  {
+    "objectID": "What_is_git.html#gitlab-a-competitor.",
+    "href": "What_is_git.html#gitlab-a-competitor.",
+    "title": "What is git?",
+    "section": "Gitlab: A competitor.",
+    "text": "Gitlab: A competitor.\nGitLab is another web-based platform that provides hosting for Git repositories, similar to GitHub. It offers similar features such as repository management."
+  },
+  {
+    "objectID": "What_is_git.html#bitbucket-yet-another-competitor",
+    "href": "What_is_git.html#bitbucket-yet-another-competitor",
+    "title": "What is git?",
+    "section": "Bitbucket: Yet another competitor",
+    "text": "Bitbucket: Yet another competitor\nBitbucket is yet another web-based platform for hosting Git repositories. Like GitHub and GitLab, it offers features such as repository management, issue tracking, and pull requests. Bitbucket is known for its seamless integration with other Atlassian products like Jira (project management) and Confluence (collaboration platform)."
+  },
+  {
+    "objectID": "What_is_git.html#github-the-platform.",
+    "href": "What_is_git.html#github-the-platform.",
+    "title": "What is git?",
+    "section": "Github: The platform.",
+    "text": "Github: The platform.\nGitHub is a web-based platform built around Git that provides a centralized hosting service for Git repositories. It adds a graphical user interface (GUI) on top of Git, making it easier to perform common Git operations like creating repositories, managing branches, and collaborating with others. GitHub also offers additional features such as issue tracking, pull requests, code review tools, and project management capabilities. It’s widely used for open-source projects, personal projects, and team collaboration."
+  },
+  {
+    "objectID": "Git_Github_Gitlab.html",
+    "href": "Git_Github_Gitlab.html",
+    "title": "Git, Gitlab, Github",
+    "section": "",
+    "text": "The terminology around git can somehow be confusing."
+  },
+  {
+    "objectID": "Git_Github_Gitlab.html#git-github-gitlab---what",
+    "href": "Git_Github_Gitlab.html#git-github-gitlab---what",
+    "title": "Git, Gitlab, Github",
+    "section": "",
+    "text": "The terminology around git can somehow be confusing."
+  },
+  {
+    "objectID": "Git_Github_Gitlab.html#git-the-software",
+    "href": "Git_Github_Gitlab.html#git-the-software",
+    "title": "Git, Gitlab, Github",
+    "section": "Git: The Software",
+    "text": "Git: The Software\nGit is a distributed version control system (VCS) designed to track changes in files and coordinate work among multiple people. It allows developers to work on projects locally, create branches for experimentation, and merge changes back into the main codebase. Git is primarily a command-line tool, and it provides a set of commands for managing repositories and collaborating with others."
+  },
+  {
+    "objectID": "Git_Github_Gitlab.html#github-the-platform.",
+    "href": "Git_Github_Gitlab.html#github-the-platform.",
+    "title": "Git, Gitlab, Github",
+    "section": "Github: The platform.",
+    "text": "Github: The platform.\nGitHub is a web-based platform built around Git that provides a centralized hosting service for Git repositories. It adds a graphical user interface (GUI) on top of Git, making it easier to perform common Git operations like creating repositories, managing branches, and collaborating with others. GitHub also offers additional features such as issue tracking, pull requests, code review tools, and project management capabilities. It’s widely used for open-source projects, personal projects, and team collaboration."
+  },
+  {
+    "objectID": "Git_Github_Gitlab.html#gitlab-a-competitor.",
+    "href": "Git_Github_Gitlab.html#gitlab-a-competitor.",
+    "title": "Git, Gitlab, Github",
+    "section": "Gitlab: A competitor.",
+    "text": "Gitlab: A competitor.\nGitLab is another web-based platform that provides hosting for Git repositories, similar to GitHub. It offers similar features such as repository management."
+  },
+  {
+    "objectID": "Git_Github_Gitlab.html#bitbucket-yet-another-competitor",
+    "href": "Git_Github_Gitlab.html#bitbucket-yet-another-competitor",
+    "title": "Git, Gitlab, Github",
+    "section": "Bitbucket: Yet another competitor",
+    "text": "Bitbucket: Yet another competitor\nBitbucket is yet another web-based platform for hosting Git repositories. Like GitHub and GitLab, it offers features such as repository management, issue tracking, and pull requests. Bitbucket is known for its seamless integration with other Atlassian products like Jira (project management) and Confluence (collaboration platform)."
+  },
+  {
+    "objectID": "The_history.html",
+    "href": "The_history.html",
+    "title": "The history of version control",
+    "section": "",
+    "text": "The task: Collaboration\n\nLocal Version Control Systems (LVCS): In the early days of software development, programmers relied on local version control systems. These systems stored different versions of files and directories on the local disk. Changes were tracked by copying entire directories, creating multiple versions of the project.\nCentralized Version Control Systems (CVCS): As software development became more collaborative, the need for a centralized solution arose. CVCS, such as Concurrent Versions System (CVS) and Subversion (SVN), were introduced. These systems had a central server that stored the repository and allowed multiple developers to access and commit changes. However, they still had some limitations, such as the reliance on a central server and the inability to work offline effectively.\nDistributed Version Control Systems (DVCS): DVCS addressed the limitations of CVCS by allowing developers to have local copies of the entire repository. One of the most prominent DVCS is Git, created by Linus Torvalds in 2005. Git introduced a distributed architecture where each developer had a complete copy of the repository, including the entire history. This allowed for efficient branching, merging, and offline work. Other DVCS like Mercurial (Hg) also gained popularity.\nWeb-Based Version Control Systems: With the rise of the internet and collaborative development, web-based version control systems emerged. They provided a platform for hosting repositories and added web interfaces to simplify collaboration and code management. GitHub (2008), GitLab (2011), and Bitbucket (2008) are popular examples of such platforms.\nIn 2002, the Linux kernel development community, led by Linus Torvalds, faced limitations with the existing version control systems for managing the Linux source code. These systems struggled to handle the distributed and collaborative nature of the project.\nLinus Torvalds decided to develop a new version control system that would address the shortcomings of existing solutions. He began working on Git, aiming to create a distributed VCS that could handle the massive scale and complexity of the Linux kernel.\nGit was initially released as an open-source project in April 2005. Its design principles focused on speed, data integrity, and distributed collaboration. Git’s underlying architecture allowed each developer to have a complete local copy of the repository, enabling fast branching, merging, and offline work.\nGit gained rapid popularity due to its powerful features and efficient workflow. It provided a command-line interface for managing repositories and a robust branching and merging mechanism. Git’s ability to handle large projects and its excellent performance made it appealing to developers across various industries.\nGitHub, a web-based hosting service for Git repositories, was launched in April 2008. It provided an intuitive user interface, social coding features, issue tracking, and pull requests, further accelerating the adoption of Git.\nGit’s success led to its integration with numerous development tools and services. Git became the de facto standard for version control, not only in open-source projects but also in commercial software development.\nOver the years, Git has continued to evolve, with regular updates and new features. The Git community has grown significantly, with developers contributing to its core development and building various tools and extensions around Git."
+  },
+  {
+    "objectID": "The_history.html#the-history-of-version-control",
+    "href": "The_history.html#the-history-of-version-control",
+    "title": "The history of version control",
+    "section": "",
+    "text": "The task: Collaboration\n\nLocal Version Control Systems (LVCS): In the early days of software development, programmers relied on local version control systems. These systems stored different versions of files and directories on the local disk. Changes were tracked by copying entire directories, creating multiple versions of the project.\nCentralized Version Control Systems (CVCS): As software development became more collaborative, the need for a centralized solution arose. CVCS, such as Concurrent Versions System (CVS) and Subversion (SVN), were introduced. These systems had a central server that stored the repository and allowed multiple developers to access and commit changes. However, they still had some limitations, such as the reliance on a central server and the inability to work offline effectively.\nDistributed Version Control Systems (DVCS): DVCS addressed the limitations of CVCS by allowing developers to have local copies of the entire repository. One of the most prominent DVCS is Git, created by Linus Torvalds in 2005. Git introduced a distributed architecture where each developer had a complete copy of the repository, including the entire history. This allowed for efficient branching, merging, and offline work. Other DVCS like Mercurial (Hg) also gained popularity.\nWeb-Based Version Control Systems: With the rise of the internet and collaborative development, web-based version control systems emerged. They provided a platform for hosting repositories and added web interfaces to simplify collaboration and code management. GitHub (2008), GitLab (2011), and Bitbucket (2008) are popular examples of such platforms.\nIn 2002, the Linux kernel development community, led by Linus Torvalds, faced limitations with the existing version control systems for managing the Linux source code. These systems struggled to handle the distributed and collaborative nature of the project.\nLinus Torvalds decided to develop a new version control system that would address the shortcomings of existing solutions. He began working on Git, aiming to create a distributed VCS that could handle the massive scale and complexity of the Linux kernel.\nGit was initially released as an open-source project in April 2005. Its design principles focused on speed, data integrity, and distributed collaboration. Git’s underlying architecture allowed each developer to have a complete local copy of the repository, enabling fast branching, merging, and offline work.\nGit gained rapid popularity due to its powerful features and efficient workflow. It provided a command-line interface for managing repositories and a robust branching and merging mechanism. Git’s ability to handle large projects and its excellent performance made it appealing to developers across various industries.\nGitHub, a web-based hosting service for Git repositories, was launched in April 2008. It provided an intuitive user interface, social coding features, issue tracking, and pull requests, further accelerating the adoption of Git.\nGit’s success led to its integration with numerous development tools and services. Git became the de facto standard for version control, not only in open-source projects but also in commercial software development.\nOver the years, Git has continued to evolve, with regular updates and new features. The Git community has grown significantly, with developers contributing to its core development and building various tools and extensions around Git."
+  },
+  {
+    "objectID": "What_is_git.html#scenario-1-local-librarian-looking-to-start-a-crowdsourcing-project",
+    "href": "What_is_git.html#scenario-1-local-librarian-looking-to-start-a-crowdsourcing-project",
+    "title": "What is git?",
+    "section": "Scenario 1: Local librarian looking to start a crowdsourcing project",
+    "text": "Scenario 1: Local librarian looking to start a crowdsourcing project\nA local librarian is looking to put thousands of historical photographs of the area online so that the community can help identify the people and places they depict. She combs the web for examples of existing crowdsourcing projects, and even though they all appear unique to each institution, she notices quite a few seem to have almost the exact same functionality and structure. Rather than build a whole new version from scratch herself, she wishes there was a way to just copy the code of an existing one, and modify it to reflect her project. She notices the GitHub icon at the bottom of one of the projects she likes, but clicking on the link just brings her to a confusing directory of files and oddly labeled buttons such as “Fork”."
+  },
+  {
+    "objectID": "What_is_git.html#scenario-2-multiple-librarians-editing-metadata-for-a-collection",
+    "href": "What_is_git.html#scenario-2-multiple-librarians-editing-metadata-for-a-collection",
+    "title": "What is git?",
+    "section": "Scenario 2: Multiple librarians editing metadata for a collection",
+    "text": "Scenario 2: Multiple librarians editing metadata for a collection\nA librarian has exported a spreadsheet of metadata from a repository for cleaning and editing. She’s working with a group of librarians and students, so they need to make sure edits don’t conflict. They also need to be able to undo any edits and preserve the original metadata. Once edits are complete, the whole group wants to review the changes before re-ingesting the spreadsheet of metadata into the repository."
+  },
+  {
+    "objectID": "What_is_git.html#scenatio-3-publishing-a-wesbite-of-the-library",
+    "href": "What_is_git.html#scenatio-3-publishing-a-wesbite-of-the-library",
+    "title": "What is git?",
+    "section": "Scenatio 3: Publishing a wesbite of the library",
+    "text": "Scenatio 3: Publishing a wesbite of the library\nLibrarians of a library decide that they want to create and publish a webiste for their library. They work on the code together and publish the webiste from github."
+  },
+  {
+    "objectID": "What_is_git.html#scenario-4-publsihing-a-book-together",
+    "href": "What_is_git.html#scenario-4-publsihing-a-book-together",
+    "title": "What is git?",
+    "section": "Scenario 4: Publsihing a book together",
+    "text": "Scenario 4: Publsihing a book together\nLibrarians of a libray want to publish a book on the proceedings of a community project. They decide to publish the book it as a web book out of Github and using Gitbook and will continue to add to the story as the library evolves."
+  },
+  {
+    "objectID": "What_is_git.html#scenario-1-multiple-librarians-editing-metadata-for-a-collection",
+    "href": "What_is_git.html#scenario-1-multiple-librarians-editing-metadata-for-a-collection",
+    "title": "What is git?",
+    "section": "Scenario 1: Multiple librarians editing metadata for a collection",
+    "text": "Scenario 1: Multiple librarians editing metadata for a collection\nA librarian has exported a spreadsheet of metadata from a repository for cleaning and editing. She’s working with a group of librarians and students, so they need to make sure edits don’t conflict. They also need to be able to undo any edits and preserve the original metadata. Once edits are complete, the whole group wants to review the changes before re-ingesting the spreadsheet of metadata into the repository."
+  },
+  {
+    "objectID": "What_is_git.html#scenatio-2-publishing-a-wesbite-of-the-library",
+    "href": "What_is_git.html#scenatio-2-publishing-a-wesbite-of-the-library",
+    "title": "What is git?",
+    "section": "Scenatio 2: Publishing a wesbite of the library",
+    "text": "Scenatio 2: Publishing a wesbite of the library\nLibrarians of a library decide that they want to create and publish a webiste for their library. They work on the code together and publish the webiste from github."
+  },
+  {
+    "objectID": "What_is_git.html#scenario-3-publsihing-a-book-together",
+    "href": "What_is_git.html#scenario-3-publsihing-a-book-together",
+    "title": "What is git?",
+    "section": "Scenario 3: Publsihing a book together",
+    "text": "Scenario 3: Publsihing a book together\nLibrarians of a libray want to publish a book on the proceedings of a community project. They decide to publish the book it as a web book out of Github and using Gitbook and will continue to add to the story as the library evolves."
+  },
+  {
+    "objectID": "What_is_git.html#challenge",
+    "href": "What_is_git.html#challenge",
+    "title": "What is git?",
+    "section": "Challenge:",
+    "text": "Challenge:\nWhat will use Github for?"
   }
 ]

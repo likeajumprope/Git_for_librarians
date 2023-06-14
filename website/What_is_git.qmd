@@ -1,19 +1,30 @@
 ---
-title: "WHat is git?"
+title: "What is git?"
 ---
 
-Git, Github, Gitlab -What?
+{{< video https://www.youtube.com/watch?v=w3jLJU7DT5E >}}
 
-Git: the software
 
-github: The platform
+Git(hub) has tow main purposes:
 
-Gitlab: A competitor
+- Version control: Track changes in your own files, code etc.
+- Collaboration: Contribute to someone else's files, code etc.
+- Efficient workflows
+- Massive resource of infomration, ideas, books, code, etc.
+- Publishing and hosting of code and material, websites etc.
 
-# Code of Conduct
+# Git in a library context
 
-All interactions in this workshop will be governed by the VALA tech CAMP code of conduct.
 
-# Essential setup
+## Scenario 1: Multiple librarians editing metadata for a collection
+A librarian has exported a spreadsheet of metadata from a repository for cleaning and editing. She’s working with a group of librarians and students, so they need to make sure edits don’t conflict. They also need to be able to undo any edits and preserve the original metadata. Once edits are complete, the whole group wants to review the changes before re-ingesting the spreadsheet of metadata into the repository.
 
-For this workshop you'll need:
+## Scenatio 2: Publishing a wesbite of the library
+Librarians of a library decide that they want to create and publish a webiste for their library. They work on the code together and publish the webiste from github.
+
+## Scenario 3: Publsihing a book together
+Librarians of a libray want to publish a book on the proceedings of a community project. They decide to publish the book it as a web book out of Github and using Gitbook and will continue to add to the story as the library evolves.
+
+## Challenge:
+
+What will use Github for?
