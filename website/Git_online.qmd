@@ -10,15 +10,22 @@ Challenge.
 
 Log into your Github account.
 
-1.   Find the place where yor repositories (will) live.
+1.  Find the place where yor repositories (will) live.
 
-```{=html}
 <!-- -->
-```
+
 2.  Search for other people's repositories.
 
-While you don't have writing access to most repositories, they provide a great ressource.
+While you don't have writing access to most repositories, they provide a great resource.
 
-Challenge.
+# Challenge
 
-Type Librarian into the search bar. What repositories do come up?
+Type "Librarian" into the search bar.
+
+![](img/Search.png)
+
+The search reveals all repositories that ahve the word "librarian; in them. In addition to Issues, Discussions, Usernames with the word.
+
+![](img/Repositories.png)
+
+Clik on one of the repositories.
