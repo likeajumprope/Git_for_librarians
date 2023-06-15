@@ -30,5 +30,4 @@ For this workshop you will need:
 
 -   A text editor of your choice. Good options are [Sublime Text](https://www.sublimetext.com) or more advanced, [Visual Studio Code](https://code.visualstudio.com).
 
-
-Next >> [Getting to know Git](What_is_git.qmd)
+Next \>\> [Getting to know Git](What_is_git.qmd)

@@ -1,0 +1,24 @@
+---
+title: "Getting to know Github.com"
+---
+
+Git is structured in *Repositories*.
+
+They are divided in two types of repositories: Those you have writing access to (your repositories) and repositories of other people that you can only view.
+
+Challenge.
+
+Log into your Github account.
+
+1.   Find the place where yor repositories (will) live.
+
+```{=html}
+<!-- -->
+```
+2.  Search for other people's repositories.
+
+While you don't have writing access to most repositories, they provide a great ressource.
+
+Challenge.
+
+Type Librarian into the search bar. What repositories do come up?

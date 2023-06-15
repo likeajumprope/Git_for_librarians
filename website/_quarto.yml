@@ -13,9 +13,9 @@ website:
           - What_is_git.qmd
           - Git_Github_Gitlab.qmd
           - The_history.qmd
-      - section: "Github desktop"
+      - section: "Github online"
         contents:
-          - Desktop.qmd
+          - Git_online.qmd
 
 format:
   html:
