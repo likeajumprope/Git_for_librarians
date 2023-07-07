@@ -16,6 +16,7 @@ website:
       - section: "Github online"
         contents:
           - Git_online.qmd
+          - Creating_your_first_repository.qmd
 
 format:
   html:

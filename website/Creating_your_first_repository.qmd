@@ -1,0 +1,29 @@
+---
+title: "Creating your first repository"
+format: html
+editor: visual
+---
+
+## Creating a new repository
+
+You have two options when creating a new repository. You can click on the + next to your profile image in the top right corner of the screen or go to the repositories tab within your profile page and click the New button.
+
+![Two ways to create a new repository](images/Create_repo.png){fig-align="center"}
+
+Challenge: Creating a new repository.
+
+1.  Name your repository - keep it short and precise
+
+2.  Let's create a repository "My_first_repo"
+
+3.  Describe it (optional)
+
+4.  Select *Public/Private*. If you have a free account, all your repositories will be public.
+
+5.  Check the box to initialize your repository with a "Readme.md"
+
+6.  Click *Create repository*
+
+    ![](images/Create_repo2.png)
+
+Congratulations! You have created your first repository!
