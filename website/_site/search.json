@@ -180,5 +180,12 @@
     "title": "Getting to know Github.com",
     "section": "",
     "text": "They are divided in two types of repositories: Those you have writing access to (your repositories) and repositories of other people that you can only view.\nChallenge.\nLog into your Github account.\n\nFind the place where yor repositories (will) live.\n\n\n\nSearch for other people’s repositories.\n\nWhile you don’t have writing access to most repositories, they provide a great resource.\n\nChallenge\nType “Librarian” into the search bar.\n\nThe search reveals all repositories that ahve the word “librarian; in them. In addition to Issues, Discussions, Usernames with the word.\n\nClik on one of the repositories."
+  },
+  {
+    "objectID": "Creating_your_first_repository.html",
+    "href": "Creating_your_first_repository.html",
+    "title": "Creating your first repository",
+    "section": "",
+    "text": "You have two options when creating a new repository. You can click on the + next to your profile image in the top right corner of the screen or go to the repositories tab within your profile page and click the New button.\n\n\n\nTwo ways to create a new repository\n\n\nChallenge: Creating a new repository.\n\nName your repository - keep it short and precise\nLet’s create a repository “My_first_repo”\nDescribe it (optional)\nSelect Public/Private. If you have a free account, all your repositories will be public.\nCheck the box to initialize your repository with a “Readme.md”\nClick Create repository\n\n\nCongratulations! You have created your first repository!"
   }
 ]

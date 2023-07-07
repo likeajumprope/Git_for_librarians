@@ -24,6 +24,6 @@ Challenge: Creating a new repository.
 
 6.  Click *Create repository*
 
-    ![](images/Create_repo2.png)
+    ![](img/Create_repo2.png)
 
 Congratulations! You have created your first repository!
