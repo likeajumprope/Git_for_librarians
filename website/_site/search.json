@@ -191,28 +191,28 @@
   {
     "objectID": "Your_first_commit.html",
     "href": "Your_first_commit.html",
-    "title": "Your_first_commit",
+    "title": "Your first commit",
     "section": "",
     "text": "The README.md is often the first item a visitor will see when visiting your repository. README files typically include information on: What the project does and why the project is useful.\nThe ending .md is an indicator of the Markdown language. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. The documents for this website are also written in Markdown.\nExamples of the Markdown language:"
   },
   {
     "objectID": "Your_first_commit.html#headlines",
     "href": "Your_first_commit.html#headlines",
-    "title": "Your_first_commit",
+    "title": "Your first commit",
     "section": "Headlines",
     "text": "Headlines\nThe number of # determine the level of the headline:\n# A first level heading\n\n## A second level heading\n\n## A third level heading"
   },
   {
     "objectID": "Your_first_commit.html#a-second-level-heading",
     "href": "Your_first_commit.html#a-second-level-heading",
-    "title": "Your_first_commit",
+    "title": "Your first commit",
     "section": "A second level heading",
     "text": "A second level heading\n\nA third level heading\nYou can learn about the markdown language here at this official resource and at this resource from Github.\n\nChallenge: Your first commit in markdown"
   },
   {
     "objectID": "Your_first_commit.html#running-code",
     "href": "Your_first_commit.html#running-code",
-    "title": "Your_first_commit",
+    "title": "Your first commit",
     "section": "Running Code",
     "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
   }
