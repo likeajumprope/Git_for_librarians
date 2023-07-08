@@ -179,7 +179,7 @@
     "href": "Git_online.html",
     "title": "Getting to know Github.com",
     "section": "",
-    "text": "They are divided in two types of repositories: Those you have writing access to (your repositories) and repositories of other people that you can only view.\nChallenge.\nLog into your Github account.\n\nFind the place where yor repositories (will) live.\n\n\n\nSearch for other people’s repositories.\n\nWhile you don’t have writing access to most repositories, they provide a great resource.\n\nChallenge\nType “Librarian” into the search bar.\n\nThe search reveals all repositories that ahve the word “librarian; in them. In addition to Issues, Discussions, Usernames with the word.\n\nClik on one of the repositories."
+    "text": "They are divided in two types of repositories: Those you have writing access to (your repositories) and repositories of other people that you can only view.\n\nChallenge: Log into your github account.\n\nLog into your Github account.\n\nFind the place where your repositories (will) live.\n\n\n\nSearch for other people’s repositories.\n\nWhile you don’t have writing access to most repositories, they provide a great resource.\n\nChallenge: Use Github as a resource. Type “Librarian” into the search bar.\n\n\nThe search reveals all repositories that ahve the word “librarian; in them. In addition to Issues, Discussions, Usernames with the word.\n\nClik on one of the repositories."
   },
   {
     "objectID": "Creating_your_first_repository.html",
@@ -187,5 +187,33 @@
     "title": "Creating your first repository",
     "section": "",
     "text": "You have two options when creating a new repository. You can click on the + next to your profile image in the top right corner of the screen or go to the repositories tab within your profile page and click the New button.\n\n\n\nTwo ways to create a new repository\n\n\nChallenge: Creating a new repository.\n\nName your repository - keep it short and precise\nLet’s create a repository “My_first_repo”\nDescribe it (optional)\nSelect Public/Private. If you have a free account, all your repositories will be public.\nCheck the box to initialize your repository with a “Readme.md”\nClick Create repository\n\n\nCongratulations! You have created your first repository!"
+  },
+  {
+    "objectID": "Your_first_commit.html",
+    "href": "Your_first_commit.html",
+    "title": "Your_first_commit",
+    "section": "",
+    "text": "The README.md is often the first item a visitor will see when visiting your repository. README files typically include information on: What the project does and why the project is useful.\nThe ending .md is an indicator of the Markdown language. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. The documents for this website are also written in Markdown.\nExamples of the Markdown language:"
+  },
+  {
+    "objectID": "Your_first_commit.html#headlines",
+    "href": "Your_first_commit.html#headlines",
+    "title": "Your_first_commit",
+    "section": "Headlines",
+    "text": "Headlines\nThe number of # determine the level of the headline:\n# A first level heading\n\n## A second level heading\n\n## A third level heading"
+  },
+  {
+    "objectID": "Your_first_commit.html#a-second-level-heading",
+    "href": "Your_first_commit.html#a-second-level-heading",
+    "title": "Your_first_commit",
+    "section": "A second level heading",
+    "text": "A second level heading\n\nA third level heading\nYou can learn about the markdown language here at this official resource and at this resource from Github.\n\nChallenge: Your first commit in markdown"
+  },
+  {
+    "objectID": "Your_first_commit.html#running-code",
+    "href": "Your_first_commit.html#running-code",
+    "title": "Your_first_commit",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
   }
 ]

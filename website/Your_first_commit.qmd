@@ -1,0 +1,50 @@
+---
+title: "Your first commit"
+format: html
+editor: visual
+---
+
+## The Readme.md
+
+The README.md is often **the first item a visitor will see when visiting your repository**. README files typically include information on: What the project does and why the project is useful.
+
+The ending .md is an indicator of the Markdown language. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. The documents for this website are also written in Markdown.
+
+Examples of the Markdown language:
+
+## Headlines
+
+The number of `#` determine the level of the headline:
+
+    # A first level heading
+
+    ## A second level heading
+
+    ## A third level heading
+
+# A first level heading
+
+## A second level heading
+
+### A third level heading
+
+You can learn about the markdown language [here at this official resource](https://www.markdownguide.org/getting-started/) and at this [resource from Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+> Challenge: Your first commit in markdown
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
