@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Git for librarians"
+  page-navigation: true
   sidebar:
     style: "docked"
     search: true
