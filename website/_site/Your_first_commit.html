@@ -20,69 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -93,6 +30,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./Creating_your_first_repository.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -227,8 +165,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <ul class="collapse">
   <li><a href="#a-third-level-heading" id="toc-a-third-level-heading" class="nav-link" data-scroll-target="#a-third-level-heading">A third level heading</a></li>
   </ul></li>
-  <li><a href="#running-code" id="toc-running-code" class="nav-link" data-scroll-target="#running-code">Running Code</a></li>
+  <li><a href="#commits-on-github" id="toc-commits-on-github" class="nav-link" data-scroll-target="#commits-on-github">Commits on Github</a></li>
+  <li><a href="#what-is-a-commit" id="toc-what-is-a-commit" class="nav-link" data-scroll-target="#what-is-a-commit">What is a commit</a></li>
+  <li><a href="#committing-on-github.com" id="toc-committing-on-github.com" class="nav-link" data-scroll-target="#committing-on-github.com">Committing on Github.com</a></li>
   </ul></li>
+  <li><a href="#reviewing-your-changes." id="toc-reviewing-your-changes." class="nav-link" data-scroll-target="#reviewing-your-changes.">Reviewing your changes.</a></li>
   </ul>
 </nav>
     </div>
@@ -278,25 +219,88 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </blockquote>
 </section>
 </section>
-<section id="running-code" class="level2">
-<h2 class="anchored" data-anchor-id="running-code">Running Code</h2>
-<p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-<p>You can add options to executable code like this</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 4</code></pre>
-</div>
-</div>
-<p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
-
-
+<section id="commits-on-github" class="level2">
+<h2 class="anchored" data-anchor-id="commits-on-github">Commits on Github</h2>
 </section>
+<section id="what-is-a-commit" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-commit">What is a commit</h2>
+<p>The contribution in Git is structured in commits. Commits are small, labeled changes to a file or item in a git repository. They can be seen as a snapshot of the state of repository at the time of the commit which can be reversed back to (in theory). They hence allow to create a <em>track record of changes of the repository over time</em>. Git will not allow any changes to documents or files without committing them first.</p>
+</section>
+<section id="committing-on-github.com" class="level2">
+<h2 class="anchored" data-anchor-id="committing-on-github.com">Committing on Github.com</h2>
+<blockquote class="blockquote">
+<p>Challenge: Add some information to the Readme.md file of your newly created github repository!</p>
+</blockquote>
+<ol type="1">
+<li>Click on your repository.</li>
+<li>Click on the pencil icon to activate writing mode on the Readme.md</li>
+<li>Add some information about the purpose of the repository.</li>
+<li>Click the green <em>Commit changes</em> button at the top right.</li>
+<li>Write a precise commit message</li>
+<li>Commit your changes.</li>
+</ol>
+<p>Congratulations! You have made your first commit in Github!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Commit1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Click on the pencil button to activate editing mode.</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Commit2.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Make your changes and click the green commmit changes button.</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Commit3png-01.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Formulate a precise commit message. and commit your changes.</figcaption><p></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="reviewing-your-changes." class="level1">
+<h1>Reviewing your changes.</h1>
+<p>Congratulations, you have now made your first commit on Github!</p>
+<p>Let’s now have a look at the changes you have made.</p>
+<blockquote class="blockquote">
+<p>Challenge: Review your first commit.</p>
+</blockquote>
+<ol type="1">
+<li>Go back to the <em>Code</em> section of the repository.</li>
+<li>The repository should show you that changes have been made not long ago. Click the history button.</li>
+<li>Click on the Readme.md commit. Additions to the file will be shown in green.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Commit4.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Go back to the code section of the repository.</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Commit5.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Click on the history of the repository.</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Commit6.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Click on your recent commit.</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Commit7.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Additions should appear in green</figcaption><p></p>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>Challenge: Add another line to the readme and delete the first one. Commit your changes with an appropriate commit message. What do the changes look like now?</p>
+</blockquote>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -398,6 +402,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Creating_your_first_repository.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Creating your first repository</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

@@ -30,4 +30,3 @@ Librarians of a libray want to publish a book on the proceedings of a community 
 
 What will you use Github for?
 
-Next \>\> [Git Gitlab and Github](Git_Github_Gitlab.qmd)
