@@ -14,12 +14,15 @@ website:
           - What_is_git.qmd
           - Git_Github_Gitlab.qmd
           - The_history.qmd
-      - section: "Github online"
+      - section: "Github online and version control"
         contents:
           - Git_online.qmd
           - Creating_your_first_repository.qmd
           - Your_first_commit.qmd
           - Branching.qmd
+      - section: "Collaboration on Github online"
+        contents:
+          - Forking.qmd
 
 format:
   html:

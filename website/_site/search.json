@@ -236,5 +236,33 @@
     "title": "Your first commit",
     "section": "Committing on Github.com",
     "text": "Committing on Github.com\n\nChallenge: Add some information to the Readme.md file of your newly created github repository!\n\n\nClick on your repository.\nClick on the pencil icon to activate writing mode on the Readme.md\nAdd some information about the purpose of the repository.\nClick the green Commit changes button at the top right.\nWrite a precise commit message\nCommit your changes.\n\nCongratulations! You have made your first commit in Github!\n\n\n\nClick on the pencil button to activate editing mode.\n\n\n\n\n\nMake your changes and click the green commmit changes button.\n\n\n\n\n\nFormulate a precise commit message. and commit your changes."
+  },
+  {
+    "objectID": "Forking.html",
+    "href": "Forking.html",
+    "title": "Forking",
+    "section": "",
+    "text": "In the previous section, we made changes to our own repository and we were able to accept the changes ourselves because we are owner of the repository."
+  },
+  {
+    "objectID": "Forking.html#forking-a-repository",
+    "href": "Forking.html#forking-a-repository",
+    "title": "Forking",
+    "section": "Forking a repository",
+    "text": "Forking a repository\nIn order to make changes to someone else’s repository you have to get rights for the repository. On Github, this means that you make a copy of the repository under your account. This process is called forking a repository.\n\nChallenge: Contribute to someone else’s repository.\n\nNavigate to the repository"
+  },
+  {
+    "objectID": "Version_control.html",
+    "href": "Version_control.html",
+    "title": "Version Control",
+    "section": "",
+    "text": "Git is really good at tracking changes made to documents as they move through time. Optimally, each version should fall into place somewhere in the linear history of the document. However, there are situations where versions conflict and it isn’t clear what version of a document is the most recent version."
+  },
+  {
+    "objectID": "Version_control.html#section",
+    "href": "Version_control.html#section",
+    "title": "Version Control",
+    "section": "",
+    "text": "When you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
   }
 ]

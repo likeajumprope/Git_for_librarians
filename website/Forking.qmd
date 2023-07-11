@@ -1,0 +1,17 @@
+---
+title: "Forking"
+format: html
+editor: visual
+---
+
+## Making changes as someone else's repository
+
+In the previous section, we made changes to our own repository and we were able to accept the changes ourselves because we are owner of the repository.
+
+## Forking a repository
+
+In order to make changes to someone else's repository you have to get rights for the repository. On Github, this means that you make a copy of the repository under your account. This process is called **forking** a repository.
+
+> Challenge: Contribute to someone else's repository.
+
+Navigate to the repository
