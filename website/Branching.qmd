@@ -22,7 +22,7 @@ Let's play with our newly created repository.
 
 2.  Create a branch Readme-edits. This branch will be a copy of your main branch.
 
-    ![](website/img/Branching1.png)
+    ![](img/Branching1.png)
 
 3.  Switch to your new branch.
 
@@ -30,7 +30,7 @@ Let's play with our newly created repository.
 
 5.  Commit your changes. In this case I have removed a line.
 
-    ![](website/img/Branching2.png)
+    ![](img/Branching2.png)
 
 6.  You should now see that your branch has recent edits.
 
@@ -46,21 +46,21 @@ Branches are a good way to test edits to your repository and see whether you lik
 
 1 Click on the create a pull request button:
 
-![](website/img/Recent-edits2.png)
+![](img/Recent-edits2.png)
 
 2.  Open a pull request. Git will show you what branch will be merged into which when creating the pull requests. You can change this (hence you can decide what to merge into what) - but for now let's keep the merge direction from Readme.edits -\> main.
 
-    ![](website/img/ScreenShot%20Tool%20-20230710231644.png)
+    ![](img/ScreenShot%20Tool%20-20230710231644.png)
 
 3.  Write a message for your pull request and click the create pull request button.
 
 4.  Because you are the owner of this repository, you can also accept the pull request. Click the merge pull request button.
 
-    ![](website/img/ScreenShot%20Tool%20-20230710232025.png)
+    ![](img/ScreenShot%20Tool%20-20230710232025.png)
 
 5 Congratulations! You have merged your first pull request!
 
-![](website/img/ScreenShot%20Tool%20-20230710232100.png)
+![](img/ScreenShot%20Tool%20-20230710232100.png)
 
 ## About pull requests
 
