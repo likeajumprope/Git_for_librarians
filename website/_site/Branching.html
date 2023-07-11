@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Git for librarians - Git for Librarians</title>
+<title>Git for librarians - Branching</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./Forking.html" rel="next">
+<link href="./Your_first_commit.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Git for Librarians</h1>
+      <h1 class="quarto-secondary-nav-title">Branching</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -147,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Branching.html" class="sidebar-item-text sidebar-link">Branching</a>
+  <a href="./Branching.html" class="sidebar-item-text sidebar-link active">Branching</a>
   </div>
 </li>
       </ul>
@@ -172,14 +174,28 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#branching" id="toc-branching" class="nav-link active" data-scroll-target="#branching">Branching</a>
+  <ul class="collapse">
+  <li><a href="#version-control" id="toc-version-control" class="nav-link" data-scroll-target="#version-control">Version control</a></li>
+  </ul></li>
+  <li><a href="#opening-a-pull-request-pr" id="toc-opening-a-pull-request-pr" class="nav-link" data-scroll-target="#opening-a-pull-request-pr">Opening a pull request (PR)</a>
+  <ul class="collapse">
+  <li><a href="#about-pull-requests" id="toc-about-pull-requests" class="nav-link" data-scroll-target="#about-pull-requests">About pull requests</a></li>
+  <li><a href="#why-is-it-called-pull-request" id="toc-why-is-it-called-pull-request" class="nav-link" data-scroll-target="#why-is-it-called-pull-request">Why is it called pull request?</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Git for Librarians</h1>
+<h1 class="title d-none d-lg-block">Branching</h1>
 </div>
 
 
@@ -193,9 +209,59 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Welcome to the git for Librarians workshop!</p>
+<section id="branching" class="level1">
+<h1>Branching</h1>
+<p><em>Branching</em> is the way to work on different parts and versions of a repository at one time. By default each repository is created with a <em>main</em> branch. You can commit directly into the main branch as we just did.</p>
+<p>However, branches are identical copies of the main branch (or any branch you want to copy from), that allow you to implement and test changes before committing them into the main branch (your production branch).</p>
+<section id="version-control" class="level2">
+<h2 class="anchored" data-anchor-id="version-control">Version control</h2>
+<p>Let’s play with our newly created repository.</p>
+<blockquote class="blockquote">
+<p>Challenge: create a branch from your main repository</p>
+</blockquote>
+<p>1. Go to your new repository and click the drop down at the top of the file list that says <strong>branch: main</strong></p>
+<blockquote class="blockquote">
+<p>The default branch used to be called <strong>master</strong> branch; due to historic connotations of the word <em>master</em> and as part of a step towards more inclusive langauge the default branch has been renamed to <em>main</em> for new repositories. Older repositories still might have a <strong>master</strong> branch.</p>
+</blockquote>
+<ol start="2" type="1">
+<li><p>Create a branch Readme-edits. This branch will be a copy of your main branch.</p>
+<p><img src="website/img/Branching1.png" class="img-fluid"></p></li>
+<li><p>Switch to your new branch.</p></li>
+<li><p>Click the edit button of the Readme.md file. Add a line to the Readme.md file.</p></li>
+<li><p>Commit your changes. In this case I have removed a line.</p>
+<p><img src="website/img/Branching2.png" class="img-fluid"></p></li>
+<li><p>You should now see that your branch has recent edits.</p>
+<p><img src="website/img/Recent-edits.png" class="img-fluid"></p></li>
+<li><p>Switch back to the main branch. You should see that the Readme.md file is in the state it was before branching.</p></li>
+<li><p>Switch back to the Readme-edits branch.</p></li>
+</ol>
+<p>Branches are a good way to test edits to your repository and see whether you like them. Let’s say you are happy with your edits. It’s now time to update your main branch with your edits!</p>
+</section>
+</section>
+<section id="opening-a-pull-request-pr" class="level1">
+<h1>Opening a pull request (PR)</h1>
+<p>1 Click on the create a pull request button:</p>
+<p><img src="website/img/Recent-edits2.png" class="img-fluid"></p>
+<ol start="2" type="1">
+<li><p>Open a pull request. Git will show you what branch will be merged into which when creating the pull requests. You can change this (hence you can decide what to merge into what) - but for now let’s keep the merge direction from Readme.edits -&gt; main.</p>
+<p><img src="website/img/ScreenShot%20Tool%20-20230710231644.png" class="img-fluid"></p></li>
+<li><p>Write a message for your pull request and click the create pull request button.</p></li>
+<li><p>Because you are the owner of this repository, you can also accept the pull request. Click the merge pull request button.</p>
+<p><img src="website/img/ScreenShot%20Tool%20-20230710232025.png" class="img-fluid"></p></li>
+</ol>
+<p>5 Congratulations! You have merged your first pull request!</p>
+<p><img src="website/img/ScreenShot%20Tool%20-20230710232100.png" class="img-fluid"></p>
+<section id="about-pull-requests" class="level2">
+<h2 class="anchored" data-anchor-id="about-pull-requests">About pull requests</h2>
+<p>You were able to merge this pull request right away because you are the owner of the repository - you made a PR to your own repository. This is not always the case - usually you want to add changes to a repository that you do not own (for example an open source project you want to contribute to). You won’t be able to merge the PR yourself then, but you will have to wait for the owner of your repository to accept your PR.</p>
+</section>
+<section id="why-is-it-called-pull-request" class="level2">
+<h2 class="anchored" data-anchor-id="why-is-it-called-pull-request">Why is it called pull request?</h2>
+<p>The pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -296,6 +362,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Your_first_commit.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Your first commit</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./Forking.html" class="pagination-link">
+        <span class="nav-page-text">Forking</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
