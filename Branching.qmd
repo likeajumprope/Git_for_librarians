@@ -21,9 +21,51 @@ Let's play with our newly created repository.
 > The default branch used to be called **master** branch; due to historic connotations of the word *master* and as part of a step towards more inclusive langauge the default branch has been renamed to *main* for new repositories. Older repositories still might have a **master** branch.
 
 2.  Create a branch Readme-edits. This branch will be a copy of your main branch.
+
+    ![](website/img/Branching1.png)
+
 3.  Switch to your new branch.
+
 4.  Click the edit button of the Readme.md file. Add a line to the Readme.md file.
-5.  Switch back to the main branch. You should see that the Readme.md file is in the state it was before branching.
-6.  Switch back to the Readme-edits branch.
+
+5.  Commit your changes. In this case I have removed a line.
+
+    ![](website/img/Branching2.png)
+
+6.  You should now see that your branch has recent edits.
+
+    ![](website/img/Recent-edits.png)
+
+7.  Switch back to the main branch. You should see that the Readme.md file is in the state it was before branching.
+
+8.  Switch back to the Readme-edits branch.
 
 Branches are a good way to test edits to your repository and see whether you like them. Let's say you are happy with your edits. It's now time to update your main branch with your edits!
+
+# Opening a pull request (PR)
+
+1 Click on the create a pull request button:
+
+![](website/img/Recent-edits2.png)
+
+2.  Open a pull request. Git will show you what branch will be merged into which when creating the pull requests. You can change this (hence you can decide what to merge into what) - but for now let's keep the merge direction from Readme.edits -\> main.
+
+    ![](website/img/ScreenShot%20Tool%20-20230710231644.png)
+
+3.  Write a message for your pull request and click the create pull request button.
+
+4.  Because you are the owner of this repository, you can also accept the pull request. Click the merge pull request button.
+
+    ![](website/img/ScreenShot%20Tool%20-20230710232025.png)
+
+5 Congratulations! You have merged your first pull request!
+
+![](website/img/ScreenShot%20Tool%20-20230710232100.png)
+
+## About pull requests
+
+You were able to merge this pull request right away because you are the owner of the repository - you made a PR to your own repository. This is not always the case - usually you want to add changes to a repository that you do not own (for example an open source project you want to contribute to). You won't be able to merge the PR yourself then, but you will have to wait for the owner of your repository to accept your PR.
+
+## Why is it called pull request?
+
+The pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in.
