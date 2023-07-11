@@ -23,6 +23,7 @@ website:
       - section: "Collaboration on Github online"
         contents:
           - Forking.qmd
+          - Issues.qmd
 
 format:
   html:

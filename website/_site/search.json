@@ -249,7 +249,7 @@
     "href": "Forking.html#forking-a-repository",
     "title": "Forking",
     "section": "Forking a repository",
-    "text": "Forking a repository\nIn order to make changes to someone else’s repository you have to get rights for the repository. On Github, this means that you make a copy of the repository under your account. This process is called forking a repository.\n\nChallenge: Contribute to someone else’s repository.\n\nNavigate to the repository"
+    "text": "Forking a repository\nIn order to make changes to someone else’s repository you have to get rights for the repository. On Github, this means that you make a copy of the repository under your account. This process is called forking a repository.\n\nChallenge: Contribute to someone else’s repository.\n\nNavigate to the repository https://github.com/likeajumprope/Git_course. This repository is owned by me, so you are not the owner of the repository and you won’t be able to make changes right away.\n1 Click on the fork button on on the main page of the repository. You need to be logged into your github account to create a fork.\n\nYou can leave everything the way git suggests it for now. Click create repository.\n\nA fork of the repository should now appear under your account name. You should also still see the original repository. I have added here a picture of a repository that I have forked into my account:\n\nNow go to the add file tab. Click on it and select Add new file.\n\nCreate now a new .md file with a name of your liking. Click on the editing button and add a line to the file. for example, state your favorite animal.\n\nGo back to the code"
   },
   {
     "objectID": "Version_control.html",

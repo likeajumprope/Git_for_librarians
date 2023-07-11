@@ -31,3 +31,9 @@ A fork of the repository should now appear under your account name. You should a
 Now go to the add file tab. Click on it and select Add new file.
 
 ![](img/Forking5.png)
+
+Create now a new .md file with a name of your liking. Click on the editing button and add a line to the file. for example, state your favorite animal.
+
+![](img/Collaborating1.png)
+
+Go back to the code
