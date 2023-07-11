@@ -14,4 +14,20 @@ In order to make changes to someone else's repository you have to get rights for
 
 > Challenge: Contribute to someone else's repository.
 
-Navigate to the repository
+Navigate to the repository https://github.com/likeajumprope/Git_course. This repository is owned by me, so you are not the owner of the repository and you won't be able to make changes right away.
+
+1 Click on the fork button on on the main page of the repository. You need to be logged into your github account to create a fork.
+
+![](img/Forking1.png)
+
+You can leave everything the way git suggests it for now. Click create repository.
+
+![](img/Forking2.png)
+
+A fork of the repository should now appear under your account name. You should also still see the original repository. I have added here a picture of a repository that I have forked into my account:
+
+![](img/Forking3.png)
+
+Now go to the add file tab. Click on it and select Add new file.
+
+![](img/Forking5.png)
