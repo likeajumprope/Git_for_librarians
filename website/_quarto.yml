@@ -19,6 +19,7 @@ website:
           - Git_online.qmd
           - Creating_your_first_repository.qmd
           - Your_first_commit.qmd
+          - Branching.qmd
 
 format:
   html:
