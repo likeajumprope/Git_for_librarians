@@ -1,0 +1,33 @@
+---
+title: "Bits and pieces"
+format: html
+editor: visual
+---
+
+## Publishing on Github
+
+This website is hosted on github, using [Quarto in RStudio](https://quarto.org/docs/get-started/hello/rstudio.html) and [Netlify](https://www.netlify.com/), a free web hosting service. Other options to publish via github are [Jupyterbook](https://jupyterbook.org/en/stable/intro.html), which can be hosted via [github pages](https://pages.github.com/) or also via Netlify. [The Turing way book](https://the-turing-way.netlify.app/index.html) uses the second option (Jupyterbook & Netlify). An even more integrated option is [Gitbook](https://www.gitbook.com/).
+
+## Contributing to open source
+
+While most people think that open source projects are only for developers, this is only half of the truth. *Documentation*, thus writing text for (non)-technical audiences about (non)technical topics, is equally part of the open source effort. The [Google season of Docs](https://developers.google.com/season-of-docs) is a documentation focused equivalent to the [Google Summer of Code](https://summerofcode.withgoogle.com/) with the aim to support open source collaboration with technical writers.
+
+## Good git practices
+
+1.  Make small changes, commit frequently and write good commit messages.
+2.  One issue, one branch, one PR. Create an issue about an outstanding feature. Link a branch to work on that feature to the issue and then submit a PR with the fix, also linked to the issue.
+3.  Be nice and polite when collaborating.
+4.  Avoid committing directly into the main branch. Better: Have feature branches and a dev branch to test your commits. This is especially true when making PRs to foreign repositories. PRs to the main branch are rarely accepted
+5.  Look for "good first issues" for beginners.
+6.  Assign several reviewers for PRs.
+7.  Never merge your own PRs.
+
+## Resources
+
+-   [Hacktoberfest](https://hacktoberfest.com/)- look for good first issues.
+
+-   [Awesome for beginners](https://github.com/MunGell/awesome-for-beginners): A list of beginner-friendly projects on git.
+
+-   [The Turing Way Book](https://the-turing-way.netlify.app/index.html) - [Book Dashes](https://the-turing-way.netlify.app/community-handbook/bookdash.html): Beginner friendly code and documentation sprints on a book for reproducible work flows, in a lovely community.
+
+-   [Git and Github for librarians](http://data-lessons.github.io/library-git-DEPRECATED/01-what-is-git/) by Data Carpentries -uses the command line.
