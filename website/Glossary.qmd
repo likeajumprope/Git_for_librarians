@@ -16,13 +16,21 @@ A file containing the name of all files, folders etc that should not be tracked.
 
 GitHub Issues allows you to create text-based descriptions of tasks, bugs, changes, and allow you to update your repository and document changes, It is also a way to communicate with other developers.
 
+## License.md
+
+The license file in your repository tells everyone how they can interact with your content. Licenses can range from very conservative to very liberal (copy-left, open source). They are fundamental for the collaboration with others.
+
 ## Origin repository
 
 Your fork of a repository - the clone of the repository under your account.
 
 ## Pull request (PR) 
 
-Pull requests tell others about the changes that you have made and pushed to a repository. Once the PR is opened, it is good practise to discuss and review the changes with other developers.
+Pull requests tell others about the changes that you have made and pushed to a repository. Once the PR is opened, it is good practice to discuss and review the changes with other developers.
+
+## Readme.md
+
+The Readme.md is usually the first file vistors see and interacts with on your repository. It should contain information about the purpose and content of the repository.
 
 ## Upstream repository
 

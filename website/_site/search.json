@@ -536,6 +536,20 @@
     "href": "Glossary.html#pull-request-pr",
     "title": "Glossary",
     "section": "Pull request (PR)",
-    "text": "Pull request (PR)\nPull requests tell others about the changes that you have made and pushed to a repository. Once the PR is opened, it is good practise to discuss and review the changes with other developers."
+    "text": "Pull request (PR)\nPull requests tell others about the changes that you have made and pushed to a repository. Once the PR is opened, it is good practice to discuss and review the changes with other developers."
+  },
+  {
+    "objectID": "Glossary.html#license.md",
+    "href": "Glossary.html#license.md",
+    "title": "Glossary",
+    "section": "License.md",
+    "text": "License.md\nThe license file in your repository tells everyone how they can interact with your content. Licenses can range from very conservative to very liberal (copy-left, open source). They are fundamental for the collaboration with others."
+  },
+  {
+    "objectID": "Glossary.html#readme.md",
+    "href": "Glossary.html#readme.md",
+    "title": "Glossary",
+    "section": "Readme.md",
+    "text": "Readme.md\nThe Readme.md is usually the first file vistors see and interacts with on your repository. It should contain information about the purpose and content of the repository."
   }
 ]
