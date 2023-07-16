@@ -22,8 +22,8 @@ While you don't have writing access to most repositories, they provide a great r
 
 ![](img/Search.png)
 
-The search reveals all repositories that ahve the word "librarian; in them. In addition to Issues, Discussions, Usernames with the word.
+The search reveals all repositories that have the word "librarian; in them. In addition to Issues, Discussions, Usernames etc with the word.
 
 ![](img/Repositories.png)
 
-Clik on one of the repositories.
+Click on one of the repositories and have a look at the content!

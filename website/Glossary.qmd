@@ -4,9 +4,15 @@ format: html
 editor: visual
 ---
 
+## .gitignore file
+
+## Issue
+
 ## Origin repository
 
 Your fork of a repository - the clone of the repository under your account.
+
+## Pull request
 
 ## Upstream repository
 
