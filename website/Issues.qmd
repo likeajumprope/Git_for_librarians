@@ -20,6 +20,10 @@ Link the new issue to your PR by adding a #. Typing the \# should allow you to s
 
 Submit your new issue.
 
-# Where to open an issue
+## Where to open an issue
 
 You can open issues both on your own (the origin repository) and the upstream repository. If you want to communicate with the developer and owner of the upstream repository, you better open the issue there. Issues on your own repository (the origin repository) can be good to keep track of a project.
+
+## Issue labels
+
+In large projects, issues are frequent and often sorted by labels. For example, labels can be: #bug #feature-wanted or #idea-for-discussion. This is very useful as it allows to sort through issues. A very good way to find ways to contribute on github online is via the label #good-first-issue. This label describes issues that are more on the easy side and adequate for beginners.
