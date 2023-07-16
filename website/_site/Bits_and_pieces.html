@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Git for librarians - Getting to know Github.com</title>
+<title>Git for librarians - Bits and pieces</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Creating_your_first_repository.html" rel="next">
-<link href="./The_history.html" rel="prev">
+<link href="./Glossary.html" rel="next">
+<link href="./Version_control.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Getting to know Github.com</h1>
+      <h1 class="quarto-secondary-nav-title">Bits and pieces</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Git_online.html" class="sidebar-item-text sidebar-link active">Getting to know Github.com</a>
+  <a href="./Git_online.html" class="sidebar-item-text sidebar-link">Getting to know Github.com</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -214,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Bits_and_pieces.html" class="sidebar-item-text sidebar-link">Bits and pieces</a>
+  <a href="./Bits_and_pieces.html" class="sidebar-item-text sidebar-link active">Bits and pieces</a>
   </div>
 </li>
       </ul>
@@ -229,14 +229,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#publishing-on-github" id="toc-publishing-on-github" class="nav-link active" data-scroll-target="#publishing-on-github">Publishing on Github</a></li>
+  <li><a href="#contributing-to-open-source" id="toc-contributing-to-open-source" class="nav-link" data-scroll-target="#contributing-to-open-source">Contributing to open source</a></li>
+  <li><a href="#good-git-practices" id="toc-good-git-practices" class="nav-link" data-scroll-target="#good-git-practices">Good git practices</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Getting to know Github.com</h1>
+<h1 class="title d-none d-lg-block">Bits and pieces</h1>
 </div>
 
 
@@ -250,29 +259,37 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Git is structured in <em>Repositories</em>.</p>
-<p>They are divided in two types of repositories: Those you have writing access to (your repositories) and repositories of other people that you can only view.</p>
-<blockquote class="blockquote">
-<p>Challenge: Log into your github account.</p>
-</blockquote>
-<p>Log into your Github account.</p>
+<section id="publishing-on-github" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-on-github">Publishing on Github</h2>
+<p>This website is hosted on github, using <a href="https://quarto.org/docs/get-started/hello/rstudio.html">Quarto in RStudio</a> and <a href="https://www.netlify.com/">Netlify</a>, a free web hosting service. Other options to publish via github are <a href="https://jupyterbook.org/en/stable/intro.html">Jupyterbook</a>, which can be hosted via <a href="https://pages.github.com/">github pages</a> or also via Netlify. <a href="https://the-turing-way.netlify.app/index.html">The Turing way book</a> uses the second option (Jupyterbook &amp; Netlify). An even more integrated option is <a href="https://www.gitbook.com/">Gitbook</a>.</p>
+</section>
+<section id="contributing-to-open-source" class="level2">
+<h2 class="anchored" data-anchor-id="contributing-to-open-source">Contributing to open source</h2>
+<p>While most people think that open source projects are only for developers, this is only half of the truth. <em>Documentation</em>, thus writing text for (non)-technical audiences about (non)technical topics, is equally part of the open source effort. The <a href="https://developers.google.com/season-of-docs">Google season of Docs</a> is a documentation focused equivalent to the <a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a> with the aim to support open source collaboration with technical writers.</p>
+</section>
+<section id="good-git-practices" class="level2">
+<h2 class="anchored" data-anchor-id="good-git-practices">Good git practices</h2>
 <ol type="1">
-<li>Find the place where your repositories (will) live.</li>
+<li>Make small changes, commit frequently and write good commit messages.</li>
+<li>One issue, one branch, one PR. Create an issue about an outstanding feature. Link a branch to work on that feature to the issue and then submit a PR with the fix, also linked to the issue.</li>
+<li>Be nice and polite when collaborating.</li>
+<li>Avoid committing directly into the main branch. Better: Have feature branches and a dev branch to test your commits. This is especially true when making PRs to foreign repositories. PRs to the main branch are rarely accepted</li>
+<li>Look for “good first issues” for beginners.</li>
+<li>Assign several reviewers for PRs.</li>
+<li>Never merge your own PRs.</li>
 </ol>
-<!-- -->
-<ol start="2" type="1">
-<li>Search for other people’s repositories.</li>
-</ol>
-<p>While you don’t have writing access to most repositories, they provide a great resource.</p>
-<blockquote class="blockquote">
-<p>Challenge: Use Github as a resource. Type “Librarian” into the search bar.</p>
-</blockquote>
-<p><img src="img/Search.png" class="img-fluid"></p>
-<p>The search reveals all repositories that have the word “librarian; in them. In addition to Issues, Discussions, Usernames etc with the word.</p>
-<p><img src="img/Repositories.png" class="img-fluid"></p>
-<p>Click on one of the repositories and have a look at the content!</p>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<ul>
+<li><p><a href="https://hacktoberfest.com/">Hacktoberfest</a>- look for good first issues.</p></li>
+<li><p><a href="https://github.com/MunGell/awesome-for-beginners">Awesome for beginners</a>: A list of beginner-friendly projects on git.</p></li>
+<li><p><a href="https://the-turing-way.netlify.app/index.html">The Turing Way Book</a> - <a href="https://the-turing-way.netlify.app/community-handbook/bookdash.html">Book Dashes</a>: Beginner friendly code and documentation sprints on a book for reproducible work flows, in a lovely community.</p></li>
+<li><p><a href="http://data-lessons.github.io/library-git-DEPRECATED/01-what-is-git/">Git and Github for librarians</a> by Data Carpentries -uses the command line.</p></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -375,13 +392,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./The_history.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">The history of version control</span>
+      <a href="./Version_control.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Merge conflicts</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Creating_your_first_repository.html" class="pagination-link">
-        <span class="nav-page-text">Creating your first repository</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Glossary.html" class="pagination-link">
+        <span class="nav-page-text">Glossary</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
