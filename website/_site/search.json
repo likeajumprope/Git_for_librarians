@@ -298,7 +298,7 @@
     "href": "Glossary.html",
     "title": "Glossary",
     "section": "",
-    "text": "Your fork of a repository - the clone of the repository under your account."
+    "text": "An identical copy of a repository. Branches are great to test features before pushing them into the main branch."
   },
   {
     "objectID": "Glossary.html#upstream-repository",
@@ -480,7 +480,7 @@
     "href": "Glossary.html#issue",
     "title": "Glossary",
     "section": "Issue",
-    "text": "Issue"
+    "text": "Issue\nGitHub Issues allows you to create text-based descriptions of tasks, bugs, changes, and allow you to update your repository and document changes, It is also a way to communicate with other developers."
   },
   {
     "objectID": "Glossary.html#origin-repository",
@@ -523,5 +523,19 @@
     "title": "Bits and pieces",
     "section": "Resources",
     "text": "Resources\n\nHacktoberfest- look for good first issues.\nAwesome for beginners: A list of beginner-friendly projects on git.\nThe Turing Way Book - Book Dashes: Beginner friendly code and documentation sprints on a book for reproducible work flows, in a lovely community.\nGit and Github for librarians by Data Carpentries -uses the command line."
+  },
+  {
+    "objectID": "Glossary.html#gitignore-file",
+    "href": "Glossary.html#gitignore-file",
+    "title": "Glossary",
+    "section": ".gitignore file",
+    "text": ".gitignore file\nA file containing the name of all files, folders etc that should not be tracked. Lives in the root directory of your repo. Wildcards are allowed, for example *.png excludes all png files."
+  },
+  {
+    "objectID": "Glossary.html#pull-request-pr",
+    "href": "Glossary.html#pull-request-pr",
+    "title": "Glossary",
+    "section": "Pull request (PR)",
+    "text": "Pull request (PR)\nPull requests tell others about the changes that you have made and pushed to a repository. Once the PR is opened, it is good practise to discuss and review the changes with other developers."
   }
 ]
