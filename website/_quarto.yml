@@ -32,6 +32,7 @@ website:
       - section: "Version control"
         contents: 
           - Version_control.qmd
+          - Bits_and_pieces.qmd
       - Glossary.qmd
 
 format:
