@@ -179,7 +179,7 @@
     "href": "Git_online.html",
     "title": "Getting to know Github.com",
     "section": "",
-    "text": "They are divided in two types of repositories: Those you have writing access to (your repositories) and repositories of other people that you can only view.\n\nChallenge: Log into your github account.\n\nLog into your Github account.\n\nFind the place where your repositories (will) live.\n\n\n\nSearch for other people’s repositories.\n\nWhile you don’t have writing access to most repositories, they provide a great resource.\n\nChallenge: Use Github as a resource. Type “Librarian” into the search bar.\n\n\nThe search reveals all repositories that ahve the word “librarian; in them. In addition to Issues, Discussions, Usernames with the word.\n\nClik on one of the repositories."
+    "text": "They are divided in two types of repositories: Those you have writing access to (your repositories) and repositories of other people that you can only view.\n\nChallenge: Log into your github account.\n\nLog into your Github account.\n\nFind the place where your repositories (will) live.\n\n\n\nSearch for other people’s repositories.\n\nWhile you don’t have writing access to most repositories, they provide a great resource.\n\nChallenge: Use Github as a resource. Type “Librarian” into the search bar.\n\n\nThe search reveals all repositories that have the word “librarian; in them. In addition to Issues, Discussions, Usernames etc with the word.\n\nClick on one of the repositories and have a look at the content!"
   },
   {
     "objectID": "Creating_your_first_repository.html",
@@ -291,7 +291,7 @@
     "href": "Issues.html",
     "title": "Issues",
     "section": "",
-    "text": "Where to open an issue\nYou can open issues both on your own (the origin repository) and the upstream repository. If you want to communicate with the developer and owner of the upstream repository, you better open the issue there. Issues on your own repository (the origin repository) can be good to keep track of a project."
+    "text": "One additional vital feature on Github is Issues. Issues are the main tool for communication on Github. For example, developers often open issues to indicate the lack of a feature or a problem in in a project, issues can be assigned to a certain person, and they are often associated to a pull request.\nGo back to the r the upstream repository of the Git_course: https://github.com/likeajumprope/Git_course.\nClick on the issues button and open a new issue.\n\nLink the new issue to your PR by adding a #. Typing the # should allow you to select from all previous opened and closed PRs and issues:\n\nSubmit your new issue."
   },
   {
     "objectID": "Glossary.html",
@@ -460,5 +460,68 @@
     "title": "Merge conflicts",
     "section": "Avoiding merge conflicts",
     "text": "Avoiding merge conflicts\nMerge conflicts can be a headache, thus the best way to deal with them is to avoid them.\n\nAlways sync your branches before working on them and before opening a PR.\nMake small and incremental commits."
+  },
+  {
+    "objectID": "Issues.html#where-to-open-an-issue",
+    "href": "Issues.html#where-to-open-an-issue",
+    "title": "Issues",
+    "section": "Where to open an issue",
+    "text": "Where to open an issue\nYou can open issues both on your own (the origin repository) and the upstream repository. If you want to communicate with the developer and owner of the upstream repository, you better open the issue there. Issues on your own repository (the origin repository) can be good to keep track of a project."
+  },
+  {
+    "objectID": "Issues.html#issue-labels",
+    "href": "Issues.html#issue-labels",
+    "title": "Issues",
+    "section": "Issue labels",
+    "text": "Issue labels\nIn large projects, issues are frequent and often sorted by labels. For example, labels can be: #bug #feature-wanted or #idea-for-discussion. This is very useful as it allows to sort through issues. A very good way to find ways to contribute on github online is via the label #good-first-issue. This label describes issues that are more on the easy side and adequate for beginners."
+  },
+  {
+    "objectID": "Glossary.html#issue",
+    "href": "Glossary.html#issue",
+    "title": "Glossary",
+    "section": "Issue",
+    "text": "Issue"
+  },
+  {
+    "objectID": "Glossary.html#origin-repository",
+    "href": "Glossary.html#origin-repository",
+    "title": "Glossary",
+    "section": "Origin repository",
+    "text": "Origin repository\nYour fork of a repository - the clone of the repository under your account."
+  },
+  {
+    "objectID": "Glossary.html#pull-request",
+    "href": "Glossary.html#pull-request",
+    "title": "Glossary",
+    "section": "Pull request",
+    "text": "Pull request"
+  },
+  {
+    "objectID": "Bits_and_pieces.html",
+    "href": "Bits_and_pieces.html",
+    "title": "Bits and pieces",
+    "section": "",
+    "text": "This website is hosted on github, using Quarto in RStudio and Netlify, a free web hosting service. Other options to publish via github are Jupyterbook, which can be hosted via github pages or also via Netlify. The Turing way book uses the second option (Jupyterbook & Netlify). An even more integrated option is Gitbook."
+  },
+  {
+    "objectID": "Bits_and_pieces.html#contributing-to-open-source",
+    "href": "Bits_and_pieces.html#contributing-to-open-source",
+    "title": "Bits and pieces",
+    "section": "Contributing to open source",
+    "text": "Contributing to open source\nWhile most people think that open source projects are only for developers, this is only half of the truth. Documentation, thus writing text for (non)-technical audiences about (non)technical topics, is equally part of the open source effort. The Google season of Docs is a documentation focused equivalent to the Google Summer of Code with the aim to support open source collaboration with technical writers."
+  },
+  {
+    "objectID": "Bits_and_pieces.html#good-git-practices",
+    "href": "Bits_and_pieces.html#good-git-practices",
+    "title": "Bits and pieces",
+    "section": "Good git practices",
+    "text": "Good git practices\n\nMake small changes, commit frequently and write good commit messages.\nOne issue, one branch, one PR. Create an issue about an outstanding feature. Link a branch to work on that feature to the issue and then submit a PR with the fix, also linked to the issue.\nBe nice and polite when collaborating.\nAvoid committing directly into the main branch. Better: Have feature branches and a dev branch to test your commits. This is especially true when making PRs to foreign repositories. PRs to the main branch are rarely accepted\nLook for “good first issues” for beginners.\nAssign several reviewers for PRs.\nNever merge your own PRs."
+  },
+  {
+    "objectID": "Bits_and_pieces.html#resources",
+    "href": "Bits_and_pieces.html#resources",
+    "title": "Bits and pieces",
+    "section": "Resources",
+    "text": "Resources\n\nHacktoberfest- look for good first issues.\nAwesome for beginners: A list of beginner-friendly projects on git.\nThe Turing Way Book - Book Dashes: Beginner friendly code and documentation sprints on a book for reproducible work flows, in a lovely community.\nGit and Github for librarians by Data Carpentries -uses the command line."
   }
 ]
