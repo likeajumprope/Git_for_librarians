@@ -1,0 +1,65 @@
+---
+title: "Importing an existing project"
+format: html
+editor: visual
+---
+
+## Importing an existing project into Github online
+
+A second way of establishing an integration between your local machine and github online is to upload an existing project or file into github online.
+
+There are two ways to do this:
+
+1 Navigate to an existing repository and upload a file via the *add file* button. Drag and drop your file or browse for it and commit your changes.
+
+![](img/Addfile.png)
+
+2.  Create a new repository on github online from an exiting repository on your machine.
+
+    You have most likely already a repository somewhere that you would now start to track with git. Pushing an already locally existing repository to github online can be easily done with the command line. With Github desktop we need a little work around - the problem is that git is not yet initialized in your existing repository.
+
+3.  In Github Desktop, go to File \> Add local repository.
+
+    ![](img/Local1.png)
+
+    4.  Navigate to the repository your would like to add, select it and add it by clicking the blue button.
+
+![](img/local2.png)
+
+5.  Now Github Desktop should warn you that your repo is not yet a git repository (unless you have used git before in the repo). Click on *create a repository.*
+
+    ![](img/local3.png)
+
+6.  Give the repository an appropriate name or leave the current name. You can add a .gitignore file and a licence if you wish (both later). Click create repository.
+
+    ![](img/local4.png)
+
+7.  In case you end up at step 5, click cancel. Your repository should have been added and you should see something like the following:
+
+![](img/local6.png)
+
+8.  Publish your repository to github online. it should appear there with all its content.
+
+## File size limits and licenses
+
+### File size limits and gitignore
+
+Github puts a limit to the size of the repository you can add to github online. At the moment this limit lies at 10GB, with the limit of the size of individual files being 100MB. The idea behind git is that it tracks incremental changes in small files. It is not meant for data storage. If you have large files in your repository, it might be good to add them to a .gitignore file.
+
+The .gitignore file has the purpose to list all files in a repository that are being ignored and nit tracked by fit. This can be large files, or other files that you might not want to track (for example system files like .DS, data, or the gitignore file itself etc).
+
+### Optional: add a .gitignore file to your repository
+
+Open sublime text and create a new file. Save it under the name .gitignore (the "." is important). Add one line with the name of a new file, for example test.md. Commit those changes.
+
+![](images/gitignore1-01.png)
+
+Create the file test.md in your repository. Git should not be tracking the creation or changes in that file.
+
+![](images/gitignore2.png)
+
+> Attention: the .gitignore works only for files that have not yet been added to be tracked by git. "Untracking" files that have been tracked previously (for example because you have already committed them) requires the command line.
+
+## Adding a license file
+
+It is good practise to add a license.md file to everything you publish on github. Different licenses can be found [here](https://choosealicense.com/) - usually it is enough to copy the text of your preferred license into the license.md.

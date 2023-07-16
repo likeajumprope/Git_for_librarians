@@ -1,0 +1,25 @@
+---
+title: "Issues"
+format: html
+editor: visual
+---
+
+## Collaborating on Github
+
+One additional vital feature on Github is *Issues.* Issues are the main tool for communication on Github. For example, developers often open issues to indicate the lack of a feature or a problem in in a project, issues can be assigned to a certain person, and they are often associated to a pull request.
+
+Go back to the r the upstream repository of the Git_course: https://github.com/likeajumprope/Git_course.
+
+Click on the issues button and open a new issue.
+
+![](img/Issue1.png)
+
+Link the new issue to your PR by adding a #. Typing the \# should allow you to select from all previous opened and closed PRs and issues:
+
+![](img/Issue2.png)
+
+Submit your new issue.
+
+# Where to open an issue
+
+You can open issues both on your own (the origin repository) and the upstream repository. If you want to communicate with the developer and owner of the upstream repository, you better open the issue there. Issues on your own repository (the origin repository) can be good to keep track of a project.

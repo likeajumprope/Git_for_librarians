@@ -20,10 +20,19 @@ website:
           - Creating_your_first_repository.qmd
           - Your_first_commit.qmd
           - Branching.qmd
+          - Pull_requests.qmd
       - section: "Collaboration on Github online"
         contents:
           - Forking.qmd
           - Issues.qmd
+      - section: "Git on your local machine"
+        contents: 
+          - Github_desktop.qmd
+          - Github_desktop2.qmd
+      - section: "Version control"
+        contents: 
+          - Version_control.qmd
+      - Glossary.qmd
 
 format:
   html:

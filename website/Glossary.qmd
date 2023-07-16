@@ -1,0 +1,15 @@
+---
+title: "Glossary"
+format: html
+editor: visual
+---
+
+## Origin repository
+
+Your fork of a repository - the clone of the repository under your account.
+
+## Upstream repository
+
+The original repository that you have forked from.
+
+# 

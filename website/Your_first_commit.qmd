@@ -78,3 +78,7 @@ Let's now have a look at the changes you have made.
 ![Additions should appear in green.](images/Commit7.png)
 
 > Challenge: Add another line to the readme and delete the first one. Commit your changes with an appropriate commit message. What do the changes look like now?
+
+## Final remarks - committing
+
+Always commit your changes! While changes might be saved by your operating system, git only tracks changes once they are committed.

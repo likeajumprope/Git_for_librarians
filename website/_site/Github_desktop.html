@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.189">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Git for librarians - Github Desktop</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Github_desktop2.html" rel="next">
+<link href="./Issues.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Github Desktop</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Git for librarians</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Setup_and_instructions.html" class="sidebar-item-text sidebar-link">Setup and Instructions</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Getting to know Git(hub)</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./What_is_git.html" class="sidebar-item-text sidebar-link">What is git?</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Git_Github_Gitlab.html" class="sidebar-item-text sidebar-link">Git, Gitlab, Github</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./The_history.html" class="sidebar-item-text sidebar-link">The history of version control</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Github online and version control</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Git_online.html" class="sidebar-item-text sidebar-link">Getting to know Github.com</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Creating_your_first_repository.html" class="sidebar-item-text sidebar-link">Creating your first repository</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Your_first_commit.html" class="sidebar-item-text sidebar-link">Your first commit</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Branching.html" class="sidebar-item-text sidebar-link">Branching</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Pull_requests.html" class="sidebar-item-text sidebar-link">Pull requests (PRs)</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Collaboration on Github online</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Forking.html" class="sidebar-item-text sidebar-link">Forking</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Issues.html" class="sidebar-item-text sidebar-link">Issues</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Git on your local machine</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Github_desktop.html" class="sidebar-item-text sidebar-link active">Github Desktop</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Github_desktop2.html" class="sidebar-item-text sidebar-link">Importing an existing project</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">Version control</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Version_control.html" class="sidebar-item-text sidebar-link">Merge conflicts</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Glossary.html" class="sidebar-item-text sidebar-link">Glossary</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#interaction-between-github-online-and-your-local-machine" id="toc-interaction-between-github-online-and-your-local-machine" class="nav-link active" data-scroll-target="#interaction-between-github-online-and-your-local-machine">Interaction between Github online and your local machine</a></li>
+  <li><a href="#the-two-way-street-between-github-online-and-your-local-machine" id="toc-the-two-way-street-between-github-online-and-your-local-machine" class="nav-link" data-scroll-target="#the-two-way-street-between-github-online-and-your-local-machine">The two way street between Github online and your local machine</a></li>
+  <li><a href="#github-desktop" id="toc-github-desktop" class="nav-link" data-scroll-target="#github-desktop">Github Desktop</a></li>
+  <li><a href="#i.-cloning-a-repository-from-github-online-onto-your-local-machine" id="toc-i.-cloning-a-repository-from-github-online-onto-your-local-machine" class="nav-link" data-scroll-target="#i.-cloning-a-repository-from-github-online-onto-your-local-machine">I. Cloning a repository from Github online onto your local machine</a></li>
+  <li><a href="#exploring-github-desktop" id="toc-exploring-github-desktop" class="nav-link" data-scroll-target="#exploring-github-desktop">Exploring Github Desktop</a></li>
+  <li><a href="#make-changes-to-your-local-repository" id="toc-make-changes-to-your-local-repository" class="nav-link" data-scroll-target="#make-changes-to-your-local-repository">Make changes to your local repository</a></li>
+  <li><a href="#the-other-way-around-make-changes-to-your-online-repository" id="toc-the-other-way-around-make-changes-to-your-online-repository" class="nav-link" data-scroll-target="#the-other-way-around-make-changes-to-your-online-repository">The other way around: make changes to your online repository</a></li>
+  <li><a href="#final-remarks---it-can-get-messy" id="toc-final-remarks---it-can-get-messy" class="nav-link" data-scroll-target="#final-remarks---it-can-get-messy">Final remarks - it can get messy</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Github Desktop</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="interaction-between-github-online-and-your-local-machine" class="level2">
+<h2 class="anchored" data-anchor-id="interaction-between-github-online-and-your-local-machine">Interaction between Github online and your local machine</h2>
+<p>We have been working on Github online up until now. This can be useful, but you might want to version control and collaborate on projects that you have already on your machine, or on programming scripts that you need to run and test on your local machine, such as python or R scripts. We will now move to the integration between Github online and your local machine.</p>
+</section>
+<section id="the-two-way-street-between-github-online-and-your-local-machine" class="level2">
+<h2 class="anchored" data-anchor-id="the-two-way-street-between-github-online-and-your-local-machine">The two way street between Github online and your local machine</h2>
+<p>There a two ways of interaction between Github online and your local machine:</p>
+<p>I. Make a copy (<em>a clone</em>) of an online repository on your local machine.</p>
+<p>II. Import a repository from your local machine onto Github online.</p>
+</section>
+<section id="github-desktop" class="level2">
+<h2 class="anchored" data-anchor-id="github-desktop">Github Desktop</h2>
+<p>The tool that we are going to use on your local machine is Github Desktop. Git can also be used from the command line on your local machine, but Github desktop is a nice and more intuitive GUI tool for beginners.</p>
+<p>You should have Github Desktop installed. If not, do it now.</p>
+</section>
+<section id="i.-cloning-a-repository-from-github-online-onto-your-local-machine" class="level2">
+<h2 class="anchored" data-anchor-id="i.-cloning-a-repository-from-github-online-onto-your-local-machine">I. Cloning a repository from Github online onto your local machine</h2>
+<p>Let’s start with making a local copy of an existing online repository. This processing is called <em>cloning</em>.</p>
+<ol type="1">
+<li>Navigate to your fork of the Git_course.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li><p>Click on the green <em>Code</em> button. Select <em>Open with Github Desktop</em>.</p>
+<p><img src="img/Desktop1.png" class="img-fluid"></p></li>
+<li><p>Accept the warning, if any. Clone the repository.</p>
+<p><img src="img/Clone1.png" class="img-fluid"></p></li>
+</ol>
+<p>The repository now exists as a cope on your local machine!</p>
+</section>
+<section id="exploring-github-desktop" class="level2">
+<h2 class="anchored" data-anchor-id="exploring-github-desktop">Exploring Github Desktop</h2>
+<p>Let’s have a look at Github Desktop.</p>
+<ol type="1">
+<li><p>First of all, Github Desktop gives you an overview over your newly created repository. It shows you: the name of the repository (Git_course), the branch you are on (main) and when the repository was last updated from the origin repository.</p>
+<p><img src="img/Desktop3.png" class="img-fluid"></p></li>
+<li><p>Note that this newly created repository is a standalone repository. Hence, changes made to the origin (or upstream( repository are not automatically pulled into this new repository. Instead, you can do this manually by clicking the <em>Fetch origin</em> button in Github Desktop. This procedure is similar to the sync fork button on Github online.</p></li>
+<li><p>Github Desktop also gives you three options how to work with the repository:</p>
+<ol type="1">
+<li><p>Show your files in Finder (Mac) or in Explorer (Windows). Here Github Desktop will show you where the repository is located on your hard drive.</p></li>
+<li><p>Open the files in an external editor. Here Github Desktop will use one that is installed on your machine.</p></li>
+<li><p>Show the repository on Github online. Here Github Desktop will lead you back to Github online.</p>
+<p><img src="img/PR_Fork3.png" class="img-fluid"></p></li>
+</ol></li>
+<li><p>Note also that Github Desktop shows you that you have not yet made any changes to your local repository. Let’s change that!</p>
+<p><img src="img/Desktop2.png" class="img-fluid"></p></li>
+</ol>
+</section>
+<section id="make-changes-to-your-local-repository" class="level2">
+<h2 class="anchored" data-anchor-id="make-changes-to-your-local-repository">Make changes to your local repository</h2>
+<p>You cannot make changes in Gthub Desktop itself (it is not a text editor). This is why you need an external text editor. Choose the option to open the repository in an external editor. I use <em>Sublime</em> in this example.</p>
+<p>Regardless of the text editor, you should have a somewhat similar organisation of your repository in your text editor:</p>
+<p><img src="img/Sublime1.png" class="img-fluid"></p>
+<ol type="1">
+<li>An overview over all the existing files in your repository (usually on the left side)</li>
+<li>Some way to create a new file.</li>
+</ol>
+<p>Create a new .md file, or make changes to an exiting file. In this case, I have added one line to the Johanna.md file. SAVE your changes.</p>
+<p><img src="img/Sublime2.png" class="img-fluid"></p>
+<p>Go back to github Desktop. You should see your new file/your changes.</p>
+<p><img src="img/Sublime3.png" class="img-fluid"></p>
+<p>Similar to Github online, github Desktop will not allow you to make any changes without committing them. Write an appropriate commit message and commit your changes.</p>
+<p><img src="img/Desktop4.png" class="img-fluid"></p>
+<p>How do we now update our repository in Github online? Github Desktop makes this easy. You should see that one change (the one you have just committed) is waiting to be pushed to Github online:</p>
+<p><img src="img/Desktop5.png" class="img-fluid"></p>
+<p>Click the push button and check your online repository: Your changes should now be there! If you want to, you can also make a PR to the upstream repository.</p>
+</section>
+<section id="the-other-way-around-make-changes-to-your-online-repository" class="level2">
+<h2 class="anchored" data-anchor-id="the-other-way-around-make-changes-to-your-online-repository">The other way around: make changes to your online repository</h2>
+<p>Now that you have established the connection between the repository on you local machine and Github online, any changes to your repository on Github online should be recorded by your github desktop application. You might have to click the fetch origin button.</p>
+<ol type="1">
+<li><p>Make and commit changes in your online repository,</p></li>
+<li><p>Click the <em>fetch origin</em> button on your github desktop application, You should see something like this:</p>
+<p><img src="img/Pull1.png" class="img-fluid"></p></li>
+<li><p>Pull the changes in your local repository.</p></li>
+</ol>
+</section>
+<section id="final-remarks---it-can-get-messy" class="level2">
+<h2 class="anchored" data-anchor-id="final-remarks---it-can-get-messy">Final remarks - it can get messy</h2>
+<p>You should have realized that now we have already three copies of the Git_course repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Issues.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Issues</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./Github_desktop2.html" class="pagination-link">
+        <span class="nav-page-text">Importing an existing project</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

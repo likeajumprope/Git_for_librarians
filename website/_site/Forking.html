@@ -30,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Branching.html" rel="prev">
+<link href="./Issues.html" rel="next">
+<link href="./Pull_requests.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -151,6 +152,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="./Branching.html" class="sidebar-item-text sidebar-link">Branching</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Pull_requests.html" class="sidebar-item-text sidebar-link">Pull requests (PRs)</a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -167,10 +173,52 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
           <li class="sidebar-item">
-  Issues.qmd
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./Issues.html" class="sidebar-item-text sidebar-link">Issues</a>
+  </div>
+</li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Git on your local machine</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Github_desktop.html" class="sidebar-item-text sidebar-link">Github Desktop</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Github_desktop2.html" class="sidebar-item-text sidebar-link">Importing an existing project</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">Version control</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Version_control.html" class="sidebar-item-text sidebar-link">Merge conflicts</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Glossary.html" class="sidebar-item-text sidebar-link">Glossary</a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -182,6 +230,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#making-changes-as-someone-elses-repository" id="toc-making-changes-as-someone-elses-repository" class="nav-link active" data-scroll-target="#making-changes-as-someone-elses-repository">Making changes as someone else’s repository</a></li>
   <li><a href="#forking-a-repository" id="toc-forking-a-repository" class="nav-link" data-scroll-target="#forking-a-repository">Forking a repository</a></li>
+  <li><a href="#create-a-pull-request-to-the-upstream-repository." id="toc-create-a-pull-request-to-the-upstream-repository." class="nav-link" data-scroll-target="#create-a-pull-request-to-the-upstream-repository.">Create a pull request to the upstream repository.</a></li>
   </ul>
 </nav>
     </div>
@@ -225,7 +274,26 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="img/Forking5.png" class="img-fluid"></p>
 <p>Create now a new .md file with a name of your liking. Click on the editing button and add a line to the file. for example, state your favorite animal.</p>
 <p><img src="img/Collaborating1.png" class="img-fluid"></p>
-<p>Go back to the code</p>
+<p>Commit your changes. You have now added changes to your fork of the repository that are not part of the upstream repository.</p>
+<blockquote class="blockquote">
+<p>Challenge: Why is this useful?</p>
+</blockquote>
+</section>
+<section id="create-a-pull-request-to-the-upstream-repository." class="level2">
+<h2 class="anchored" data-anchor-id="create-a-pull-request-to-the-upstream-repository.">Create a pull request to the upstream repository.</h2>
+<p>Let’s assume you consider your changes so meaningful that they should be integrated in the upstream repository. This is again achieved by creating a pull request. Differently from the previous PR, this time you will create a PR to a repository that you are not the owner of.</p>
+<ol type="1">
+<li><p>Go back to the code section of your repository. You should see that you have changes in your repository that not part of the upstream repository (yet) similar to the screenshot below (2.):</p>
+<p><img src="img/Fork_PR.png" class="img-fluid"></p></li>
+<li><p>Click on the Contribute button. In the screenshot above, you can also see indicated that the upstream repository has changes that are not part of your origin repository yet (3.). This can happen when the author of the upstream repository has made changes to the repo since you have forked the repository.</p></li>
+<li><p>It is good practice to update your own repository before creating a PR. if you need to update your repository, click on the <em>sync fork</em> button and update your branch:</p>
+<p><img src="img/Fork_PR2.png" class="img-fluid"></p></li>
+<li><p>Once you have updated your branch (if necessary), create a pull request. Leave a nice message for the owner of the upstream repository (4.).</p></li>
+<li><p>Check the upstream repository. You should see your PR under the PR section, marked as open. In contract to the previous PR, you won’t be able to merge this PR yourself, as you are not the owner of the upstream repository. Instead, you will have to wait for the owner of the upstream repo to accept your PR.</p></li>
+</ol>
+<blockquote class="blockquote">
+<p>Why is it a good idea to update (sync) your branch before opening a PR?</p>
+</blockquote>
 
 
 </section>
@@ -331,11 +399,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Branching.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Branching</span>
+      <a href="./Pull_requests.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Pull requests (PRs)</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./Issues.html" class="pagination-link">
+        <span class="nav-page-text">Issues</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

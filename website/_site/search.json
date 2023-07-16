@@ -249,12 +249,12 @@
     "href": "Forking.html#forking-a-repository",
     "title": "Forking",
     "section": "Forking a repository",
-    "text": "Forking a repository\nIn order to make changes to someone else’s repository you have to get rights for the repository. On Github, this means that you make a copy of the repository under your account. This process is called forking a repository.\n\nChallenge: Contribute to someone else’s repository.\n\nNavigate to the repository https://github.com/likeajumprope/Git_course. This repository is owned by me, so you are not the owner of the repository and you won’t be able to make changes right away.\n1 Click on the fork button on on the main page of the repository. You need to be logged into your github account to create a fork.\n\nYou can leave everything the way git suggests it for now. Click create repository.\n\nA fork of the repository should now appear under your account name. You should also still see the original repository. I have added here a picture of a repository that I have forked into my account:\n\nNow go to the add file tab. Click on it and select Add new file.\n\nCreate now a new .md file with a name of your liking. Click on the editing button and add a line to the file. for example, state your favorite animal.\n\nGo back to the code"
+    "text": "Forking a repository\nIn order to make changes to someone else’s repository you have to get rights for the repository. On Github, this means that you make a copy of the repository under your account. This process is called forking a repository.\n\nChallenge: Contribute to someone else’s repository.\n\nNavigate to the repository https://github.com/likeajumprope/Git_course. This repository is owned by me, so you are not the owner of the repository and you won’t be able to make changes right away.\n1 Click on the fork button on on the main page of the repository. You need to be logged into your github account to create a fork.\n\nYou can leave everything the way git suggests it for now. Click create repository.\n\nA fork of the repository should now appear under your account name. You should also still see the original repository. I have added here a picture of a repository that I have forked into my account:\n\nNow go to the add file tab. Click on it and select Add new file.\n\nCreate now a new .md file with a name of your liking. Click on the editing button and add a line to the file. for example, state your favorite animal.\n\nCommit your changes. You have now added changes to your fork of the repository that are not part of the upstream repository.\n\nChallenge: Why is this useful?"
   },
   {
     "objectID": "Version_control.html",
     "href": "Version_control.html",
-    "title": "Version Control",
+    "title": "Merge conflicts",
     "section": "",
     "text": "Git is really good at tracking changes made to documents as they move through time. Optimally, each version should fall into place somewhere in the linear history of the document. However, there are situations where versions conflict and it isn’t clear what version of a document is the most recent version."
   },
@@ -270,7 +270,7 @@
     "href": "Branching.html",
     "title": "Branching",
     "section": "",
-    "text": "Branching is the way to work on different parts and versions of a repository at one time. By default each repository is created with a main branch. You can commit directly into the main branch as we just did.\nHowever, branches are identical copies of the main branch (or any branch you want to copy from), that allow you to implement and test changes before committing them into the main branch (your production branch).\n\n\nLet’s play with our newly created repository.\n\nChallenge: create a branch from your main repository\n\n1. Go to your new repository and click the drop down at the top of the file list that says branch: main\n\nThe default branch used to be called master branch; due to historic connotations of the word master and as part of a step towards more inclusive langauge the default branch has been renamed to main for new repositories. Older repositories still might have a master branch.\n\n\nCreate a branch Readme-edits. This branch will be a copy of your main branch.\n\nSwitch to your new branch.\nClick the edit button of the Readme.md file. Add a line to the Readme.md file.\nCommit your changes. In this case I have removed a line.\n\nYou should now see that your branch has recent edits.\n\nSwitch back to the main branch. You should see that the Readme.md file is in the state it was before branching.\nSwitch back to the Readme-edits branch.\n\nBranches are a good way to test edits to your repository and see whether you like them. Let’s say you are happy with your edits. It’s now time to update your main branch with your edits!"
+    "text": "Branching is the way to work on different parts and versions of a repository at one time. By default each repository is created with a main branch. You can commit directly into the main branch as we just did.\nHowever, branches are identical copies of the main branch (or any branch you want to copy from), that allow you to implement and test changes before committing them into the main branch (your production branch).\n\n\nLet’s play with our newly created repository.\n\nChallenge: create a branch from your main repository\n\n1. Go to your new repository and click the drop down at the top of the file list that says branch: main\n\nThe default branch used to be called master branch; due to historic connotations of the word master and as part of a step towards more inclusive langauge the default branch has been renamed to main for new repositories. Older repositories still might have a master branch.\n\n\nCreate a branch Readme-edits. This branch will be a copy of your main branch.\n\nSwitch to your new branch.\nClick the edit button of the Readme.md file. Add a line to the Readme.md file.\nCommit your changes. In this case I have removed a line.\n\nYou should now see that your branch has recent edits.\n\nSwitch back to the main branch. You should see that the Readme.md file is in the state it was before branching.\nSwitch back to the Readme-edits branch.\n\nBranches are a good way to test edits to your repository and see whether you like them. If you are not happy with your changes, you can just disregard of your branch and the changes will never affect the content of your main repository."
   },
   {
     "objectID": "Branching.html#about-pull-requests",
@@ -285,5 +285,180 @@
     "title": "Branching",
     "section": "Why is it called pull request?",
     "text": "Why is it called pull request?\nThe pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in."
+  },
+  {
+    "objectID": "Issues.html",
+    "href": "Issues.html",
+    "title": "Issues",
+    "section": "",
+    "text": "Where to open an issue\nYou can open issues both on your own (the origin repository) and the upstream repository. If you want to communicate with the developer and owner of the upstream repository, you better open the issue there. Issues on your own repository (the origin repository) can be good to keep track of a project."
+  },
+  {
+    "objectID": "Glossary.html",
+    "href": "Glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "Your fork of a repository - the clone of the repository under your account."
+  },
+  {
+    "objectID": "Glossary.html#upstream-repository",
+    "href": "Glossary.html#upstream-repository",
+    "title": "Glossary",
+    "section": "Upstream repository",
+    "text": "Upstream repository\nThe original repository that you have forked from."
+  },
+  {
+    "objectID": "Pull_requests.html",
+    "href": "Pull_requests.html",
+    "title": "Pull requests (PRs)",
+    "section": "",
+    "text": "Branches are a good way to test edits to your repository and see whether you like them.Let’s say you are happy with your edits. It’s now time to update your main branch with your edits. This can be achieved by creating a pull request.\n1. Click on the create a pull request button:\n\n\nOpen a pull request. Git will show you what branch will be merged into which when creating the pull requests. You can change this (hence you can decide what to merge into what) - but for now let’s keep the merge direction from Readme.edits -> main.\n\nWrite a message for your pull request and click the create pull request button.\nBecause you are the owner of this repository, you can also accept the pull request. Click the merge pull request button.\n\n\n5. Congratulations! You have merged your first pull request!\n\n\n\nYou were able to merge this pull request right away because you are the owner of the repository - you made a PR to your own repository. This is not always the case - usually you want to add changes to a repository that you do not own (for example an open source project you want to contribute to). You won’t be able to merge the PR yourself then, but you will have to wait for the owner of your repository to accept your PR.\n\n\n\nThe pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in."
+  },
+  {
+    "objectID": "Github_desktop.html",
+    "href": "Github_desktop.html",
+    "title": "Github Desktop",
+    "section": "",
+    "text": "We have been working on Github online up until now. This can be useful, but you might want to version control and collaborate on projects that you have already on your machine, or on programming scripts that you need to run and test on your local machine, such as python or R scripts. We will now move to the integration between Github online and your local machine."
+  },
+  {
+    "objectID": "Github_desktop.html#the-two-way-street-between-github-online-and-your-local-machine.",
+    "href": "Github_desktop.html#the-two-way-street-between-github-online-and-your-local-machine.",
+    "title": "Github Desktop",
+    "section": "The two way street between Github online and your local machine.",
+    "text": "The two way street between Github online and your local machine.\nThere a two ways of interaction between Github online and your local machine:\n\nMake a copy (a clone) of an online repository on your local machine.\nImport a repository from your local machine onto Github online."
+  },
+  {
+    "objectID": "Github_desktop.html#github-desktop",
+    "href": "Github_desktop.html#github-desktop",
+    "title": "Github Desktop",
+    "section": "Github Desktop",
+    "text": "Github Desktop\nThe tool that we are going to use on your local machine is Github Desktop. Git can also be used from the command line on your local machine, but Github desktop is a nice and more intuitive GUI tool for beginners.\nYou should have Github Desktop installed. If not, do it now."
+  },
+  {
+    "objectID": "Github_desktop.html#cloning-a-repository-from-github-online-onto-your-local-machine.",
+    "href": "Github_desktop.html#cloning-a-repository-from-github-online-onto-your-local-machine.",
+    "title": "Github Desktop",
+    "section": "1. Cloning a repository from Github online onto your local machine.",
+    "text": "1. Cloning a repository from Github online onto your local machine.\nLet’s start with making a local copy of an existing online repository. This processing is called cloning.\n\nNavigate to your fork of the Git_course.\n\n\n\nClick on the green Code button. Select Open with Github Desktop.\n\nAccept the warning, if any. Clone the repository.\n\n\nThe repository now exists as a cope on your local machine!"
+  },
+  {
+    "objectID": "Github_desktop.html#exploring-github-desktop.",
+    "href": "Github_desktop.html#exploring-github-desktop.",
+    "title": "Github Desktop",
+    "section": "Exploring Github Desktop.",
+    "text": "Exploring Github Desktop.\nLet’s have a look at Github Desktop.\n\nFirst of all, Github Desktop gives you an overview over your newly created repository. It shows you: the name of the repository (Git_course), the branch you are on (main) and when the repository was last updated from the origin repository.\n\nNote that this newly created repository is a standalone repository. Hence, changes made to the origin (or upstream( repository are not automatically pulled into this new repository. Instead, you can do this manually by clicking the Fetch origin button in Github Desktop. This procedure is similar to the sync fork button on Github online.\nGithub Desktop also gives you three options how to work with the repository:\n\nShow your files in Finder (Mac) or in Explorer (Windows). Here Github Desktop will show you where the repository is located on your hard drive.\nOpen the files in an external editor. Here Github Desktop will use one that is installed on your machine.\nShow the repository on Github online. Here Github Desktop will lead you back to Github online.\n\n\nNote also that Github Desktop shows you that you have not yet made any changes to your local repository. Let’s change that!"
+  },
+  {
+    "objectID": "Github_desktop.html#make-changes-to-your-local-repository.",
+    "href": "Github_desktop.html#make-changes-to-your-local-repository.",
+    "title": "Github Desktop",
+    "section": "Make changes to your local repository.",
+    "text": "Make changes to your local repository."
+  },
+  {
+    "objectID": "Forking.html#create-a-pull-request-to-the-upstream-repository.",
+    "href": "Forking.html#create-a-pull-request-to-the-upstream-repository.",
+    "title": "Forking",
+    "section": "Create a pull request to the upstream repository.",
+    "text": "Create a pull request to the upstream repository.\nLet’s assume you consider your changes so meaningful that they should be integrated in the upstream repository. This is again achieved by creating a pull request. Differently from the previous PR, this time you will create a PR to a repository that you are not the owner of.\n\nGo back to the code section of your repository. You should see that you have changes in your repository that not part of the upstream repository (yet) similar to the screenshot below (2.):\n\nClick on the Contribute button. In the screenshot above, you can also see indicated that the upstream repository has changes that are not part of your origin repository yet (3.). This can happen when the author of the upstream repository has made changes to the repo since you have forked the repository.\nIt is good practice to update your own repository before creating a PR. if you need to update your repository, click on the sync fork button and update your branch:\n\nOnce you have updated your branch (if necessary), create a pull request. Leave a nice message for the owner of the upstream repository (4.).\nCheck the upstream repository. You should see your PR under the PR section, marked as open. In contract to the previous PR, you won’t be able to merge this PR yourself, as you are not the owner of the upstream repository. Instead, you will have to wait for the owner of the upstream repo to accept your PR.\n\n\nWhy is it a good idea to update (sync) your branch before opening a PR?"
+  },
+  {
+    "objectID": "Your_first_commit.html#final-remarks---committing",
+    "href": "Your_first_commit.html#final-remarks---committing",
+    "title": "Your first commit",
+    "section": "Final remarks - committing",
+    "text": "Final remarks - committing\nAlways commit your changes! While changes might be saved by your operating system, git only tracks changes once they are committed."
+  },
+  {
+    "objectID": "Github_desktop.html#the-two-way-street-between-github-online-and-your-local-machine",
+    "href": "Github_desktop.html#the-two-way-street-between-github-online-and-your-local-machine",
+    "title": "Github Desktop",
+    "section": "The two way street between Github online and your local machine",
+    "text": "The two way street between Github online and your local machine\nThere a two ways of interaction between Github online and your local machine:\nI. Make a copy (a clone) of an online repository on your local machine.\nII. Import a repository from your local machine onto Github online."
+  },
+  {
+    "objectID": "Github_desktop.html#cloning-a-repository-from-github-online-onto-your-local-machine",
+    "href": "Github_desktop.html#cloning-a-repository-from-github-online-onto-your-local-machine",
+    "title": "Github Desktop",
+    "section": "1. Cloning a repository from Github online onto your local machine",
+    "text": "1. Cloning a repository from Github online onto your local machine\nLet’s start with making a local copy of an existing online repository. This processing is called cloning.\n\nNavigate to your fork of the Git_course.\n\n\n\nClick on the green Code button. Select Open with Github Desktop.\n\nAccept the warning, if any. Clone the repository.\n\n\nThe repository now exists as a cope on your local machine!"
+  },
+  {
+    "objectID": "Github_desktop.html#exploring-github-desktop",
+    "href": "Github_desktop.html#exploring-github-desktop",
+    "title": "Github Desktop",
+    "section": "Exploring Github Desktop",
+    "text": "Exploring Github Desktop\nLet’s have a look at Github Desktop.\n\nFirst of all, Github Desktop gives you an overview over your newly created repository. It shows you: the name of the repository (Git_course), the branch you are on (main) and when the repository was last updated from the origin repository.\n\nNote that this newly created repository is a standalone repository. Hence, changes made to the origin (or upstream( repository are not automatically pulled into this new repository. Instead, you can do this manually by clicking the Fetch origin button in Github Desktop. This procedure is similar to the sync fork button on Github online.\nGithub Desktop also gives you three options how to work with the repository:\n\nShow your files in Finder (Mac) or in Explorer (Windows). Here Github Desktop will show you where the repository is located on your hard drive.\nOpen the files in an external editor. Here Github Desktop will use one that is installed on your machine.\nShow the repository on Github online. Here Github Desktop will lead you back to Github online.\n\n\nNote also that Github Desktop shows you that you have not yet made any changes to your local repository. Let’s change that!"
+  },
+  {
+    "objectID": "Github_desktop.html#make-changes-to-your-local-repository",
+    "href": "Github_desktop.html#make-changes-to-your-local-repository",
+    "title": "Github Desktop",
+    "section": "Make changes to your local repository",
+    "text": "Make changes to your local repository\nYou cannot make changes in Gthub Desktop itself (it is not a text editor). This is why you need an external text editor. Choose the option to open the repository in an external editor. I use Sublime in this example.\nRegardless of the text editor, you should have a somewhat similar organisation of your repository in your text editor:\n\n\nAn overview over all the existing files in your repository (usually on the left side)\nSome way to create a new file.\n\nCreate a new .md file, or make changes to an exiting file. In this case, I have added one line to the Johanna.md file. SAVE your changes.\n\nGo back to github Desktop. You should see your new file/your changes.\n\nSimilar to Github online, github Desktop will not allow you to make any changes without committing them. Write an appropriate commit message and commit your changes.\n\nHow do we now update our repository in Github online? Github Desktop makes this easy. You should see that one change (the one you have just committed) is waiting to be pushed to Github online:\n\nClick the push button and check your online repository: Your changes should now be there! If you want to, you can also make a PR to the upstream repository."
+  },
+  {
+    "objectID": "Github_desktop.html#the-other-way-around-make-changes-to-your-online-repository",
+    "href": "Github_desktop.html#the-other-way-around-make-changes-to-your-online-repository",
+    "title": "Github Desktop",
+    "section": "The other way around: make changes to your online repository",
+    "text": "The other way around: make changes to your online repository\nNow that you have established the connection between the repository on you local machine and Github online, any changes to your repository on Github online should be recorded by your github desktop application. You might have to click the fetch origin button.\n\nMake and commit changes in your online repository,\nClick the fetch origin button on your github desktop application, You should see something like this:\n\nPull the changes in your local repository."
+  },
+  {
+    "objectID": "Github_desktop.html#final-remarks---it-can-get-messy",
+    "href": "Github_desktop.html#final-remarks---it-can-get-messy",
+    "title": "Github Desktop",
+    "section": "Final remarks - it can get messy",
+    "text": "Final remarks - it can get messy\nYou should have realized that now we have already three copies of the Git_course repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!"
+  },
+  {
+    "objectID": "Github_desktop2.html",
+    "href": "Github_desktop2.html",
+    "title": "Importing an existing project",
+    "section": "",
+    "text": "A second way of establishing an integration between your local machine and github online is to upload an existing project or file into github online.\nThere are two ways to do this:\n1 Navigate to an existing repository and upload a file via the add file button. Drag and drop your file or browse for it and commit your changes.\n\n\nCreate a new repository on github online from an exiting repository on your machine.\nYou have most likely already a repository somewhere that you would now start to track with git. Pushing an already locally existing repository to github online can be easily done with the command line. With Github desktop we need a little work around - the problem is that git is not yet initialized in your existing repository.\nIn Github Desktop, go to File > Add local repository.\n\n\nNavigate to the repository your would like to add, select it and add it by clicking the blue button.\n\n\n\n\nNow Github Desktop should warn you that your repo is not yet a git repository (unless you have used git before in the repo). Click on create a repository.\n\nGive the repository an appropriate name or leave the current name. You can add a .gitignore file and a licence if you wish (both later). Click create repository.\n\nIn case you end up at step 5, click cancel. Your repository should have been added and you should see something like the following:\n\n\n\nPublish your repository to github online. it should appear there with all its content."
+  },
+  {
+    "objectID": "Github_desktop2.html#file-size-limits-and-licenses",
+    "href": "Github_desktop2.html#file-size-limits-and-licenses",
+    "title": "Importing an existing project",
+    "section": "File size limits and licenses",
+    "text": "File size limits and licenses\n\nFile size limits and gitignore\nGithub puts a limit to the size of the repository you can add to github online. At the moment this limit lies at 10GB, with the limit of the size of individual files being 100MB. The idea behind git is that it tracks incremental changes in small files. It is not meant for data storage. If you have large files in your repository, it might be good to add them to a .gitignore file.\nThe .gitignore file has the purpose to list all files in a repository that are being ignored and nit tracked by fit. This can be large files, or other files that you might not want to track (for example system files like .DS, data, or the gitignore file itself etc).\n\n\nOptional: add a .gitignore file to your repository\nOpen sublime text and create a new file. Save it under the name .gitignore (the “.” is important). Add one line with the name of a new file, for example test.md. Commit those changes.\n\nCreate the file test.md in your repository. Git should not be tracking the creation or changes in that file.\n\n\nAttention: the .gitignore works only for files that have not yet been added to be tracked by git. “Untracking” files that have been tracked previously (for example because you have already committed them) requires the command line."
+  },
+  {
+    "objectID": "Github_desktop2.html#adding-a-license-file",
+    "href": "Github_desktop2.html#adding-a-license-file",
+    "title": "Importing an existing project",
+    "section": "Adding a license file",
+    "text": "Adding a license file\nIt is good practise to add a license.md file to everything you publish on github. Different licenses can be found here - usually it is enough to copy the text of your preferred license into the license.md."
+  },
+  {
+    "objectID": "Github_desktop.html#i.-cloning-a-repository-from-github-online-onto-your-local-machine",
+    "href": "Github_desktop.html#i.-cloning-a-repository-from-github-online-onto-your-local-machine",
+    "title": "Github Desktop",
+    "section": "I. Cloning a repository from Github online onto your local machine",
+    "text": "I. Cloning a repository from Github online onto your local machine\nLet’s start with making a local copy of an existing online repository. This processing is called cloning.\n\nNavigate to your fork of the Git_course.\n\n\n\nClick on the green Code button. Select Open with Github Desktop.\n\nAccept the warning, if any. Clone the repository.\n\n\nThe repository now exists as a cope on your local machine!"
+  },
+  {
+    "objectID": "Version_control.html#merge-conflicts",
+    "href": "Version_control.html#merge-conflicts",
+    "title": "Merge conflicts",
+    "section": "Merge conflicts",
+    "text": "Merge conflicts\nDifferent edits and commits to the same file or PRs of different versions of a file result in merge conflicts. Merge conflicts require a manual resolution and git will warn you that a PR cannot be merged automatically if merge conflicts arise. Be warned, merge conflicts can be a real headache and the best way to deal with them is to avoid them!"
+  },
+  {
+    "objectID": "Version_control.html#create-a-merge-conflict",
+    "href": "Version_control.html#create-a-merge-conflict",
+    "title": "Merge conflicts",
+    "section": "Create a merge conflict",
+    "text": "Create a merge conflict\nGo to your online repository of Git_course. Create a file named merge_conflict.md and write in the first line: “Practising merge conflicts”. Commit your changes to the main branch.\n\nClick on the branch symbol with the label main and create a new branch dev from main.\n\nGo back to the main branch. Open the merge_conflict.md by clicking on the pencil item and write in the second line: Creating a merge conflict”. Commit those changes.\n\nNavigate to the dev branch. Open the merge_conflict.md and write on the second line: “Bad idea”. Commit those changes.\n\nCreate a PR from dev to main.Git will warn you that the branches cannot automatically be merged. Click create PR regardless.\n\nClick resolve merge conflict. You should be shown something like the following:\n\nYou can now edit the file. You have three choices:\n\nOnly accept the changes from main, thus remove the “<<<<<< dev Bad idea ======” part.\nOnly accepting the changes from dev, thus delete the “===== Creating a merge conflict >>>>> main” part\nCreate a new file accepting both changes. (Delete all <<<<<< >>>>>>>> and ======).\n\nOnce you have made you choice, click “mark conflict as resolved” and commit your changes."
+  },
+  {
+    "objectID": "Version_control.html#avoiding-merge-conflicts",
+    "href": "Version_control.html#avoiding-merge-conflicts",
+    "title": "Merge conflicts",
+    "section": "Avoiding merge conflicts",
+    "text": "Avoiding merge conflicts\nMerge conflicts can be a headache, thus the best way to deal with them is to avoid them.\n\nAlways sync your branches before working on them and before opening a PR.\nMake small and incremental commits."
   }
 ]

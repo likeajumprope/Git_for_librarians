@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Forking.html" rel="next">
+<link href="./Pull_requests.html" rel="next">
 <link href="./Your_first_commit.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -152,6 +152,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="./Branching.html" class="sidebar-item-text sidebar-link active">Branching</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Pull_requests.html" class="sidebar-item-text sidebar-link">Pull requests (PRs)</a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -168,10 +173,52 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
           <li class="sidebar-item">
-  Issues.qmd
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./Issues.html" class="sidebar-item-text sidebar-link">Issues</a>
+  </div>
+</li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Git on your local machine</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Github_desktop.html" class="sidebar-item-text sidebar-link">Github Desktop</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Github_desktop2.html" class="sidebar-item-text sidebar-link">Importing an existing project</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">Version control</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Version_control.html" class="sidebar-item-text sidebar-link">Merge conflicts</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Glossary.html" class="sidebar-item-text sidebar-link">Glossary</a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -185,11 +232,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#version-control" id="toc-version-control" class="nav-link" data-scroll-target="#version-control">Version control</a></li>
   </ul></li>
-  <li><a href="#opening-a-pull-request-pr" id="toc-opening-a-pull-request-pr" class="nav-link" data-scroll-target="#opening-a-pull-request-pr">Opening a pull request (PR)</a>
-  <ul class="collapse">
-  <li><a href="#about-pull-requests" id="toc-about-pull-requests" class="nav-link" data-scroll-target="#about-pull-requests">About pull requests</a></li>
-  <li><a href="#why-is-it-called-pull-request" id="toc-why-is-it-called-pull-request" class="nav-link" data-scroll-target="#why-is-it-called-pull-request">Why is it called pull request?</a></li>
-  </ul></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -234,36 +277,17 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Commit your changes. In this case I have removed a line.</p>
 <p><img src="img/Branching2.png" class="img-fluid"></p></li>
 <li><p>You should now see that your branch has recent edits.</p>
-<p><img src="website/img/Recent-edits.png" class="img-fluid"></p></li>
+<p><img src="img/Recent-edits.png" class="img-fluid"></p></li>
 <li><p>Switch back to the main branch. You should see that the Readme.md file is in the state it was before branching.</p></li>
 <li><p>Switch back to the Readme-edits branch.</p></li>
 </ol>
-<p>Branches are a good way to test edits to your repository and see whether you like them. Let’s say you are happy with your edits. It’s now time to update your main branch with your edits!</p>
+<p>Branches are a good way to test edits to your repository and see whether you like them. If you are not happy with your changes, you can just disregard of your branch and the changes will never affect the content of your main repository.</p>
 </section>
 </section>
-<section id="opening-a-pull-request-pr" class="level1">
-<h1>Opening a pull request (PR)</h1>
-<p>1 Click on the create a pull request button:</p>
-<p><img src="img/Recent-edits2.png" class="img-fluid"></p>
-<ol start="2" type="1">
-<li><p>Open a pull request. Git will show you what branch will be merged into which when creating the pull requests. You can change this (hence you can decide what to merge into what) - but for now let’s keep the merge direction from Readme.edits -&gt; main.</p>
-<p><img src="img/ScreenShot%20Tool%20-20230710231644.png" class="img-fluid"></p></li>
-<li><p>Write a message for your pull request and click the create pull request button.</p></li>
-<li><p>Because you are the owner of this repository, you can also accept the pull request. Click the merge pull request button.</p>
-<p><img src="img/ScreenShot%20Tool%20-20230710232025.png" class="img-fluid"></p></li>
-</ol>
-<p>5 Congratulations! You have merged your first pull request!</p>
-<p><img src="img/ScreenShot%20Tool%20-20230710232100.png" class="img-fluid"></p>
-<section id="about-pull-requests" class="level2">
-<h2 class="anchored" data-anchor-id="about-pull-requests">About pull requests</h2>
-<p>You were able to merge this pull request right away because you are the owner of the repository - you made a PR to your own repository. This is not always the case - usually you want to add changes to a repository that you do not own (for example an open source project you want to contribute to). You won’t be able to merge the PR yourself then, but you will have to wait for the owner of your repository to accept your PR.</p>
-</section>
-<section id="why-is-it-called-pull-request" class="level2">
-<h2 class="anchored" data-anchor-id="why-is-it-called-pull-request">Why is it called pull request?</h2>
-<p>The pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in.</p>
+<section id="section" class="level1">
+<h1></h1>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -372,8 +396,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Forking.html" class="pagination-link">
-        <span class="nav-page-text">Forking</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Pull_requests.html" class="pagination-link">
+        <span class="nav-page-text">Pull requests (PRs)</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -1,5 +1,5 @@
 ---
-title: "Version Control"
+title: "Merge conflicts"
 format: html
 editor: visual
 ---
@@ -10,19 +10,50 @@ Git is really good at tracking changes made to documents as they move through ti
 
 ![](images/Version_conflict.png)
 
-## 
+## Merge conflicts
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+Different edits and commits to the same file or PRs of different versions of a file result in *merge conflicts*. Merge conflicts require a manual resolution and git will warn you that a PR cannot be merged automatically if merge conflicts arise. Be warned, merge conflicts can be a real headache and the best way to deal with them is to avoid them!
 
-```{r}
-1 + 1
-```
+## Create a merge conflict
 
-You can add options to executable code like this
+Go to your online repository of Git_course. Create a file named merge_conflict.md and write in the first line: "Practising merge conflicts". Commit your changes to the main branch.
 
-```{r}
-#| echo: false
-2 * 2
-```
+![](img/MC3.png)
 
-The `echo: false` option disables the printing of code (only output is displayed).
+Click on the branch symbol with the label *main* and create a new branch *dev* from main.
+
+![](img/MC4.png)
+
+Go back to the main branch. Open the merge_conflict.md by clicking on the pencil item and write in the second line: Creating a merge conflict". Commit those changes.
+
+![](img/MC5.png)
+
+Navigate to the dev branch. Open the merge_conflict.md and write on the second line: "Bad idea". Commit those changes.
+
+![](img/MC6.png)
+
+Create a PR from dev to main.Git will warn you that the branches cannot automatically be merged. Click create PR regardless.
+
+![](img/MC7.png)
+
+Click resolve merge conflict. You should be shown something like the following:
+
+![](img/MC8.png)
+
+You can now edit the file. You have three choices:
+
+1.  Only accept the changes from *main*, thus remove the "\<\<\<\<\<\< dev Bad idea ======" part.
+2.  Only accepting the changes from dev, thus delete the "===== Creating a merge conflict \>\>\>\>\> main" part
+3.  Create a new file accepting both changes. (Delete all \<\<\<\<\<\< \>\>\>\>\>\>\>\> and ======).
+
+Once you have made you choice, click "mark conflict as resolved" and commit your changes.
+
+![](img/MC9.png)
+
+## Avoiding merge conflicts
+
+Merge conflicts can be a headache, thus the best way to deal with them is to avoid them.
+
+-   Always sync your branches before working on them and before opening a PR.
+
+-   Make small and incremental commits.
