@@ -20,7 +20,9 @@ II\. Import a repository from your local machine onto Github online.
 
 The tool that we are going to use on your local machine is Github Desktop. Git can also be used from the command line on your local machine, but Github desktop is a nice and more intuitive GUI tool for beginners.
 
-You should have Github Desktop installed. If not, do it now.
+![](img/desktop-icon.svg){fig-align="center"}
+
+You should have Github Desktop installed. If not, do it [now](https://desktop.github.com/).
 
 ## I. Cloning a repository from Github online onto your local machine
 
@@ -28,9 +30,8 @@ Let's start with making a local copy of an existing online repository. This proc
 
 1.  Navigate to your fork of the Git_course.
 
-```{=html}
 <!-- -->
-```
+
 2.  Click on the green *Code* button. Select *Open with Github Desktop*.
 
     ![](img/Desktop1.png)
