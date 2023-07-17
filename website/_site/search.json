@@ -102,7 +102,7 @@
     "href": "Git_Github_Gitlab.html#bitbucket-yet-another-competitor",
     "title": "Git, Gitlab, Github",
     "section": "Bitbucket: Yet another competitor",
-    "text": "Bitbucket: Yet another competitor\nBitbucket is yet another web-based platform for hosting Git repositories. Similar to GitHub and GitLab, it offers features such as repository management, issue tracking, and pull requests. Bitbucket is known for its seamless integration with other Atlassian products like Jira (project management) and Confluence (collaboration platform)."
+    "text": "Bitbucket: Yet another competitor\n\n\n\n\n\n\nBitbucket is yet another web-based platform for hosting Git repositories. Similar to GitHub and GitLab, it offers features such as repository management, issue tracking, and pull requests. Bitbucket is known for its seamless integration with other Atlassian products like Jira (project management) and Confluence (collaboration platform)."
   },
   {
     "objectID": "The_history.html",
@@ -557,13 +557,13 @@
     "href": "Git_Github_Gitlab.html#github-the-platform",
     "title": "Git, Gitlab, Github",
     "section": "Github: The platform",
-    "text": "Github: The platform\nGitHub is a web-based platform built around Git that provides a centralized hosting service for Git repositories. It adds a graphical user interface (GUI) on top of Git, making it easier to perform common Git operations like creating repositories, managing branches, and collaborating with others. GitHub also offers additional features such as issue tracking, pull requests, code review tools, and project management capabilities. It’s widely used for open-source projects, personal projects, and team collaboration."
+    "text": "Github: The platform\n\n\n\n\n\n\nGitHub is a web-based platform built around Git that provides a centralized hosting service for Git repositories. It adds a graphical user interface (GUI) on top of Git, making it easier to perform common Git operations like creating repositories, managing branches, and collaborating with others. GitHub also offers additional features such as issue tracking, pull requests, code review tools, and project management capabilities. It’s widely used for open-source projects, personal projects, and team collaboration."
   },
   {
     "objectID": "Git_Github_Gitlab.html#gitlab-a-competitor",
     "href": "Git_Github_Gitlab.html#gitlab-a-competitor",
     "title": "Git, Gitlab, Github",
     "section": "Gitlab: A competitor",
-    "text": "Gitlab: A competitor\nGitLab is another web-based platform that provides hosting for Git repositories, similar to GitHub. It offers similar features such as repository management."
+    "text": "Gitlab: A competitor\n\n\n\n\n\n\nGitLab is another web-based platform that provides hosting for Git repositories, similar to GitHub. It offers similar features such as repository management."
   }
 ]
