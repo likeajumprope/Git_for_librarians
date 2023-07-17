@@ -333,7 +333,7 @@
     "href": "Github_desktop.html#github-desktop",
     "title": "Github Desktop",
     "section": "Github Desktop",
-    "text": "Github Desktop\nThe tool that we are going to use on your local machine is Github Desktop. Git can also be used from the command line on your local machine, but Github desktop is a nice and more intuitive GUI tool for beginners.\nYou should have Github Desktop installed. If not, do it now."
+    "text": "Github Desktop\nThe tool that we are going to use on your local machine is Github Desktop. Git can also be used from the command line on your local machine, but Github desktop is a nice and more intuitive GUI tool for beginners.\n\n\n\n\n\nYou should have Github Desktop installed. If not, do it now."
   },
   {
     "objectID": "Github_desktop.html#cloning-a-repository-from-github-online-onto-your-local-machine.",
