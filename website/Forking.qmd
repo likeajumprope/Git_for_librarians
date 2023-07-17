@@ -12,11 +12,15 @@ In the previous section, we made changes to our own repository and we were able 
 
 In order to make changes to someone else's repository you have to get rights for the repository. On Github, this means that you make a copy of the repository under your account. This process is called **forking** a repository.
 
+![Forks are copies of other people's repositories into your account.](img/Forking.png)
+
 > Challenge: Contribute to someone else's repository.
 
-Navigate to the repository https://github.com/likeajumprope/Git_course. This repository is owned by me, so you are not the owner of the repository and you won't be able to make changes right away.
+Navigate to the repository <https://github.com/likeajumprope/Git_course>. This repository is owned by me, so you are not the owner of the repository and you won't be able to make changes right away.
 
-1 Click on the fork button on on the main page of the repository. You need to be logged into your github account to create a fork.
+## Fork the repository into your account.
+
+1\. Click on the fork button on on the main page of the repository. You need to be logged into your github account to create a fork.
 
 ![](img/Forking1.png)
 
@@ -36,13 +40,21 @@ Create now a new .md file with a name of your liking. Click on the editing butto
 
 ![](img/Collaborating1.png)
 
-Commit your changes. You have now added changes to your fork of the repository that are not part of the upstream repository.
+Commit your changes. You have now added changes to your fork of the repository that are not part of my repository.
 
-> Challenge: Why is this useful?
+> Challenge: Think: Why is this useful?
 
-## Create a pull request to the upstream repository.
+## Origin and upstream repository
 
-Let's assume you consider your changes so meaningful that they should be integrated in the upstream repository. This is again achieved by creating a pull request. Differently from the previous PR, this time you will create a PR to a repository that you are not the owner of.
+To differentiate between the fork and the original repository, Github has introduced special terms for those two repositories.
+
+-   The fork in your account is called *origin repository*.
+
+-   The repository the fork is forked from (my repo) is called *upstream repository*.
+
+## Create a pull request to the upstream repository
+
+Let's assume you consider your changes so meaningful that they should be integrated in the upstream repository. This is again achieved by creating a pull request. In contrast to the previous PR, where you PR-ed between two branches that you owned, this time you will create a PR to a repository that you are not the owner of.
 
 1.  Go back to the code section of your repository. You should see that you have changes in your repository that not part of the upstream repository (yet) similar to the screenshot below (2.):
 
@@ -58,4 +70,4 @@ Let's assume you consider your changes so meaningful that they should be integra
 
 5.  Check the upstream repository. You should see your PR under the PR section, marked as open. In contract to the previous PR, you won't be able to merge this PR yourself, as you are not the owner of the upstream repository. Instead, you will have to wait for the owner of the upstream repo to accept your PR.
 
-> Why is it a good idea to update (sync) your branch before opening a PR?
+> Challenge: Think: Why is it a good idea to update (sync) your branch before opening a PR?

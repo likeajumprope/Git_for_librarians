@@ -8,7 +8,7 @@ editor: visual
 
 One additional vital feature on Github is *Issues.* Issues are the main tool for communication on Github. For example, developers often open issues to indicate the lack of a feature or a problem in in a project, issues can be assigned to a certain person, and they are often associated to a pull request.
 
-Go back to the r the upstream repository of the Git_course: https://github.com/likeajumprope/Git_course.
+Go back to the the upstream repository of the Git_course: <https://github.com/likeajumprope/Git_course>
 
 Click on the issues button and open a new issue.
 
@@ -27,3 +27,22 @@ You can open issues both on your own (the origin repository) and the upstream re
 ## Issue labels
 
 In large projects, issues are frequent and often sorted by labels. For example, labels can be: #bug #feature-wanted or #idea-for-discussion. This is very useful as it allows to sort through issues. A very good way to find ways to contribute on github online is via the label #good-first-issue. This label describes issues that are more on the easy side and adequate for beginners.
+
+> Challenge: Look for beginner friendly issues.
+
+1.  Navigate to the Github repository of [the Turing Way Book](https://github.com/alan-turing-institute/the-turing-way).
+2.  Click on the *issues* tab.
+
+![](img/Issues11.png)
+
+3.  Click on the labels tab.
+
+![](img/Issues12.png)
+
+3.  Use the search function to search for "good first issues".
+
+![](img/Issues13.png)
+
+4.  Click on the label. What type of issues are listed under the "good first issue" label?
+
+![](img/Issues14.png)

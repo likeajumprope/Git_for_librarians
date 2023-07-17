@@ -212,6 +212,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="./Version_control.html" class="sidebar-item-text sidebar-link">Merge conflicts</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Bits_and_pieces.html" class="sidebar-item-text sidebar-link">Bits and pieces</a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -230,7 +235,9 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#making-changes-as-someone-elses-repository" id="toc-making-changes-as-someone-elses-repository" class="nav-link active" data-scroll-target="#making-changes-as-someone-elses-repository">Making changes as someone else’s repository</a></li>
   <li><a href="#forking-a-repository" id="toc-forking-a-repository" class="nav-link" data-scroll-target="#forking-a-repository">Forking a repository</a></li>
-  <li><a href="#create-a-pull-request-to-the-upstream-repository." id="toc-create-a-pull-request-to-the-upstream-repository." class="nav-link" data-scroll-target="#create-a-pull-request-to-the-upstream-repository.">Create a pull request to the upstream repository.</a></li>
+  <li><a href="#fork-the-repository-into-your-account." id="toc-fork-the-repository-into-your-account." class="nav-link" data-scroll-target="#fork-the-repository-into-your-account.">Fork the repository into your account.</a></li>
+  <li><a href="#origin-and-upstream-repository" id="toc-origin-and-upstream-repository" class="nav-link" data-scroll-target="#origin-and-upstream-repository">Origin and upstream repository</a></li>
+  <li><a href="#create-a-pull-request-to-the-upstream-repository" id="toc-create-a-pull-request-to-the-upstream-repository" class="nav-link" data-scroll-target="#create-a-pull-request-to-the-upstream-repository">Create a pull request to the upstream repository</a></li>
   </ul>
 </nav>
     </div>
@@ -260,11 +267,20 @@ ul.task-list li input[type="checkbox"] {
 <section id="forking-a-repository" class="level2">
 <h2 class="anchored" data-anchor-id="forking-a-repository">Forking a repository</h2>
 <p>In order to make changes to someone else’s repository you have to get rights for the repository. On Github, this means that you make a copy of the repository under your account. This process is called <strong>forking</strong> a repository.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/Forking.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Forks are copies of other people’s repositories into your account.</figcaption><p></p>
+</figure>
+</div>
 <blockquote class="blockquote">
 <p>Challenge: Contribute to someone else’s repository.</p>
 </blockquote>
-<p>Navigate to the repository https://github.com/likeajumprope/Git_course. This repository is owned by me, so you are not the owner of the repository and you won’t be able to make changes right away.</p>
-<p>1 Click on the fork button on on the main page of the repository. You need to be logged into your github account to create a fork.</p>
+<p>Navigate to the repository <a href="https://github.com/likeajumprope/Git_course" class="uri">https://github.com/likeajumprope/Git_course</a>. This repository is owned by me, so you are not the owner of the repository and you won’t be able to make changes right away.</p>
+</section>
+<section id="fork-the-repository-into-your-account." class="level2">
+<h2 class="anchored" data-anchor-id="fork-the-repository-into-your-account.">Fork the repository into your account.</h2>
+<p>1. Click on the fork button on on the main page of the repository. You need to be logged into your github account to create a fork.</p>
 <p><img src="img/Forking1.png" class="img-fluid"></p>
 <p>You can leave everything the way git suggests it for now. Click create repository.</p>
 <p><img src="img/Forking2.png" class="img-fluid"></p>
@@ -274,14 +290,22 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="img/Forking5.png" class="img-fluid"></p>
 <p>Create now a new .md file with a name of your liking. Click on the editing button and add a line to the file. for example, state your favorite animal.</p>
 <p><img src="img/Collaborating1.png" class="img-fluid"></p>
-<p>Commit your changes. You have now added changes to your fork of the repository that are not part of the upstream repository.</p>
+<p>Commit your changes. You have now added changes to your fork of the repository that are not part of my repository.</p>
 <blockquote class="blockquote">
-<p>Challenge: Why is this useful?</p>
+<p>Challenge: Think: Why is this useful?</p>
 </blockquote>
 </section>
-<section id="create-a-pull-request-to-the-upstream-repository." class="level2">
-<h2 class="anchored" data-anchor-id="create-a-pull-request-to-the-upstream-repository.">Create a pull request to the upstream repository.</h2>
-<p>Let’s assume you consider your changes so meaningful that they should be integrated in the upstream repository. This is again achieved by creating a pull request. Differently from the previous PR, this time you will create a PR to a repository that you are not the owner of.</p>
+<section id="origin-and-upstream-repository" class="level2">
+<h2 class="anchored" data-anchor-id="origin-and-upstream-repository">Origin and upstream repository</h2>
+<p>To differentiate between the fork and the original repository, Github has introduced special terms for those two repositories.</p>
+<ul>
+<li><p>The fork in your account is called <em>origin repository</em>.</p></li>
+<li><p>The repository the fork is forked from (my repo) is called <em>upstream repository</em>.</p></li>
+</ul>
+</section>
+<section id="create-a-pull-request-to-the-upstream-repository" class="level2">
+<h2 class="anchored" data-anchor-id="create-a-pull-request-to-the-upstream-repository">Create a pull request to the upstream repository</h2>
+<p>Let’s assume you consider your changes so meaningful that they should be integrated in the upstream repository. This is again achieved by creating a pull request. In contrast to the previous PR, where you PR-ed between two branches that you owned, this time you will create a PR to a repository that you are not the owner of.</p>
 <ol type="1">
 <li><p>Go back to the code section of your repository. You should see that you have changes in your repository that not part of the upstream repository (yet) similar to the screenshot below (2.):</p>
 <p><img src="img/Fork_PR.png" class="img-fluid"></p></li>
@@ -292,7 +316,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Check the upstream repository. You should see your PR under the PR section, marked as open. In contract to the previous PR, you won’t be able to merge this PR yourself, as you are not the owner of the upstream repository. Instead, you will have to wait for the owner of the upstream repo to accept your PR.</p></li>
 </ol>
 <blockquote class="blockquote">
-<p>Why is it a good idea to update (sync) your branch before opening a PR?</p>
+<p>Challenge: Think: Why is it a good idea to update (sync) your branch before opening a PR?</p>
 </blockquote>
 
 
