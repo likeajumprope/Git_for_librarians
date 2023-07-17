@@ -32,7 +32,7 @@
     "href": "What_is_git.html",
     "title": "What is git?",
     "section": "",
-    "text": "Git(hub) has tow main purposes:\nIn addition it allows for: - Efficient workflows - Massive resource of infomration, ideas, books, code, etc. - Publishing and hosting of code and material, websites etc."
+    "text": "Git(hub) has tow main purposes:\nIn addition it allows for:"
   },
   {
     "objectID": "What_is_git.html#git-the-software",
@@ -158,14 +158,14 @@
     "href": "What_is_git.html#scenatio-2-publishing-a-wesbite-of-the-library",
     "title": "What is git?",
     "section": "Scenatio 2: Publishing a wesbite of the library",
-    "text": "Scenatio 2: Publishing a wesbite of the library\nLibrarians of a library decide that they want to create and publish a webiste for their library. They work on the code together and publish the webiste from github."
+    "text": "Scenatio 2: Publishing a wesbite of the library\nLibrarians of a library decide that they want to create and publish a webiste for their library. They work on the code together and publish the webiste via github."
   },
   {
     "objectID": "What_is_git.html#scenario-3-publsihing-a-book-together",
     "href": "What_is_git.html#scenario-3-publsihing-a-book-together",
     "title": "What is git?",
     "section": "Scenario 3: Publsihing a book together",
-    "text": "Scenario 3: Publsihing a book together\nLibrarians of a libray want to publish a book on the proceedings of a community project. They decide to publish the book it as a web book out of Github and using Gitbook and will continue to add to the story as the library evolves."
+    "text": "Scenario 3: Publsihing a book together\nLibrarians of a libray want to publish a book on the proceedings of a community project. They decide to publish the book it as a web book via Github and Gitbook. They want to keep adding to the website, as the community project is an annual event."
   },
   {
     "objectID": "What_is_git.html#challenge",
