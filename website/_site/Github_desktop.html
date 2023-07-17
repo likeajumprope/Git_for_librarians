@@ -237,9 +237,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#the-two-way-street-between-github-online-and-your-local-machine" id="toc-the-two-way-street-between-github-online-and-your-local-machine" class="nav-link" data-scroll-target="#the-two-way-street-between-github-online-and-your-local-machine">The two way street between Github online and your local machine</a></li>
   <li><a href="#github-desktop" id="toc-github-desktop" class="nav-link" data-scroll-target="#github-desktop">Github Desktop</a></li>
   <li><a href="#i.-cloning-a-repository-from-github-online-onto-your-local-machine" id="toc-i.-cloning-a-repository-from-github-online-onto-your-local-machine" class="nav-link" data-scroll-target="#i.-cloning-a-repository-from-github-online-onto-your-local-machine">I. Cloning a repository from Github online onto your local machine</a></li>
+  <li><a href="#cloning-a-repository" id="toc-cloning-a-repository" class="nav-link" data-scroll-target="#cloning-a-repository">Cloning a repository</a></li>
   <li><a href="#exploring-github-desktop" id="toc-exploring-github-desktop" class="nav-link" data-scroll-target="#exploring-github-desktop">Exploring Github Desktop</a></li>
   <li><a href="#make-changes-to-your-local-repository" id="toc-make-changes-to-your-local-repository" class="nav-link" data-scroll-target="#make-changes-to-your-local-repository">Make changes to your local repository</a></li>
-  <li><a href="#the-other-way-around-make-changes-to-your-online-repository" id="toc-the-other-way-around-make-changes-to-your-online-repository" class="nav-link" data-scroll-target="#the-other-way-around-make-changes-to-your-online-repository">The other way around: make changes to your online repository</a></li>
+  <li><a href="#the-other-way-around-make-changes-to-your-online-repository-and-pull-them-onto-your-local-machine" id="toc-the-other-way-around-make-changes-to-your-online-repository-and-pull-them-onto-your-local-machine" class="nav-link" data-scroll-target="#the-other-way-around-make-changes-to-your-online-repository-and-pull-them-onto-your-local-machine">The other way around: make changes to your online repository and pull them onto your local machine</a></li>
   <li><a href="#final-remarks---it-can-get-messy" id="toc-final-remarks---it-can-get-messy" class="nav-link" data-scroll-target="#final-remarks---it-can-get-messy">Final remarks - it can get messy</a></li>
   </ul>
 </nav>
@@ -286,17 +287,23 @@ ul.task-list li input[type="checkbox"] {
 <section id="i.-cloning-a-repository-from-github-online-onto-your-local-machine" class="level2">
 <h2 class="anchored" data-anchor-id="i.-cloning-a-repository-from-github-online-onto-your-local-machine">I. Cloning a repository from Github online onto your local machine</h2>
 <p>Let’s start with making a local copy of an existing online repository. This processing is called <em>cloning</em>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/Cloning.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Creating a cope of an online repository on your machine is called cloning the repository</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="cloning-a-repository" class="level2">
+<h2 class="anchored" data-anchor-id="cloning-a-repository">Cloning a repository</h2>
 <ol type="1">
-<li>Navigate to your fork of the Git_course.</li>
-</ol>
-<!-- -->
-<ol start="2" type="1">
+<li><p>Navigate to <strong>your</strong> fork of the Git_course.</p></li>
 <li><p>Click on the green <em>Code</em> button. Select <em>Open with Github Desktop</em>.</p>
 <p><img src="img/Desktop1.png" class="img-fluid"></p></li>
 <li><p>Accept the warning, if any. Clone the repository.</p>
 <p><img src="img/Clone1.png" class="img-fluid"></p></li>
 </ol>
-<p>The repository now exists as a cope on your local machine!</p>
+<p>The repository now exists as a cope on your local machine! Github desktop should open automatically in the folder that your repository was cloned to.</p>
 </section>
 <section id="exploring-github-desktop" class="level2">
 <h2 class="anchored" data-anchor-id="exploring-github-desktop">Exploring Github Desktop</h2>
@@ -304,7 +311,7 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p>First of all, Github Desktop gives you an overview over your newly created repository. It shows you: the name of the repository (Git_course), the branch you are on (main) and when the repository was last updated from the origin repository.</p>
 <p><img src="img/Desktop3.png" class="img-fluid"></p></li>
-<li><p>Note that this newly created repository is a standalone repository. Hence, changes made to the origin (or upstream( repository are not automatically pulled into this new repository. Instead, you can do this manually by clicking the <em>Fetch origin</em> button in Github Desktop. This procedure is similar to the sync fork button on Github online.</p></li>
+<li><p>Note that this newly created repository is a standalone repository. Hence, changes made to the origin (or upstream) repository are not automatically pulled into this new repository. Instead, you can do this manually by clicking the <em>Fetch origin</em> button in Github Desktop. This procedure is similar to the sync fork button on Github online.</p></li>
 <li><p>Github Desktop also gives you three options how to work with the repository:</p>
 <ol type="1">
 <li><p>Show your files in Finder (Mac) or in Explorer (Windows). Here Github Desktop will show you where the repository is located on your hard drive.</p></li>
@@ -318,7 +325,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="make-changes-to-your-local-repository" class="level2">
 <h2 class="anchored" data-anchor-id="make-changes-to-your-local-repository">Make changes to your local repository</h2>
-<p>You cannot make changes in Gthub Desktop itself (it is not a text editor). This is why you need an external text editor. Choose the option to open the repository in an external editor. I use <em>Sublime</em> in this example.</p>
+<p>You cannot make changes to your repository in Gthub Desktop itself (it is not a text editor). This is why you need an external text editor. Choose the option to open the repository in an external editor. I use <em>Sublime</em> in this example.</p>
 <p>Regardless of the text editor, you should have a somewhat similar organisation of your repository in your text editor:</p>
 <p><img src="img/Sublime1.png" class="img-fluid"></p>
 <ol type="1">
@@ -335,11 +342,11 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="img/Desktop5.png" class="img-fluid"></p>
 <p>Click the push button and check your online repository: Your changes should now be there! If you want to, you can also make a PR to the upstream repository.</p>
 </section>
-<section id="the-other-way-around-make-changes-to-your-online-repository" class="level2">
-<h2 class="anchored" data-anchor-id="the-other-way-around-make-changes-to-your-online-repository">The other way around: make changes to your online repository</h2>
+<section id="the-other-way-around-make-changes-to-your-online-repository-and-pull-them-onto-your-local-machine" class="level2">
+<h2 class="anchored" data-anchor-id="the-other-way-around-make-changes-to-your-online-repository-and-pull-them-onto-your-local-machine">The other way around: make changes to your online repository and pull them onto your local machine</h2>
 <p>Now that you have established the connection between the repository on you local machine and Github online, any changes to your repository on Github online should be recorded by your github desktop application. You might have to click the fetch origin button.</p>
 <ol type="1">
-<li><p>Make and commit changes in your online repository,</p></li>
+<li><p>Make and commit changes in your online repository (edit file, commit changes - you should by now know how that works).</p></li>
 <li><p>Click the <em>fetch origin</em> button on your github desktop application, You should see something like this:</p>
 <p><img src="img/Pull1.png" class="img-fluid"></p></li>
 <li><p>Pull the changes in your local repository.</p></li>
@@ -347,7 +354,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="final-remarks---it-can-get-messy" class="level2">
 <h2 class="anchored" data-anchor-id="final-remarks---it-can-get-messy">Final remarks - it can get messy</h2>
-<p>You should have realized that now we have already three copies of the Git_course repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!</p>
+<p>You should have realized that now we have already three copies of the Git_course repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level of those three lvels. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!</p>
 
 
 </section>

@@ -4,6 +4,10 @@ format: html
 editor: visual
 ---
 
+We are almost done with the course! you have now a good starter knowledge for your git journey. However, would you be surprised that what this course covers is around 10% of all the features of Github?
+
+Here are some teasers for what else is possible with Github:
+
 ## Publishing on Github
 
 This website is hosted on github, using [Quarto in RStudio](https://quarto.org/docs/get-started/hello/rstudio.html) and [Netlify](https://www.netlify.com/), a free web hosting service. Other options to publish via github are [Jupyterbook](https://jupyterbook.org/en/stable/intro.html), which can be hosted via [github pages](https://pages.github.com/) or also via Netlify. [The Turing way book](https://the-turing-way.netlify.app/index.html) uses the second option (Jupyterbook & Netlify). An even more integrated option is [Gitbook](https://www.gitbook.com/).

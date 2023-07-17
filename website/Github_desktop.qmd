@@ -28,9 +28,11 @@ You should have Github Desktop installed. If not, do it [now](https://desktop.gi
 
 Let's start with making a local copy of an existing online repository. This processing is called *cloning*.
 
-1.  Navigate to your fork of the Git_course.
+![Creating a cope of an online repository on your machine is called cloning the repository](img/Cloning.png)
 
-<!-- -->
+## Cloning a repository
+
+1.  Navigate to **your** fork of the Git_course.
 
 2.  Click on the green *Code* button. Select *Open with Github Desktop*.
 
@@ -40,7 +42,7 @@ Let's start with making a local copy of an existing online repository. This proc
 
     ![](img/Clone1.png)
 
-The repository now exists as a cope on your local machine!
+The repository now exists as a cope on your local machine! Github desktop should open automatically in the folder that your repository was cloned to.
 
 ## Exploring Github Desktop
 
@@ -50,7 +52,7 @@ Let's have a look at Github Desktop.
 
     ![](img/Desktop3.png)
 
-2.  Note that this newly created repository is a standalone repository. Hence, changes made to the origin (or upstream( repository are not automatically pulled into this new repository. Instead, you can do this manually by clicking the *Fetch origin* button in Github Desktop. This procedure is similar to the sync fork button on Github online.
+2.  Note that this newly created repository is a standalone repository. Hence, changes made to the origin (or upstream) repository are not automatically pulled into this new repository. Instead, you can do this manually by clicking the *Fetch origin* button in Github Desktop. This procedure is similar to the sync fork button on Github online.
 
 3.  Github Desktop also gives you three options how to work with the repository:
 
@@ -68,7 +70,7 @@ Let's have a look at Github Desktop.
 
 ## Make changes to your local repository
 
-You cannot make changes in Gthub Desktop itself (it is not a text editor). This is why you need an external text editor. Choose the option to open the repository in an external editor. I use *Sublime* in this example.
+You cannot make changes to your repository in Gthub Desktop itself (it is not a text editor). This is why you need an external text editor. Choose the option to open the repository in an external editor. I use *Sublime* in this example.
 
 Regardless of the text editor, you should have a somewhat similar organisation of your repository in your text editor:
 
@@ -95,11 +97,11 @@ How do we now update our repository in Github online? Github Desktop makes this 
 
 Click the push button and check your online repository: Your changes should now be there! If you want to, you can also make a PR to the upstream repository.
 
-## The other way around: make changes to your online repository
+## The other way around: make changes to your online repository and pull them onto your local machine
 
 Now that you have established the connection between the repository on you local machine and Github online, any changes to your repository on Github online should be recorded by your github desktop application. You might have to click the fetch origin button.
 
-1.  Make and commit changes in your online repository,
+1.  Make and commit changes in your online repository (edit file, commit changes - you should by now know how that works).
 
 2.  Click the *fetch origin* button on your github desktop application, You should see something like this:
 
@@ -109,4 +111,4 @@ Now that you have established the connection between the repository on you local
 
 ## Final remarks - it can get messy
 
-You should have realized that now we have already three copies of the Git_course repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!
+You should have realized that now we have already three copies of the Git_course repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level of those three lvels. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!

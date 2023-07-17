@@ -34,7 +34,7 @@ There are two ways to do this:
 
     ![](img/local4.png)
 
-7.  In case you end up at step 5, click cancel. Your repository should have been added and you should see something like the following:
+7.  In case you end up at step 5, click *cancel*. Your repository should have been added and you should see something like the following:
 
 ![](img/local6.png)
 
@@ -62,4 +62,4 @@ Create the file test.md in your repository. Git should not be tracking the creat
 
 ## Adding a license file
 
-It is good practise to add a license.md file to everything you publish on github. Different licenses can be found [here](https://choosealicense.com/) - usually it is enough to copy the text of your preferred license into the license.md.
+It is good practice to add a license.md file to everything you publish on github. Different licenses can be found [here](https://choosealicense.com/) - usually it is enough to copy the text of your preferred license into the license.md.

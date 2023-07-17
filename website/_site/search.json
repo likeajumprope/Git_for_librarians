@@ -256,7 +256,7 @@
     "href": "Version_control.html",
     "title": "Merge conflicts",
     "section": "",
-    "text": "Git is really good at tracking changes made to documents as they move through time. Optimally, each version should fall into place somewhere in the linear history of the document. However, there are situations where versions conflict and it isn’t clear what version of a document is the most recent version."
+    "text": "Git is really good at tracking changes made to documents as they move through time. Ideally, each version should fall into place somewhere in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version."
   },
   {
     "objectID": "Version_control.html#section",
@@ -389,14 +389,14 @@
     "href": "Github_desktop.html#exploring-github-desktop",
     "title": "Github Desktop",
     "section": "Exploring Github Desktop",
-    "text": "Exploring Github Desktop\nLet’s have a look at Github Desktop.\n\nFirst of all, Github Desktop gives you an overview over your newly created repository. It shows you: the name of the repository (Git_course), the branch you are on (main) and when the repository was last updated from the origin repository.\n\nNote that this newly created repository is a standalone repository. Hence, changes made to the origin (or upstream( repository are not automatically pulled into this new repository. Instead, you can do this manually by clicking the Fetch origin button in Github Desktop. This procedure is similar to the sync fork button on Github online.\nGithub Desktop also gives you three options how to work with the repository:\n\nShow your files in Finder (Mac) or in Explorer (Windows). Here Github Desktop will show you where the repository is located on your hard drive.\nOpen the files in an external editor. Here Github Desktop will use one that is installed on your machine.\nShow the repository on Github online. Here Github Desktop will lead you back to Github online.\n\n\nNote also that Github Desktop shows you that you have not yet made any changes to your local repository. Let’s change that!"
+    "text": "Exploring Github Desktop\nLet’s have a look at Github Desktop.\n\nFirst of all, Github Desktop gives you an overview over your newly created repository. It shows you: the name of the repository (Git_course), the branch you are on (main) and when the repository was last updated from the origin repository.\n\nNote that this newly created repository is a standalone repository. Hence, changes made to the origin (or upstream) repository are not automatically pulled into this new repository. Instead, you can do this manually by clicking the Fetch origin button in Github Desktop. This procedure is similar to the sync fork button on Github online.\nGithub Desktop also gives you three options how to work with the repository:\n\nShow your files in Finder (Mac) or in Explorer (Windows). Here Github Desktop will show you where the repository is located on your hard drive.\nOpen the files in an external editor. Here Github Desktop will use one that is installed on your machine.\nShow the repository on Github online. Here Github Desktop will lead you back to Github online.\n\n\nNote also that Github Desktop shows you that you have not yet made any changes to your local repository. Let’s change that!"
   },
   {
     "objectID": "Github_desktop.html#make-changes-to-your-local-repository",
     "href": "Github_desktop.html#make-changes-to-your-local-repository",
     "title": "Github Desktop",
     "section": "Make changes to your local repository",
-    "text": "Make changes to your local repository\nYou cannot make changes in Gthub Desktop itself (it is not a text editor). This is why you need an external text editor. Choose the option to open the repository in an external editor. I use Sublime in this example.\nRegardless of the text editor, you should have a somewhat similar organisation of your repository in your text editor:\n\n\nAn overview over all the existing files in your repository (usually on the left side)\nSome way to create a new file.\n\nCreate a new .md file, or make changes to an exiting file. In this case, I have added one line to the Johanna.md file. SAVE your changes.\n\nGo back to github Desktop. You should see your new file/your changes.\n\nSimilar to Github online, github Desktop will not allow you to make any changes without committing them. Write an appropriate commit message and commit your changes.\n\nHow do we now update our repository in Github online? Github Desktop makes this easy. You should see that one change (the one you have just committed) is waiting to be pushed to Github online:\n\nClick the push button and check your online repository: Your changes should now be there! If you want to, you can also make a PR to the upstream repository."
+    "text": "Make changes to your local repository\nYou cannot make changes to your repository in Gthub Desktop itself (it is not a text editor). This is why you need an external text editor. Choose the option to open the repository in an external editor. I use Sublime in this example.\nRegardless of the text editor, you should have a somewhat similar organisation of your repository in your text editor:\n\n\nAn overview over all the existing files in your repository (usually on the left side)\nSome way to create a new file.\n\nCreate a new .md file, or make changes to an exiting file. In this case, I have added one line to the Johanna.md file. SAVE your changes.\n\nGo back to github Desktop. You should see your new file/your changes.\n\nSimilar to Github online, github Desktop will not allow you to make any changes without committing them. Write an appropriate commit message and commit your changes.\n\nHow do we now update our repository in Github online? Github Desktop makes this easy. You should see that one change (the one you have just committed) is waiting to be pushed to Github online:\n\nClick the push button and check your online repository: Your changes should now be there! If you want to, you can also make a PR to the upstream repository."
   },
   {
     "objectID": "Github_desktop.html#the-other-way-around-make-changes-to-your-online-repository",
@@ -410,7 +410,7 @@
     "href": "Github_desktop.html#final-remarks---it-can-get-messy",
     "title": "Github Desktop",
     "section": "Final remarks - it can get messy",
-    "text": "Final remarks - it can get messy\nYou should have realized that now we have already three copies of the Git_course repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!"
+    "text": "Final remarks - it can get messy\nYou should have realized that now we have already three copies of the Git_course repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level of those three lvels. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!"
   },
   {
     "objectID": "Github_desktop2.html",
@@ -431,28 +431,28 @@
     "href": "Github_desktop2.html#adding-a-license-file",
     "title": "Importing an existing project",
     "section": "Adding a license file",
-    "text": "Adding a license file\nIt is good practise to add a license.md file to everything you publish on github. Different licenses can be found here - usually it is enough to copy the text of your preferred license into the license.md."
+    "text": "Adding a license file\nIt is good practice to add a license.md file to everything you publish on github. Different licenses can be found here - usually it is enough to copy the text of your preferred license into the license.md."
   },
   {
     "objectID": "Github_desktop.html#i.-cloning-a-repository-from-github-online-onto-your-local-machine",
     "href": "Github_desktop.html#i.-cloning-a-repository-from-github-online-onto-your-local-machine",
     "title": "Github Desktop",
     "section": "I. Cloning a repository from Github online onto your local machine",
-    "text": "I. Cloning a repository from Github online onto your local machine\nLet’s start with making a local copy of an existing online repository. This processing is called cloning.\n\nNavigate to your fork of the Git_course.\n\n\n\nClick on the green Code button. Select Open with Github Desktop.\n\nAccept the warning, if any. Clone the repository.\n\n\nThe repository now exists as a cope on your local machine!"
+    "text": "I. Cloning a repository from Github online onto your local machine\nLet’s start with making a local copy of an existing online repository. This processing is called cloning.\n\n\n\nCreating a cope of an online repository on your machine is called cloning the repository"
   },
   {
     "objectID": "Version_control.html#merge-conflicts",
     "href": "Version_control.html#merge-conflicts",
     "title": "Merge conflicts",
     "section": "Merge conflicts",
-    "text": "Merge conflicts\nDifferent edits and commits to the same file or PRs of different versions of a file result in merge conflicts. Merge conflicts require a manual resolution and git will warn you that a PR cannot be merged automatically if merge conflicts arise. Be warned, merge conflicts can be a real headache and the best way to deal with them is to avoid them!"
+    "text": "Merge conflicts\nDifferent edits and commits to the same file on different branches or PRs of different versions of a file result in merge conflicts. Merge conflicts require a manual resolution. Git will warn you that a PR cannot be merged automatically if merge conflicts arise. Be warned, merge conflicts can be a real headache and the best way to deal with them is to avoid them!"
   },
   {
     "objectID": "Version_control.html#create-a-merge-conflict",
     "href": "Version_control.html#create-a-merge-conflict",
     "title": "Merge conflicts",
     "section": "Create a merge conflict",
-    "text": "Create a merge conflict\nGo to your online repository of Git_course. Create a file named merge_conflict.md and write in the first line: “Practising merge conflicts”. Commit your changes to the main branch.\n\nClick on the branch symbol with the label main and create a new branch dev from main.\n\nGo back to the main branch. Open the merge_conflict.md by clicking on the pencil item and write in the second line: Creating a merge conflict”. Commit those changes.\n\nNavigate to the dev branch. Open the merge_conflict.md and write on the second line: “Bad idea”. Commit those changes.\n\nCreate a PR from dev to main.Git will warn you that the branches cannot automatically be merged. Click create PR regardless.\n\nClick resolve merge conflict. You should be shown something like the following:\n\nYou can now edit the file. You have three choices:\n\nOnly accept the changes from main, thus remove the “<<<<<< dev Bad idea ======” part.\nOnly accepting the changes from dev, thus delete the “===== Creating a merge conflict >>>>> main” part\nCreate a new file accepting both changes. (Delete all <<<<<< >>>>>>>> and ======).\n\nOnce you have made you choice, click “mark conflict as resolved” and commit your changes."
+    "text": "Create a merge conflict\nGo to your online repository of Git_course. Create a file named merge_conflict.md and write in the first line: “Practicing merge conflicts”. Commit your changes to the main branch.\n\nClick on the branch symbol with the label main and create a new branch dev from main.\n\nGo back to the main branch. Open the merge_conflict.md by clicking on the pencil item and write on the second line: Creating a merge conflict”. Commit those changes.\n\nNavigate to the dev branch. Open the merge_conflict.md and write on the second line: “Bad idea”. Commit those changes.\n\nCreate a PR from dev to main. Git will warn you that the branches cannot automatically be merged. Click create PR regardless. You have created a merge conflict!"
   },
   {
     "objectID": "Version_control.html#avoiding-merge-conflicts",
@@ -501,7 +501,7 @@
     "href": "Bits_and_pieces.html",
     "title": "Bits and pieces",
     "section": "",
-    "text": "This website is hosted on github, using Quarto in RStudio and Netlify, a free web hosting service. Other options to publish via github are Jupyterbook, which can be hosted via github pages or also via Netlify. The Turing way book uses the second option (Jupyterbook & Netlify). An even more integrated option is Gitbook."
+    "text": "We are almost done with the course! you have now a good starter knowledge for your git journey. However, would you be surprised that what this course covers is around 10% of all the features of Github?\nHere are some teasers for what else is possible with Github:"
   },
   {
     "objectID": "Bits_and_pieces.html#contributing-to-open-source",
@@ -607,5 +607,33 @@
     "title": "Forking",
     "section": "Create a pull request to the upstream repository",
     "text": "Create a pull request to the upstream repository\nLet’s assume you consider your changes so meaningful that they should be integrated in the upstream repository. This is again achieved by creating a pull request. In contrast to the previous PR, where you PR-ed between two branches that you owned, this time you will create a PR to a repository that you are not the owner of.\n\nGo back to the code section of your repository. You should see that you have changes in your repository that not part of the upstream repository (yet) similar to the screenshot below (2.):\n\nClick on the Contribute button. In the screenshot above, you can also see indicated that the upstream repository has changes that are not part of your origin repository yet (3.). This can happen when the author of the upstream repository has made changes to the repo since you have forked the repository.\nIt is good practice to update your own repository before creating a PR. if you need to update your repository, click on the sync fork button and update your branch:\n\nOnce you have updated your branch (if necessary), create a pull request. Leave a nice message for the owner of the upstream repository (4.).\nCheck the upstream repository. You should see your PR under the PR section, marked as open. In contract to the previous PR, you won’t be able to merge this PR yourself, as you are not the owner of the upstream repository. Instead, you will have to wait for the owner of the upstream repo to accept your PR.\n\n\nChallenge: Think: Why is it a good idea to update (sync) your branch before opening a PR?"
+  },
+  {
+    "objectID": "Github_desktop.html#the-other-way-around-make-changes-to-your-online-repository-and-pull-them-onto-your-local-machine",
+    "href": "Github_desktop.html#the-other-way-around-make-changes-to-your-online-repository-and-pull-them-onto-your-local-machine",
+    "title": "Github Desktop",
+    "section": "The other way around: make changes to your online repository and pull them onto your local machine",
+    "text": "The other way around: make changes to your online repository and pull them onto your local machine\nNow that you have established the connection between the repository on you local machine and Github online, any changes to your repository on Github online should be recorded by your github desktop application. You might have to click the fetch origin button.\n\nMake and commit changes in your online repository (edit file, commit changes - you should by now know how that works).\nClick the fetch origin button on your github desktop application, You should see something like this:\n\nPull the changes in your local repository."
+  },
+  {
+    "objectID": "Github_desktop.html#cloning-a-repository",
+    "href": "Github_desktop.html#cloning-a-repository",
+    "title": "Github Desktop",
+    "section": "Cloning a repository",
+    "text": "Cloning a repository\n\nNavigate to your fork of the Git_course.\nClick on the green Code button. Select Open with Github Desktop.\n\nAccept the warning, if any. Clone the repository.\n\n\nThe repository now exists as a cope on your local machine! Github desktop should open automatically in the folder that your repository was cloned to."
+  },
+  {
+    "objectID": "Version_control.html#resolving-the-merge-conflict",
+    "href": "Version_control.html#resolving-the-merge-conflict",
+    "title": "Merge conflicts",
+    "section": "Resolving the merge conflict",
+    "text": "Resolving the merge conflict\nMerge conflicts require manual intervention and a selection of the changes that you would like to save.\n\nClick resolve merge conflict. You should be shown something like the following:\n\n\nYou can now edit the conflicting file. You have three choices:\n\nOnly accept the changes from main, thus remove the “<<<<<< dev Bad idea ======” part.\nOnly accepting the changes from dev, thus delete the “===== Creating a merge conflict >>>>> main” part\nCreate a new file accepting both changes. (Delete all <<<<<< >>>>>>>> and ======).\n\nOnce you have made you choice, click “mark conflict as resolved” and commit your changes."
+  },
+  {
+    "objectID": "Bits_and_pieces.html#publishing-on-github",
+    "href": "Bits_and_pieces.html#publishing-on-github",
+    "title": "Bits and pieces",
+    "section": "Publishing on Github",
+    "text": "Publishing on Github\nThis website is hosted on github, using Quarto in RStudio and Netlify, a free web hosting service. Other options to publish via github are Jupyterbook, which can be hosted via github pages or also via Netlify. The Turing way book uses the second option (Jupyterbook & Netlify). An even more integrated option is Gitbook."
   }
 ]

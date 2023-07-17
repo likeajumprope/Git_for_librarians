@@ -236,6 +236,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#a-hypothetical-scenario" id="toc-a-hypothetical-scenario" class="nav-link active" data-scroll-target="#a-hypothetical-scenario">A hypothetical scenario</a></li>
   <li><a href="#merge-conflicts" id="toc-merge-conflicts" class="nav-link" data-scroll-target="#merge-conflicts">Merge conflicts</a></li>
   <li><a href="#create-a-merge-conflict" id="toc-create-a-merge-conflict" class="nav-link" data-scroll-target="#create-a-merge-conflict">Create a merge conflict</a></li>
+  <li><a href="#resolving-the-merge-conflict" id="toc-resolving-the-merge-conflict" class="nav-link" data-scroll-target="#resolving-the-merge-conflict">Resolving the merge conflict</a></li>
   <li><a href="#avoiding-merge-conflicts" id="toc-avoiding-merge-conflicts" class="nav-link" data-scroll-target="#avoiding-merge-conflicts">Avoiding merge conflicts</a></li>
   </ul>
 </nav>
@@ -261,28 +262,34 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="a-hypothetical-scenario" class="level2">
 <h2 class="anchored" data-anchor-id="a-hypothetical-scenario">A hypothetical scenario</h2>
-<p>Git is really good at tracking changes made to documents as they move through time. Optimally, each version should fall into place somewhere in the linear history of the document. However, there are situations where versions conflict and it isn’t clear what version of a document is the most recent version.</p>
+<p>Git is really good at tracking changes made to documents as they move through time. Ideally, each version should fall into place somewhere in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version.</p>
 <p><img src="images/Version_conflict.png" class="img-fluid"></p>
 </section>
 <section id="merge-conflicts" class="level2">
 <h2 class="anchored" data-anchor-id="merge-conflicts">Merge conflicts</h2>
-<p>Different edits and commits to the same file or PRs of different versions of a file result in <em>merge conflicts</em>. Merge conflicts require a manual resolution and git will warn you that a PR cannot be merged automatically if merge conflicts arise. Be warned, merge conflicts can be a real headache and the best way to deal with them is to avoid them!</p>
+<p>Different edits and commits to the same file on different branches or PRs of different versions of a file result in <em>merge conflicts</em>. Merge conflicts require a manual resolution. Git will warn you that a PR cannot be merged automatically if merge conflicts arise. Be warned, merge conflicts can be a real headache and the best way to deal with them is to avoid them!</p>
 </section>
 <section id="create-a-merge-conflict" class="level2">
 <h2 class="anchored" data-anchor-id="create-a-merge-conflict">Create a merge conflict</h2>
-<p>Go to your online repository of Git_course. Create a file named merge_conflict.md and write in the first line: “Practising merge conflicts”. Commit your changes to the main branch.</p>
+<p>Go to your online repository of Git_course. Create a file named merge_conflict.md and write in the first line: “Practicing merge conflicts”. Commit your changes to the main branch.</p>
 <p><img src="img/MC3.png" class="img-fluid"></p>
 <p>Click on the branch symbol with the label <em>main</em> and create a new branch <em>dev</em> from main.</p>
 <p><img src="img/MC4.png" class="img-fluid"></p>
-<p>Go back to the main branch. Open the merge_conflict.md by clicking on the pencil item and write in the second line: Creating a merge conflict”. Commit those changes.</p>
+<p>Go back to the main branch. Open the merge_conflict.md by clicking on the pencil item and write on the second line: Creating a merge conflict”. Commit those changes.</p>
 <p><img src="img/MC5.png" class="img-fluid"></p>
 <p>Navigate to the dev branch. Open the merge_conflict.md and write on the second line: “Bad idea”. Commit those changes.</p>
 <p><img src="img/MC6.png" class="img-fluid"></p>
-<p>Create a PR from dev to main.Git will warn you that the branches cannot automatically be merged. Click create PR regardless.</p>
+<p>Create a PR from dev to main. Git will warn you that the branches cannot automatically be merged. Click create PR regardless. You have created a merge conflict!</p>
 <p><img src="img/MC7.png" class="img-fluid"></p>
-<p>Click resolve merge conflict. You should be shown something like the following:</p>
+</section>
+<section id="resolving-the-merge-conflict" class="level2">
+<h2 class="anchored" data-anchor-id="resolving-the-merge-conflict">Resolving the merge conflict</h2>
+<p>Merge conflicts require manual intervention and a selection of the changes that you would like to save.</p>
+<ol type="1">
+<li>Click resolve merge conflict. You should be shown something like the following:</li>
+</ol>
 <p><img src="img/MC8.png" class="img-fluid"></p>
-<p>You can now edit the file. You have three choices:</p>
+<p>You can now edit the conflicting file. You have three choices:</p>
 <ol type="1">
 <li>Only accept the changes from <em>main</em>, thus remove the “&lt;&lt;&lt;&lt;&lt;&lt; dev Bad idea ======” part.</li>
 <li>Only accepting the changes from dev, thus delete the “===== Creating a merge conflict &gt;&gt;&gt;&gt;&gt; main” part</li>

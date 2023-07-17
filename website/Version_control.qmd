@@ -6,17 +6,17 @@ editor: visual
 
 ## A hypothetical scenario
 
-Git is really good at tracking changes made to documents as they move through time. Optimally, each version should fall into place somewhere in the linear history of the document. However, there are situations where versions conflict and it isn't clear what version of a document is the most recent version.
+Git is really good at tracking changes made to documents as they move through time. Ideally, each version should fall into place somewhere in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version.
 
 ![](images/Version_conflict.png)
 
 ## Merge conflicts
 
-Different edits and commits to the same file or PRs of different versions of a file result in *merge conflicts*. Merge conflicts require a manual resolution and git will warn you that a PR cannot be merged automatically if merge conflicts arise. Be warned, merge conflicts can be a real headache and the best way to deal with them is to avoid them!
+Different edits and commits to the same file on different branches or PRs of different versions of a file result in *merge conflicts*. Merge conflicts require a manual resolution. Git will warn you that a PR cannot be merged automatically if merge conflicts arise. Be warned, merge conflicts can be a real headache and the best way to deal with them is to avoid them!
 
 ## Create a merge conflict
 
-Go to your online repository of Git_course. Create a file named merge_conflict.md and write in the first line: "Practising merge conflicts". Commit your changes to the main branch.
+Go to your online repository of Git_course. Create a file named merge_conflict.md and write in the first line: "Practicing merge conflicts". Commit your changes to the main branch.
 
 ![](img/MC3.png)
 
@@ -24,7 +24,7 @@ Click on the branch symbol with the label *main* and create a new branch *dev* f
 
 ![](img/MC4.png)
 
-Go back to the main branch. Open the merge_conflict.md by clicking on the pencil item and write in the second line: Creating a merge conflict". Commit those changes.
+Go back to the main branch. Open the merge_conflict.md by clicking on the pencil item and write on the second line: Creating a merge conflict". Commit those changes.
 
 ![](img/MC5.png)
 
@@ -32,15 +32,19 @@ Navigate to the dev branch. Open the merge_conflict.md and write on the second l
 
 ![](img/MC6.png)
 
-Create a PR from dev to main.Git will warn you that the branches cannot automatically be merged. Click create PR regardless.
+Create a PR from dev to main. Git will warn you that the branches cannot automatically be merged. Click create PR regardless. You have created a merge conflict!
 
 ![](img/MC7.png)
 
-Click resolve merge conflict. You should be shown something like the following:
+## Resolving the merge conflict
+
+Merge conflicts require manual intervention and a selection of the changes that you would like to save.
+
+1.  Click resolve merge conflict. You should be shown something like the following:
 
 ![](img/MC8.png)
 
-You can now edit the file. You have three choices:
+You can now edit the conflicting file. You have three choices:
 
 1.  Only accept the changes from *main*, thus remove the "\<\<\<\<\<\< dev Bad idea ======" part.
 2.  Only accepting the changes from dev, thus delete the "===== Creating a merge conflict \>\>\>\>\> main" part
