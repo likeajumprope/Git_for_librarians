@@ -4,7 +4,11 @@ title: "Getting to know Github.com"
 
 Git is structured in *Repositories*.
 
-They are divided in two types of repositories: Those you have writing access to (your repositories) and repositories of other people that you can only view.
+The repositories on Github are divided in two types of repositories:
+
+-   Those you have writing access to (your repositories)
+
+-   Repositories of other people that you can only view
 
 > Challenge: Log into your github account.
 
@@ -26,4 +30,6 @@ The search reveals all repositories that have the word "librarian; in them. In a
 
 ![](img/Repositories.png)
 
-Click on one of the repositories and have a look at the content!
+Other information that are revealed about the repositories are information such as the programming languages used (here: Ruby) and the number of *stars* the repositories has and the date the repository was last updated. You can star repositories that you like; they will appear in your profile under *your stars*.
+
+> Challenge: Click on one of the repositories and have a look at the content!
