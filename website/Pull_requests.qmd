@@ -6,7 +6,15 @@ editor: visual
 
 # Opening a pull request (PR)
 
-Branches are a good way to test edits to your repository and see whether you like them.Let's say you are happy with your edits. It's now time to update your main branch with your edits. This can be achieved by creating a *pull request*.
+Branches are a good way to test edits to your repository and see whether you like them. But they would be useless if they would be continuously developing independently of each other.
+
+Luckily there is a way to fuse different branches!
+
+It's now time to *merge* and update your main branch with your edits. This can be achieved by creating a *pull request*.
+
+![Branches can be merged by a pull request.](img/merge.png)
+
+> Challenge: Create your first pull request.
 
 1\. Click on the create a pull request button:
 
@@ -33,3 +41,5 @@ You were able to merge this pull request right away because you are the owner of
 ## Why is it called pull request?
 
 The pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in.
+
+The idea behind pull requests is that you usually make them to a repository you do not own - you need to wait for the owner to accept your changes and *pull them in*.
