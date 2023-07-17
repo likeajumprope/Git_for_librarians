@@ -8,7 +8,7 @@ Welcome to the git for Librarians workshop!
 
 ![](img/geheimtipp-muenchen-juristische-bibliothek-1.jpeg)
 
-![](img/Grimm-Zentrum_Leseterrassen.jpeg)
+![](img/Grimm-Zentrum_Leseterrassen.jpeg){fig-align="middle"}
 
 ![](img/ETH_Z%C3%BCrich_im_Abendlicht.jpg)
 

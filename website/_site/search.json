@@ -67,7 +67,7 @@
     "href": "Git_Github_Gitlab.html",
     "title": "Git, Gitlab, Github",
     "section": "",
-    "text": "The terminology around git can somehow be confusing."
+    "text": "The terminology around git can be confusing."
   },
   {
     "objectID": "Git_Github_Gitlab.html#git-github-gitlab---what",
@@ -81,7 +81,7 @@
     "href": "Git_Github_Gitlab.html#git-the-software",
     "title": "Git, Gitlab, Github",
     "section": "Git: The Software",
-    "text": "Git: The Software\nGit is a distributed version control system (VCS) designed to track changes in files and coordinate work among multiple people. It allows developers to work on projects locally, create branches for experimentation, and merge changes back into the main codebase. Git is primarily a command-line tool, and it provides a set of commands for managing repositories and collaborating with others."
+    "text": "Git: The Software\n\n\n\n\n\n\nGit is a distributed version control system (VCS) designed to track changes in files and coordinate work among multiple people. It allows developers to work on projects locally, create branches for experimentation, and merge changes back into the main codebase. Git is primarily a command-line tool, and it provides a set of commands for managing repositories and collaborating with others."
   },
   {
     "objectID": "Git_Github_Gitlab.html#github-the-platform.",
@@ -102,7 +102,7 @@
     "href": "Git_Github_Gitlab.html#bitbucket-yet-another-competitor",
     "title": "Git, Gitlab, Github",
     "section": "Bitbucket: Yet another competitor",
-    "text": "Bitbucket: Yet another competitor\nBitbucket is yet another web-based platform for hosting Git repositories. Like GitHub and GitLab, it offers features such as repository management, issue tracking, and pull requests. Bitbucket is known for its seamless integration with other Atlassian products like Jira (project management) and Confluence (collaboration platform)."
+    "text": "Bitbucket: Yet another competitor\nBitbucket is yet another web-based platform for hosting Git repositories. Similar to GitHub and GitLab, it offers features such as repository management, issue tracking, and pull requests. Bitbucket is known for its seamless integration with other Atlassian products like Jira (project management) and Confluence (collaboration platform)."
   },
   {
     "objectID": "The_history.html",
@@ -551,5 +551,19 @@
     "title": "Glossary",
     "section": "Readme.md",
     "text": "Readme.md\nThe Readme.md is usually the first file vistors see and interacts with on your repository. It should contain information about the purpose and content of the repository."
+  },
+  {
+    "objectID": "Git_Github_Gitlab.html#github-the-platform",
+    "href": "Git_Github_Gitlab.html#github-the-platform",
+    "title": "Git, Gitlab, Github",
+    "section": "Github: The platform",
+    "text": "Github: The platform\nGitHub is a web-based platform built around Git that provides a centralized hosting service for Git repositories. It adds a graphical user interface (GUI) on top of Git, making it easier to perform common Git operations like creating repositories, managing branches, and collaborating with others. GitHub also offers additional features such as issue tracking, pull requests, code review tools, and project management capabilities. It’s widely used for open-source projects, personal projects, and team collaboration."
+  },
+  {
+    "objectID": "Git_Github_Gitlab.html#gitlab-a-competitor",
+    "href": "Git_Github_Gitlab.html#gitlab-a-competitor",
+    "title": "Git, Gitlab, Github",
+    "section": "Gitlab: A competitor",
+    "text": "Gitlab: A competitor\nGitLab is another web-based platform that provides hosting for Git repositories, similar to GitHub. It offers similar features such as repository management."
   }
 ]
