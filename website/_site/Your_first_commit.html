@@ -212,6 +212,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="./Version_control.html" class="sidebar-item-text sidebar-link">Merge conflicts</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Bits_and_pieces.html" class="sidebar-item-text sidebar-link">Bits and pieces</a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -236,6 +241,8 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#a-third-level-heading" id="toc-a-third-level-heading" class="nav-link" data-scroll-target="#a-third-level-heading">A third level heading</a></li>
   </ul></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  <li><a href="#weblinks" id="toc-weblinks" class="nav-link" data-scroll-target="#weblinks">Weblinks</a></li>
   <li><a href="#commits-on-github" id="toc-commits-on-github" class="nav-link" data-scroll-target="#commits-on-github">Commits on Github</a></li>
   <li><a href="#what-is-a-commit" id="toc-what-is-a-commit" class="nav-link" data-scroll-target="#what-is-a-commit">What is a commit</a></li>
   <li><a href="#committing-on-github.com" id="toc-committing-on-github.com" class="nav-link" data-scroll-target="#committing-on-github.com">Committing on Github.com</a></li>
@@ -268,7 +275,12 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="the-readme.md" class="level2">
 <h2 class="anchored" data-anchor-id="the-readme.md">The Readme.md</h2>
-<p>The README.md is often <strong>the first item a visitor will see when visiting your repository</strong>. README files typically include information on: What the project does and why the project is useful.</p>
+<p>We just created a README.md file when initializing your first repository.</p>
+<p>The README.md is often <strong>the first item a visitor will see when visiting your repository</strong>. README files typically include information on:</p>
+<ul>
+<li><p>The purpose and content of the rpository</p></li>
+<li><p>how to contribute to the repository (sometimes separated in a different file called Contributing.md)</p></li>
+</ul>
 <p>The ending .md is an indicator of the Markdown language. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. The documents for this website are also written in Markdown.</p>
 <p>Examples of the Markdown language:</p>
 </section>
@@ -287,11 +299,26 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="a-second-level-heading">A second level heading</h2>
 <section id="a-third-level-heading" class="level3">
 <h3 class="anchored" data-anchor-id="a-third-level-heading">A third level heading</h3>
+</section>
+</section>
+<section id="images" class="level2">
+<h2 class="anchored" data-anchor-id="images">Images</h2>
+<p><code>![Soxi](img/A_cute_cat.jpg)</code> renders to:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/A_cute_cat.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Soxi</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="weblinks" class="level2">
+<h2 class="anchored" data-anchor-id="weblinks">Weblinks</h2>
+<p>This is a link to the <code>[VALA TECH CAMP website.](https://www.vala.org.au/vala-events/tech-camp/tech-camp-2023-program-announcement/)</code> renders to:</p>
+<p>This is a link to the <a href="https://www.vala.org.au/vala-events/tech-camp/tech-camp-2023-program-announcement/">VALA TECH CAMP website.</a></p>
 <p>You can learn about the markdown language <a href="https://www.markdownguide.org/getting-started/">here at this official resource</a> and at this <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">resource from Github</a>.</p>
 <blockquote class="blockquote">
 <p>Challenge: Your first commit in markdown</p>
 </blockquote>
-</section>
 </section>
 <section id="commits-on-github" class="level2">
 <h2 class="anchored" data-anchor-id="commits-on-github">Commits on Github</h2>
@@ -299,6 +326,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-is-a-commit" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-a-commit">What is a commit</h2>
 <p>The contribution in Git is structured in commits. Commits are small, labeled changes to a file or item in a git repository. They can be seen as a snapshot of the state of repository at the time of the commit which can be reversed back to (in theory). They hence allow to create a <em>track record of changes of the repository over time</em>. Git will not allow any changes to documents or files without committing them first.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/commits.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Contributions on Github are called commits. Commits are annotated snapshots of files and documents</figcaption><p></p>
+</figure>
+</div>
 </section>
 <section id="committing-on-github.com" class="level2">
 <h2 class="anchored" data-anchor-id="committing-on-github.com">Committing on Github.com</h2>
@@ -306,32 +339,32 @@ ul.task-list li input[type="checkbox"] {
 <p>Challenge: Add some information to the Readme.md file of your newly created github repository!</p>
 </blockquote>
 <ol type="1">
-<li>Click on your repository.</li>
-<li>Click on the pencil icon to activate writing mode on the Readme.md</li>
-<li>Add some information about the purpose of the repository.</li>
-<li>Click the green <em>Commit changes</em> button at the top right.</li>
-<li>Write a precise commit message</li>
-<li>Commit your changes.</li>
-</ol>
-<p>Congratulations! You have made your first commit in Github!</p>
+<li><p>Click on your newly created repository.</p></li>
+<li><p>Click on the pencil icon to activate writing mode on the Readme.md</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Commit1.png" class="img-fluid figure-img"></p>
+<p><img src="images/Commit1.png" class="img-fluid figure-img" alt="Click on the pencil button to activate editing mode."></p>
 <p></p><figcaption class="figure-caption">Click on the pencil button to activate editing mode.</figcaption><p></p>
 </figure>
-</div>
+</div></li>
+<li><p>Add some information about the purpose of the repository.</p></li>
+<li><p>Click the green <em>Commit changes</em> button at the top right.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Commit2.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Make your changes and click the green commmit changes button.</figcaption><p></p>
+<p><img src="images/Commit2.png" class="img-fluid figure-img" alt="Make your changes and click the green commit changes button."></p>
+<p></p><figcaption class="figure-caption">Make your changes and click the green commit changes button.</figcaption><p></p>
 </figure>
-</div>
+</div></li>
+<li><p>Write a precise commit message.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Commit3png-01.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Formulate a precise commit message. and commit your changes.</figcaption><p></p>
+<p><img src="images/Commit3png-01.png" class="img-fluid figure-img" alt="Formulate a precise commit message. Commit your changes."></p>
+<p></p><figcaption class="figure-caption">Formulate a precise commit message.</figcaption><p></p>
 </figure>
-</div>
+</div></li>
+<li><p>Commit your changes.</p></li>
+</ol>
+<p>Congratulations! You have made your first commit in Github!</p>
 </section>
 </section>
 <section id="reviewing-your-changes." class="level1">
@@ -343,8 +376,6 @@ ul.task-list li input[type="checkbox"] {
 </blockquote>
 <ol type="1">
 <li>Go back to the <em>Code</em> section of the repository.</li>
-<li>The repository should show you that changes have been made not long ago. Click the history button.</li>
-<li>Click on the Readme.md commit. Additions to the file will be shown in green.</li>
 </ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -352,18 +383,27 @@ ul.task-list li input[type="checkbox"] {
 <p></p><figcaption class="figure-caption">Go back to the code section of the repository.</figcaption><p></p>
 </figure>
 </div>
+<ol start="2" type="1">
+<li>The repository should show you that changes have been made not long ago. Click the history button.</li>
+</ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Commit5.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Click on the history of the repository.</figcaption><p></p>
 </figure>
 </div>
+<ol start="3" type="1">
+<li>Click on the Readme.md commit.</li>
+</ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Commit6.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Click on your recent commit.</figcaption><p></p>
 </figure>
 </div>
+<ol start="4" type="1">
+<li>Additions to the file will be shown in green (and deletions in red),</li>
+</ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Commit7.png" class="img-fluid figure-img"></p>

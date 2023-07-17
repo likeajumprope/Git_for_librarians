@@ -6,24 +6,24 @@ editor: visual
 
 ## Creating a new repository
 
-You have two options when creating a new repository. You can click on the + next to your profile image in the top right corner of the screen or go to the repositories tab within your profile page and click the New button.
+You have two options when creating a new repository.
 
-![Two ways to create a new repository](images/Create_repo.png){fig-align="center"}
+-   Click on the + next to your profile image in the top right corner of the screen
 
-Challenge: Creating a new repository.
+-    Go to the repositories tab within your profile page and click the New button.
 
-1.  Name your repository - keep it short and precise
+![](images/Create_repo.png){fig-align="center"}
 
-2.  Let's create a repository "My_first_repo"
+> Challenge: Create a new repository.
 
+1.  Choose one of the ways just described to initialize a new repository.
+
+![](img/Create_repo2.png)
+
+2.  Name your repository - keep it short and precise, for example "My_first_repo" ( you might realize that Github also makes some more or less reasonable suggestions).
 3.  Describe it (optional)
-
 4.  Select *Public/Private*. If you have a free account, all your repositories will be public.
-
 5.  Check the box to initialize your repository with a "Readme.md"
-
 6.  Click *Create repository*
 
-    ![](img/Create_repo2.png)
-
-Congratulations! You have created your first repository!
+## Congratulations! You have created your first repository!

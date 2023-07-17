@@ -6,7 +6,13 @@ editor: visual
 
 ## The Readme.md
 
-The README.md is often **the first item a visitor will see when visiting your repository**. README files typically include information on: What the project does and why the project is useful.
+We just created a README.md file when initializing your first repository.
+
+The README.md is often **the first item a visitor will see when visiting your repository**. README files typically include information on:
+
+-   The purpose and content of the rpository
+
+-   how to contribute to the repository (sometimes separated in a different file called Contributing.md)
 
 The ending .md is an indicator of the Markdown language. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. The documents for this website are also written in Markdown.
 
@@ -28,6 +34,18 @@ The number of `#` determine the level of the headline:
 
 ### A third level heading
 
+## Images
+
+`![Soxi](img/A_cute_cat.jpg)` renders to:
+
+![Soxi](img/A_cute_cat.jpg)
+
+## Weblinks
+
+This is a link to the `[VALA TECH CAMP website.](https://www.vala.org.au/vala-events/tech-camp/tech-camp-2023-program-announcement/)` renders to:
+
+This is a link to the [VALA TECH CAMP website.](https://www.vala.org.au/vala-events/tech-camp/tech-camp-2023-program-announcement/)
+
 You can learn about the markdown language [here at this official resource](https://www.markdownguide.org/getting-started/) and at this [resource from Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 > Challenge: Your first commit in markdown
@@ -38,24 +56,31 @@ You can learn about the markdown language [here at this official resource](https
 
 The contribution in Git is structured in commits. Commits are small, labeled changes to a file or item in a git repository. They can be seen as a snapshot of the state of repository at the time of the commit which can be reversed back to (in theory). They hence allow to create a *track record of changes of the repository over time*. Git will not allow any changes to documents or files without committing them first.
 
+![Contributions on Github are called commits. Commits are annotated snapshots of files and documents](img/commits.png)
+
 ## Committing on Github.com
 
 > Challenge: Add some information to the Readme.md file of your newly created github repository!
 
-1.  Click on your repository.
+1.  Click on your newly created repository.
+
 2.  Click on the pencil icon to activate writing mode on the Readme.md
+
+    ![Click on the pencil button to activate editing mode.](images/Commit1.png){alt="Click on the pencil button to activate editing mode."}
+
 3.  Add some information about the purpose of the repository.
+
 4.  Click the green *Commit changes* button at the top right.
-5.  Write a precise commit message
+
+    ![Make your changes and click the green commit changes button.](images/Commit2.png){alt="Make your changes and click the green commit changes button."}
+
+5.  Write a precise commit message.
+
+    ![Formulate a precise commit message.](images/Commit3png-01.png){alt="Formulate a precise commit message. Commit your changes."}
+
 6.  Commit your changes.
 
 Congratulations! You have made your first commit in Github!
-
-![Click on the pencil button to activate editing mode.](images/Commit1.png)
-
-![Make your changes and click the green commmit changes button.](images/Commit2.png)
-
-![Formulate a precise commit message. and commit your changes.](images/Commit3png-01.png)
 
 # Reviewing your changes.
 
@@ -66,14 +91,18 @@ Let's now have a look at the changes you have made.
 > Challenge: Review your first commit.
 
 1.  Go back to the *Code* section of the repository.
-2.  The repository should show you that changes have been made not long ago. Click the history button.
-3.  Click on the Readme.md commit. Additions to the file will be shown in green.
 
 ![Go back to the code section of the repository.](images/Commit4.png)
 
+2.  The repository should show you that changes have been made not long ago. Click the history button.
+
 ![Click on the history of the repository.](images/Commit5.png)
 
+3.  Click on the Readme.md commit.
+
 ![Click on your recent commit.](images/Commit6.png)
+
+4.   Additions to the file will be shown in green (and deletions in red),
 
 ![Additions should appear in green.](images/Commit7.png)
 

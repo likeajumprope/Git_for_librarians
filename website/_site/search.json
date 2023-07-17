@@ -179,21 +179,21 @@
     "href": "Git_online.html",
     "title": "Getting to know Github.com",
     "section": "",
-    "text": "The repositories on Github are divided in two types of repositories:\n\nThose you have writing access to (your repositories)\nRepositories of other people that you can only view\n\n\nChallenge: Log into your github account.\n\nLog into your Github account.\n\nFind the place where your repositories (will) live.\n\n\n\nSearch for other people’s repositories.\n\nWhile you don’t have writing access to most repositories, they provide a great resource.\n\nChallenge: Use Github as a resource. Type “Librarian” into the search bar.\n\n\nThe search reveals all repositories that have the word “librarian; in them. In addition to Issues, Discussions, Usernames etc with the word.\n\nOther information that are revealed about the repositories are information such as the programming languages used (here: Ruby) and the number of stars the repositories has and the date the repository was last updated. You can star repositories that you like; they will appear in your profile under your stars.\n\nClick on one of the repositories and have a look at the content!"
+    "text": "The repositories on Github are divided in two types of repositories:\n\nThose you have writing access to (your repositories)\nRepositories of other people that you can only view\n\n\nChallenge: Log into your github account.\n\nLog into your Github account.\n\nFind the place where your repositories (will) live.\n\n\n\nSearch for other people’s repositories.\n\nWhile you don’t have writing access to most repositories, they provide a great resource.\n\nChallenge: Use Github as a resource. Type “Librarian” into the search bar.\n\n\nThe search reveals all repositories that have the word “librarian; in them. In addition to Issues, Discussions, Usernames etc with the word.\n\nOther information that are revealed about the repositories are information such as the programming languages used (here: Ruby) and the number of stars the repositories has and the date the repository was last updated. You can star repositories that you like; they will appear in your profile under your stars.\n\nChallenge: Click on one of the repositories and have a look at the content!"
   },
   {
     "objectID": "Creating_your_first_repository.html",
     "href": "Creating_your_first_repository.html",
     "title": "Creating your first repository",
     "section": "",
-    "text": "You have two options when creating a new repository. You can click on the + next to your profile image in the top right corner of the screen or go to the repositories tab within your profile page and click the New button.\n\n\n\nTwo ways to create a new repository\n\n\nChallenge: Creating a new repository.\n\nName your repository - keep it short and precise\nLet’s create a repository “My_first_repo”\nDescribe it (optional)\nSelect Public/Private. If you have a free account, all your repositories will be public.\nCheck the box to initialize your repository with a “Readme.md”\nClick Create repository\n\n\nCongratulations! You have created your first repository!"
+    "text": "You have two options when creating a new repository.\n\nClick on the + next to your profile image in the top right corner of the screen\nGo to the repositories tab within your profile page and click the New button.\n\n\n\n\n\n\n\nChallenge: Create a new repository.\n\n\nChoose one of the ways just described to initialize a new repository.\n\n\n\nName your repository - keep it short and precise, for example “My_first_repo” ( you might realize that Github also makes some more or less reasonable suggestions).\nDescribe it (optional)\nSelect Public/Private. If you have a free account, all your repositories will be public.\nCheck the box to initialize your repository with a “Readme.md”\nClick Create repository"
   },
   {
     "objectID": "Your_first_commit.html",
     "href": "Your_first_commit.html",
     "title": "Your first commit",
     "section": "",
-    "text": "The README.md is often the first item a visitor will see when visiting your repository. README files typically include information on: What the project does and why the project is useful.\nThe ending .md is an indicator of the Markdown language. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. The documents for this website are also written in Markdown.\nExamples of the Markdown language:"
+    "text": "We just created a README.md file when initializing your first repository.\nThe README.md is often the first item a visitor will see when visiting your repository. README files typically include information on:\n\nThe purpose and content of the rpository\nhow to contribute to the repository (sometimes separated in a different file called Contributing.md)\n\nThe ending .md is an indicator of the Markdown language. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. The documents for this website are also written in Markdown.\nExamples of the Markdown language:"
   },
   {
     "objectID": "Your_first_commit.html#headlines",
@@ -207,7 +207,7 @@
     "href": "Your_first_commit.html#a-second-level-heading",
     "title": "Your first commit",
     "section": "A second level heading",
-    "text": "A second level heading\n\nA third level heading\nYou can learn about the markdown language here at this official resource and at this resource from Github.\n\nChallenge: Your first commit in markdown"
+    "text": "A second level heading\n\nA third level heading"
   },
   {
     "objectID": "Your_first_commit.html#running-code",
@@ -228,14 +228,14 @@
     "href": "Your_first_commit.html#what-is-a-commit",
     "title": "Your first commit",
     "section": "What is a commit",
-    "text": "What is a commit\nThe contribution in Git is structured in commits. Commits are small, labeled changes to a file or item in a git repository. They can be seen as a snapshot of the state of repository at the time of the commit which can be reversed back to (in theory). They hence allow to create a track record of changes of the repository over time. Git will not allow any changes to documents or files without committing them first."
+    "text": "What is a commit\nThe contribution in Git is structured in commits. Commits are small, labeled changes to a file or item in a git repository. They can be seen as a snapshot of the state of repository at the time of the commit which can be reversed back to (in theory). They hence allow to create a track record of changes of the repository over time. Git will not allow any changes to documents or files without committing them first.\n\n\n\nContributions on Github are called commits. Commits are annotated snapshots of files and documents"
   },
   {
     "objectID": "Your_first_commit.html#committing-on-github.com",
     "href": "Your_first_commit.html#committing-on-github.com",
     "title": "Your first commit",
     "section": "Committing on Github.com",
-    "text": "Committing on Github.com\n\nChallenge: Add some information to the Readme.md file of your newly created github repository!\n\n\nClick on your repository.\nClick on the pencil icon to activate writing mode on the Readme.md\nAdd some information about the purpose of the repository.\nClick the green Commit changes button at the top right.\nWrite a precise commit message\nCommit your changes.\n\nCongratulations! You have made your first commit in Github!\n\n\n\nClick on the pencil button to activate editing mode.\n\n\n\n\n\nMake your changes and click the green commmit changes button.\n\n\n\n\n\nFormulate a precise commit message. and commit your changes."
+    "text": "Committing on Github.com\n\nChallenge: Add some information to the Readme.md file of your newly created github repository!\n\n\nClick on your newly created repository.\nClick on the pencil icon to activate writing mode on the Readme.md\n\n\n\nClick on the pencil button to activate editing mode.\n\n\nAdd some information about the purpose of the repository.\nClick the green Commit changes button at the top right.\n\n\n\nMake your changes and click the green commit changes button.\n\n\nWrite a precise commit message.\n\n\n\nFormulate a precise commit message.\n\n\nCommit your changes.\n\nCongratulations! You have made your first commit in Github!"
   },
   {
     "objectID": "Forking.html",
@@ -270,7 +270,7 @@
     "href": "Branching.html",
     "title": "Branching",
     "section": "",
-    "text": "Branching is the way to work on different parts and versions of a repository at one time. By default each repository is created with a main branch. You can commit directly into the main branch as we just did.\nHowever, branches are identical copies of the main branch (or any branch you want to copy from), that allow you to implement and test changes before committing them into the main branch (your production branch).\n\n\nLet’s play with our newly created repository.\n\nChallenge: create a branch from your main repository\n\n1. Go to your new repository and click the drop down at the top of the file list that says branch: main\n\nThe default branch used to be called master branch; due to historic connotations of the word master and as part of a step towards more inclusive langauge the default branch has been renamed to main for new repositories. Older repositories still might have a master branch.\n\n\nCreate a branch Readme-edits. This branch will be a copy of your main branch.\n\nSwitch to your new branch.\nClick the edit button of the Readme.md file. Add a line to the Readme.md file.\nCommit your changes. In this case I have removed a line.\n\nYou should now see that your branch has recent edits.\n\nSwitch back to the main branch. You should see that the Readme.md file is in the state it was before branching.\nSwitch back to the Readme-edits branch.\n\nBranches are a good way to test edits to your repository and see whether you like them. If you are not happy with your changes, you can just disregard of your branch and the changes will never affect the content of your main repository."
+    "text": "Branching is a way to work on different parts and versions of a repository at one time. By default each repository is created with a main branch. You can commit directly into the main branch as we just did.\nHowever, branches are identical copies of the main branch (or any branch you want to copy from), that allow you to implement and test changes before committing them into the main branch (your production branch).\n\n\n\nBranches are copies of the repository that can develop in different directions.\n\n\n\n\nLet’s play with our newly created repository.\n\nChallenge: create a branch from your main repository\n\n1. Go to your new repository and click the drop down at the top of the file list that says branch: main\n\nThe default branch used to be called master branch; due to historic connotations of the word master and as part of a step towards more inclusive language the default branch has been renamed to main for new repositories. Older repositories still might have a master branch.\n\n\nCreate a branch Readme-edits. This branch will be a copy of your main branch.\n\nSwitch to your new branch.\nClick the edit button of the Readme.md file. Add a line to the Readme.md file.\nCommit your changes. In this case I have removed a line.\n\nYou should now see that your branch has recent edits.\n\nSwitch back to the main branch. You should see that the Readme.md file is in the state it was before branching.\nSwitch back to the Readme-edits branch.\n\nBranches are a good way to test edits to your repository and see whether you like them. If you are not happy with your changes, you can just disregard of your branch and the changes will never affect the content of your main repository.\nDifferent branches can develop independently and in parallel of each other."
   },
   {
     "objectID": "Branching.html#about-pull-requests",
@@ -565,5 +565,26 @@
     "title": "Git, Gitlab, Github",
     "section": "Gitlab: A competitor",
     "text": "Gitlab: A competitor\n\n\n\n\n\n\nGitLab is another web-based platform that provides hosting for Git repositories, similar to GitHub. It offers similar features such as repository management."
+  },
+  {
+    "objectID": "Creating_your_first_repository.html#congratulations-you-have-created-your-first-repository",
+    "href": "Creating_your_first_repository.html#congratulations-you-have-created-your-first-repository",
+    "title": "Creating your first repository",
+    "section": "Congratulations! You have created your first repository!",
+    "text": "Congratulations! You have created your first repository!"
+  },
+  {
+    "objectID": "Your_first_commit.html#images",
+    "href": "Your_first_commit.html#images",
+    "title": "Your first commit",
+    "section": "Images",
+    "text": "Images\n![Soxi](img/A_cute_cat.jpg) renders to:\n\n\n\nSoxi"
+  },
+  {
+    "objectID": "Your_first_commit.html#weblinks",
+    "href": "Your_first_commit.html#weblinks",
+    "title": "Your first commit",
+    "section": "Weblinks",
+    "text": "Weblinks\nThis is a link to the [VALA TECH CAMP website.](https://www.vala.org.au/vala-events/tech-camp/tech-camp-2023-program-announcement/) renders to:\nThis is a link to the VALA TECH CAMP website.\nYou can learn about the markdown language here at this official resource and at this resource from Github.\n\nChallenge: Your first commit in markdown"
   }
 ]
