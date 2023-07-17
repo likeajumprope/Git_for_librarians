@@ -8,11 +8,15 @@ Git(hub) has tow main purposes:
 
 -   Version control: Track changes in your own files, code etc.
 -   Collaboration: Contribute to someone else's files, code etc.
+
+In addition it allows for:
 -   Efficient workflows
 -   Massive resource of infomration, ideas, books, code, etc.
 -   Publishing and hosting of code and material, websites etc.
 
 # Git in a library context
+
+> What will you use Git(hub) for?
 
 ## Scenario 1: Multiple librarians editing metadata for a collection
 
@@ -26,7 +30,5 @@ Librarians of a library decide that they want to create and publish a webiste fo
 
 Librarians of a libray want to publish a book on the proceedings of a community project. They decide to publish the book it as a web book out of Github and using Gitbook and will continue to add to the story as the library evolves.
 
-## Challenge:
 
-What will you use Github for?
 

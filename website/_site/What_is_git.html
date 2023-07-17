@@ -126,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Github online</a>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Github online and version control</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -147,8 +147,83 @@ ul.task-list li input[type="checkbox"] {
   <a href="./Your_first_commit.html" class="sidebar-item-text sidebar-link">Your first commit</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Branching.html" class="sidebar-item-text sidebar-link">Branching</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Pull_requests.html" class="sidebar-item-text sidebar-link">Pull requests (PRs)</a>
+  </div>
+</li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Collaboration on Github online</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Forking.html" class="sidebar-item-text sidebar-link">Forking</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Issues.html" class="sidebar-item-text sidebar-link">Issues</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Git on your local machine</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Github_desktop.html" class="sidebar-item-text sidebar-link">Github Desktop</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Github_desktop2.html" class="sidebar-item-text sidebar-link">Importing an existing project</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">Version control</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Version_control.html" class="sidebar-item-text sidebar-link">Merge conflicts</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Bits_and_pieces.html" class="sidebar-item-text sidebar-link">Bits and pieces</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Glossary.html" class="sidebar-item-text sidebar-link">Glossary</a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -163,7 +238,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#scenario-1-multiple-librarians-editing-metadata-for-a-collection" id="toc-scenario-1-multiple-librarians-editing-metadata-for-a-collection" class="nav-link" data-scroll-target="#scenario-1-multiple-librarians-editing-metadata-for-a-collection">Scenario 1: Multiple librarians editing metadata for a collection</a></li>
   <li><a href="#scenatio-2-publishing-a-wesbite-of-the-library" id="toc-scenatio-2-publishing-a-wesbite-of-the-library" class="nav-link" data-scroll-target="#scenatio-2-publishing-a-wesbite-of-the-library">Scenatio 2: Publishing a wesbite of the library</a></li>
   <li><a href="#scenario-3-publsihing-a-book-together" id="toc-scenario-3-publsihing-a-book-together" class="nav-link" data-scroll-target="#scenario-3-publsihing-a-book-together">Scenario 3: Publsihing a book together</a></li>
-  <li><a href="#challenge" id="toc-challenge" class="nav-link" data-scroll-target="#challenge">Challenge:</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -192,12 +266,13 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Version control: Track changes in your own files, code etc.</li>
 <li>Collaboration: Contribute to someone else’s files, code etc.</li>
-<li>Efficient workflows</li>
-<li>Massive resource of infomration, ideas, books, code, etc.</li>
-<li>Publishing and hosting of code and material, websites etc.</li>
 </ul>
+<p>In addition it allows for: - Efficient workflows - Massive resource of infomration, ideas, books, code, etc. - Publishing and hosting of code and material, websites etc.</p>
 <section id="git-in-a-library-context" class="level1">
 <h1>Git in a library context</h1>
+<blockquote class="blockquote">
+<p>What will you use Git(hub) for?</p>
+</blockquote>
 <section id="scenario-1-multiple-librarians-editing-metadata-for-a-collection" class="level2">
 <h2 class="anchored" data-anchor-id="scenario-1-multiple-librarians-editing-metadata-for-a-collection">Scenario 1: Multiple librarians editing metadata for a collection</h2>
 <p>A librarian has exported a spreadsheet of metadata from a repository for cleaning and editing. She’s working with a group of librarians and students, so they need to make sure edits don’t conflict. They also need to be able to undo any edits and preserve the original metadata. Once edits are complete, the whole group wants to review the changes before re-ingesting the spreadsheet of metadata into the repository.</p>
@@ -209,10 +284,6 @@ ul.task-list li input[type="checkbox"] {
 <section id="scenario-3-publsihing-a-book-together" class="level2">
 <h2 class="anchored" data-anchor-id="scenario-3-publsihing-a-book-together">Scenario 3: Publsihing a book together</h2>
 <p>Librarians of a libray want to publish a book on the proceedings of a community project. They decide to publish the book it as a web book out of Github and using Gitbook and will continue to add to the story as the library evolves.</p>
-</section>
-<section id="challenge" class="level2">
-<h2 class="anchored" data-anchor-id="challenge">Challenge:</h2>
-<p>What will you use Github for?</p>
 
 
 </section>
