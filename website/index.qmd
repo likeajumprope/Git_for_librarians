@@ -13,5 +13,3 @@ Welcome to the git for Librarians workshop!
 ![](img/ETH_Z%C3%BCrich_im_Abendlicht.jpg)
 
 ![](img/Bibliothek_der_TU_Mu%CC%88nchen_12.jpeg)
-
-![](img/State_Library_of_Victoria_La_Trobe_Reading_room_5th_floor_view.jpeg)
