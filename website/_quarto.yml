@@ -6,6 +6,7 @@ website:
   page-navigation: true
   margin-footer: | 
     ( C ) Johanna Bayer 2023
+  favicon: "img/Icons8-git-120.png"
   sidebar:
     style: "docked"
     search: true

@@ -24,7 +24,7 @@ The license file in your repository tells everyone how they can interact with yo
 
 Your fork of a repository - the clone of the repository under your account.
 
-## Pull request (PR) 
+## Pull request (PR)
 
 Pull requests tell others about the changes that you have made and pushed to a repository. Once the PR is opened, it is good practice to discuss and review the changes with other developers.
 
