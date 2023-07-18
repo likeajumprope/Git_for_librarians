@@ -37,3 +37,5 @@ While most people think that open source projects are only for developers, this 
 -   [Git and Github for librarians](http://data-lessons.github.io/library-git-DEPRECATED/01-what-is-git/) by Data Carpentries -uses the command line.
 
 ## Congratulations! You have mastered the course!
+
+![](img/Congrats.png)
