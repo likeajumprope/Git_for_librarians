@@ -6,7 +6,7 @@ editor: visual
 
 ## A hypothetical scenario
 
-Git is really good at tracking changes made to documents as they move through time. Ideally, each version should fall into place somewhere in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version.
+Git is really good at tracking changes made to documents as they move through time. Ideally, each version should be one step in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version.
 
 ![](images/Version_conflict.png)
 
