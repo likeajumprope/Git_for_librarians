@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Git for Librarians",
     "section": "",
-    "text": "Welcome to the git for Librarians workshop!"
+    "text": "This page brought to you by https://example.com"
   },
   {
     "objectID": "about.html",
@@ -67,7 +67,7 @@
     "href": "Git_Github_Gitlab.html",
     "title": "Git, Gitlab, Github",
     "section": "",
-    "text": "The terminology around git can be confusing."
+    "text": "The terminology around git can be confusing.\nThis page brought to you by https://example.com"
   },
   {
     "objectID": "Git_Github_Gitlab.html#git-github-gitlab---what",
@@ -298,7 +298,7 @@
     "href": "Glossary.html",
     "title": "Glossary",
     "section": "",
-    "text": "An identical copy of a repository. Branches are great to test features before pushing them into the main branch."
+    "text": "This page brought to you by https://example.com"
   },
   {
     "objectID": "Glossary.html#upstream-repository",
@@ -642,5 +642,12 @@
     "title": "Bits and pieces",
     "section": "Congratulations! You have mastered the course!",
     "text": "Congratulations! You have mastered the course!"
+  },
+  {
+    "objectID": "Glossary.html#branch",
+    "href": "Glossary.html#branch",
+    "title": "Glossary",
+    "section": "Branch",
+    "text": "Branch\nAn identical copy of a repository. Branches are great to test features before pushing them into the main branch."
   }
 ]

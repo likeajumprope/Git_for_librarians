@@ -4,6 +4,8 @@ project:
 website:
   title: "Git for librarians"
   page-navigation: true
+  margin-footer: | 
+    ( C ) Johanna Bayer 2023
   sidebar:
     style: "docked"
     search: true
