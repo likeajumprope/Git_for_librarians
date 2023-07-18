@@ -635,5 +635,12 @@
     "title": "Bits and pieces",
     "section": "Publishing on Github",
     "text": "Publishing on Github\nThis website is hosted on github, using Quarto in RStudio and Netlify, a free web hosting service. Other options to publish via github are Jupyterbook, which can be hosted via github pages or also via Netlify. The Turing way book uses the second option (Jupyterbook & Netlify). An even more integrated option is Gitbook."
+  },
+  {
+    "objectID": "Bits_and_pieces.html#congratulations-you-have-mastered-the-course",
+    "href": "Bits_and_pieces.html#congratulations-you-have-mastered-the-course",
+    "title": "Bits and pieces",
+    "section": "Congratulations! You have mastered the course!",
+    "text": "Congratulations! You have mastered the course!"
   }
 ]

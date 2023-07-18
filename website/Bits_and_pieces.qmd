@@ -35,3 +35,5 @@ While most people think that open source projects are only for developers, this 
 -   [The Turing Way Book](https://the-turing-way.netlify.app/index.html) - [Book Dashes](https://the-turing-way.netlify.app/community-handbook/bookdash.html): Beginner friendly code and documentation sprints on a book for reproducible work flows, in a lovely community.
 
 -   [Git and Github for librarians](http://data-lessons.github.io/library-git-DEPRECATED/01-what-is-git/) by Data Carpentries -uses the command line.
+
+## Congratulations! You have mastered the course!
