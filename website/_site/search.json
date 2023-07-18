@@ -200,7 +200,7 @@
     "href": "Your_first_commit.html#headlines",
     "title": "Your first commit",
     "section": "Headlines",
-    "text": "Headlines\nThe number of # determine the level of the headline:\n# A first level heading\n\n## A second level heading\n\n## A third level heading"
+    "text": "Headlines\nThe number of # determine the level of the headline:\n# A first level heading\n\n## A second level heading\n\n### A third level heading"
   },
   {
     "objectID": "Your_first_commit.html#a-second-level-heading",

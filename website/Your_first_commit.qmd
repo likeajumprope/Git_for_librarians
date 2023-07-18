@@ -26,7 +26,7 @@ The number of `#` determine the level of the headline:
 
     ## A second level heading
 
-    ## A third level heading
+    ### A third level heading
 
 # A first level heading
 
