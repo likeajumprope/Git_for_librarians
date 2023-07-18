@@ -14,18 +14,4 @@ Version control systems were designed to solve the task how to collaborate effec
 
 4.  **Web-Based Version Control Systems:** With the rise of the internet and collaborative development, web-based version control systems emerged. They provided a platform for hosting repositories and added web interfaces to simplify collaboration and code management. GitHub (2008), GitLab (2011), and Bitbucket (2008) are popular examples of such platforms.
 
-    ## The story of Git and Github
-
--   In 2002, the Linux kernel development community, led by **Linus Torvalds**, faced limitations with the existing version control systems for managing the Linux source code. These systems struggled to handle the distributed and collaborative nature of the project.
-
--   Linus Torvalds decided to develop a new version control system that would address the shortcomings of existing solutions. He began working on Git, aiming to create a distributed VCS that could handle the massive scale and complexity of the Linux kernel.
-
--   **Git was initially released as an open-source project in April 2005**. Its design principles focused on speed, data integrity, and distributed collaboration. Git's underlying architecture allowed each developer to have a complete local copy of the repository, enabling fast branching, merging, and offline work.
-
--   Git gained rapid popularity due to its powerful features and efficient workflow. It provided a command-line interface for managing repositories and a robust branching and merging mechanism. Git's ability to handle large projects and its excellent performance made it appealing to developers across various industries.
-
--   **GitHub, a web-based hosting service for Git repositories, was launched in April 2008.** It provided an intuitive user interface, social coding features, issue tracking, and pull requests, further accelerating the adoption of Git.
-
--   Git's success led to its integration with numerous development tools and services. Git became the de facto standard for version control, not only in open-source projects but also in commercial software development.
-
--   Over the years, Git has continued to evolve, with regular updates and new features. The Git community has grown significantly, with developers contributing to its core development and building various tools and extensions around Git.
+    ## 

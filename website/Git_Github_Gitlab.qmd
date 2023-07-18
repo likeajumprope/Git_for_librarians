@@ -28,7 +28,7 @@ GitHub is a web-based platform built around Git that provides a centralized host
 
 ![](images/Gitlab.png)
 
-GitLab is another web-based platform that provides hosting for Git repositories, similar to GitHub. It offers similar features such as repository management.
+GitLab is another web-based platform that provides hosting for Git repositories, similar to GitHub. It offers similar features such as repository management, issue tracking, and pull requests.
 :::
 
 ## Bitbucket: Yet another competitor
