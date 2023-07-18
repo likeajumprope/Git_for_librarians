@@ -10,7 +10,7 @@ You have two options when creating a new repository.
 
 -   Click on the + next to your profile image in the top right corner of the screen
 
--    Go to the repositories tab within your profile page and click the New button.
+-   Go to the repositories tab within your profile page and click the New button.
 
 ![](images/Create_repo.png){fig-align="center"}
 

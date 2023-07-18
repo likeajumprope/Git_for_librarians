@@ -102,7 +102,7 @@ Let's now have a look at the changes you have made.
 
 ![Click on your recent commit.](images/Commit6.png)
 
-4.   Additions to the file will be shown in green (and deletions in red),
+4.  Additions to the file will be shown in green (and deletions in red),
 
 ![Additions should appear in green.](images/Commit7.png)
 
