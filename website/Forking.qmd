@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-## Making changes as someone else's repository
+## Making changes to someone else's repository
 
 In the previous section, we made changes to our own repository and we were able to accept the changes ourselves because we are owner of the repository.
 
